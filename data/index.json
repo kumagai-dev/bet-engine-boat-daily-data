@@ -4,11 +4,11 @@
   "datasets": [
     {
       "dataset_date": "2026-08-22",
-      "dataset_version": "public-2026-08-22-fd7db91fc200",
-      "manifest_sha256": "fd7db91fc200c068fa8cd529069fa52d4933becbcb51f544a094e6b0e0c70033",
-      "dataset_file": "data/daily_2026-08-22_public-2026-08-22-fd7db91fc200.json",
+      "dataset_version": "public-2026-08-22-696ae4914242",
+      "manifest_sha256": "696ae4914242ba9a3a50d96cc19c67e0dfd8c96897c7d1fb16466c859e059c05",
+      "dataset_file": "data/daily_2026-08-22_public-2026-08-22-696ae4914242.json",
       "publication_status": "PUBLISHED",
-      "published_at": "2026-08-22T12:30:31.623Z"
+      "published_at": "2026-08-22T13:24:56.441Z"
     }
   ]
 }

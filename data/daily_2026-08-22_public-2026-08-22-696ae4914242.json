@@ -1,15 +1,26 @@
 {
-  "schema_version": "phase10_3_public_daily_data_v4",
+  "schema_version": "phase10_4_public_daily_data_v5",
   "dataset_date": "2026-08-22",
-  "generated_at": "2026-08-22T21:30:29.723379+09:00",
+  "generated_at": "2026-08-22T22:24:55.878871+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-22-fd7db91fc200",
-  "manifest_sha256": "fd7db91fc200c068fa8cd529069fa52d4933becbcb51f544a094e6b0e0c70033",
+  "dataset_version": "public-2026-08-22-696ae4914242",
+  "manifest_sha256": "696ae4914242ba9a3a50d96cc19c67e0dfd8c96897c7d1fb16466c859e059c05",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 156,
   "trifecta_row_count": 18720,
   "market_odds_available": false,
+  "market_observation": {
+    "schema_version": "phase10_4_official_live_odds_v1",
+    "max_races_per_manual_update": 5,
+    "polling_policy": "MANUAL_ONLY_NO_SCHEDULE; FUTURE_CADENCE_T30_ONCE_T10_T5",
+    "observed_race_count": 5,
+    "live_race_count": 0,
+    "closing_race_count": 0,
+    "waiting_race_count": 151,
+    "retryable_race_count": 5,
+    "generated_at": "2026-08-22T13:24:54.644496+00:00"
+  },
   "result_summary": {
     "confirmed_race_count": 144,
     "result_waiting_race_count": 12,
@@ -56,7 +67,7 @@
     "retryable_races": 0,
     "invalid_races": 0,
     "total_races": 156,
-    "ledger_row_count": 144,
+    "ledger_row_count": 288,
     "winner_hits": 86,
     "trifecta_top1_hits": 17,
     "top3_hits": 41,
@@ -115,6 +126,7 @@
     "venue_summary": [
       {
         "venue": "下関",
+        "venue_code": "19",
         "confirmed_races": 12,
         "winner_hits": 8,
         "trifecta_top1_hits": 1,
@@ -124,6 +136,7 @@
       },
       {
         "venue": "児島",
+        "venue_code": "16",
         "confirmed_races": 12,
         "winner_hits": 11,
         "trifecta_top1_hits": 2,
@@ -133,6 +146,7 @@
       },
       {
         "venue": "唐津",
+        "venue_code": "23",
         "confirmed_races": 12,
         "winner_hits": 8,
         "trifecta_top1_hits": 3,
@@ -142,6 +156,7 @@
       },
       {
         "venue": "常滑",
+        "venue_code": "08",
         "confirmed_races": 12,
         "winner_hits": 6,
         "trifecta_top1_hits": 0,
@@ -151,6 +166,7 @@
       },
       {
         "venue": "平和島",
+        "venue_code": "04",
         "confirmed_races": 12,
         "winner_hits": 6,
         "trifecta_top1_hits": 1,
@@ -160,6 +176,7 @@
       },
       {
         "venue": "戸田",
+        "venue_code": "02",
         "confirmed_races": 12,
         "winner_hits": 5,
         "trifecta_top1_hits": 1,
@@ -169,6 +186,7 @@
       },
       {
         "venue": "江戸川",
+        "venue_code": "03",
         "confirmed_races": 12,
         "winner_hits": 8,
         "trifecta_top1_hits": 1,
@@ -178,6 +196,7 @@
       },
       {
         "venue": "浜名湖",
+        "venue_code": "06",
         "confirmed_races": 12,
         "winner_hits": 7,
         "trifecta_top1_hits": 2,
@@ -187,6 +206,7 @@
       },
       {
         "venue": "福岡",
+        "venue_code": "22",
         "confirmed_races": 12,
         "winner_hits": 7,
         "trifecta_top1_hits": 1,
@@ -196,6 +216,7 @@
       },
       {
         "venue": "芦屋",
+        "venue_code": "21",
         "confirmed_races": 12,
         "winner_hits": 5,
         "trifecta_top1_hits": 2,
@@ -205,6 +226,7 @@
       },
       {
         "venue": "若松",
+        "venue_code": "20",
         "confirmed_races": 12,
         "winner_hits": 7,
         "trifecta_top1_hits": 2,
@@ -214,6 +236,7 @@
       },
       {
         "venue": "蒲郡",
+        "venue_code": "07",
         "confirmed_races": 12,
         "winner_hits": 8,
         "trifecta_top1_hits": 1,
@@ -222,9 +245,103 @@
         "top10_hits": 7
       }
     ],
+    "venue_best3": [
+      {
+        "venue": "児島",
+        "venue_code": "16",
+        "confirmed_races": 12,
+        "winner_hits": 11,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 6,
+        "top5_hits": 6,
+        "top10_hits": 9,
+        "rank": 1,
+        "top5_hit_rate": 0.5,
+        "top3_hit_rate": 0.5,
+        "top1_hit_rate": 0.16666666666666666,
+        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+      },
+      {
+        "venue": "若松",
+        "venue_code": "20",
+        "confirmed_races": 12,
+        "winner_hits": 7,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 5,
+        "top5_hits": 6,
+        "top10_hits": 6,
+        "rank": 2,
+        "top5_hit_rate": 0.5,
+        "top3_hit_rate": 0.4166666666666667,
+        "top1_hit_rate": 0.16666666666666666,
+        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+      },
+      {
+        "venue": "浜名湖",
+        "venue_code": "06",
+        "confirmed_races": 12,
+        "winner_hits": 7,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 5,
+        "top5_hits": 5,
+        "top10_hits": 5,
+        "rank": 3,
+        "top5_hit_rate": 0.4166666666666667,
+        "top3_hit_rate": 0.4166666666666667,
+        "top1_hit_rate": 0.16666666666666666,
+        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+      }
+    ],
     "denominator_policy": "OFFICIAL_RESULT_STATUS_CONFIRMED_ONLY",
-    "generated_at": "2026-08-22T12:30:28.514056+00:00"
+    "generated_at": "2026-08-22T13:23:39.498543+00:00"
   },
+  "venue_best3": [
+    {
+      "venue": "児島",
+      "venue_code": "16",
+      "confirmed_races": 12,
+      "winner_hits": 11,
+      "trifecta_top1_hits": 2,
+      "top3_hits": 6,
+      "top5_hits": 6,
+      "top10_hits": 9,
+      "rank": 1,
+      "top5_hit_rate": 0.5,
+      "top3_hit_rate": 0.5,
+      "top1_hit_rate": 0.16666666666666666,
+      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+    },
+    {
+      "venue": "若松",
+      "venue_code": "20",
+      "confirmed_races": 12,
+      "winner_hits": 7,
+      "trifecta_top1_hits": 2,
+      "top3_hits": 5,
+      "top5_hits": 6,
+      "top10_hits": 6,
+      "rank": 2,
+      "top5_hit_rate": 0.5,
+      "top3_hit_rate": 0.4166666666666667,
+      "top1_hit_rate": 0.16666666666666666,
+      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+    },
+    {
+      "venue": "浜名湖",
+      "venue_code": "06",
+      "confirmed_races": 12,
+      "winner_hits": 7,
+      "trifecta_top1_hits": 2,
+      "top3_hits": 5,
+      "top5_hits": 5,
+      "top10_hits": 5,
+      "rank": 3,
+      "top5_hit_rate": 0.4166666666666667,
+      "top3_hit_rate": 0.4166666666666667,
+      "top1_hit_rate": 0.16666666666666666,
+      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+    }
+  ],
   "monthly_forward_validation_summary": {
     "schema_version": "phase10_3_monthly_forward_validation_summary_v1",
     "month": "2026-08",
@@ -242,7 +359,188 @@
     "daily_summary_paths": [
       "data/phase9/predictions/year=2026/month=08/day=22/daily_forward_validation_summary.json"
     ],
-    "generated_at": "2026-08-22T12:30:28.528250+00:00"
+    "generated_at": "2026-08-22T13:23:39.512490+00:00"
+  },
+  "venue_compatibility_summary": {
+    "schema_version": "phase10_4_recent_venue_compatibility_v1",
+    "window_days": 30,
+    "window_start": "2026-07-24",
+    "window_end": "2026-08-22",
+    "minimum_confirmed_races": 60,
+    "eligible_venue_count": 0,
+    "ranked_venues": [],
+    "data_accumulating_venues": [
+      {
+        "venue": "児島",
+        "venue_code": "16",
+        "confirmed_races": 12,
+        "winner_hits": 11,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 6,
+        "top5_hits": 6,
+        "top10_hits": 9,
+        "top5_hit_rate": 0.5,
+        "top3_hit_rate": 0.5,
+        "top1_hit_rate": 0.16666666666666666,
+        "eligible": false
+      },
+      {
+        "venue": "若松",
+        "venue_code": "20",
+        "confirmed_races": 12,
+        "winner_hits": 7,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 5,
+        "top5_hits": 6,
+        "top10_hits": 6,
+        "top5_hit_rate": 0.5,
+        "top3_hit_rate": 0.4166666666666667,
+        "top1_hit_rate": 0.16666666666666666,
+        "eligible": false
+      },
+      {
+        "venue": "浜名湖",
+        "venue_code": "06",
+        "confirmed_races": 12,
+        "winner_hits": 7,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 5,
+        "top5_hits": 5,
+        "top10_hits": 5,
+        "top5_hit_rate": 0.4166666666666667,
+        "top3_hit_rate": 0.4166666666666667,
+        "top1_hit_rate": 0.16666666666666666,
+        "eligible": false
+      },
+      {
+        "venue": "唐津",
+        "venue_code": "23",
+        "confirmed_races": 12,
+        "winner_hits": 8,
+        "trifecta_top1_hits": 3,
+        "top3_hits": 4,
+        "top5_hits": 5,
+        "top10_hits": 8,
+        "top5_hit_rate": 0.4166666666666667,
+        "top3_hit_rate": 0.3333333333333333,
+        "top1_hit_rate": 0.25,
+        "eligible": false
+      },
+      {
+        "venue": "下関",
+        "venue_code": "19",
+        "confirmed_races": 12,
+        "winner_hits": 8,
+        "trifecta_top1_hits": 1,
+        "top3_hits": 3,
+        "top5_hits": 5,
+        "top10_hits": 6,
+        "top5_hit_rate": 0.4166666666666667,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.08333333333333333,
+        "eligible": false
+      },
+      {
+        "venue": "芦屋",
+        "venue_code": "21",
+        "confirmed_races": 12,
+        "winner_hits": 5,
+        "trifecta_top1_hits": 2,
+        "top3_hits": 4,
+        "top5_hits": 4,
+        "top10_hits": 5,
+        "top5_hit_rate": 0.3333333333333333,
+        "top3_hit_rate": 0.3333333333333333,
+        "top1_hit_rate": 0.16666666666666666,
+        "eligible": false
+      },
+      {
+        "venue": "福岡",
+        "venue_code": "22",
+        "confirmed_races": 12,
+        "winner_hits": 7,
+        "trifecta_top1_hits": 1,
+        "top3_hits": 4,
+        "top5_hits": 4,
+        "top10_hits": 6,
+        "top5_hit_rate": 0.3333333333333333,
+        "top3_hit_rate": 0.3333333333333333,
+        "top1_hit_rate": 0.08333333333333333,
+        "eligible": false
+      },
+      {
+        "venue": "蒲郡",
+        "venue_code": "07",
+        "confirmed_races": 12,
+        "winner_hits": 8,
+        "trifecta_top1_hits": 1,
+        "top3_hits": 3,
+        "top5_hits": 4,
+        "top10_hits": 7,
+        "top5_hit_rate": 0.3333333333333333,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.08333333333333333,
+        "eligible": false
+      },
+      {
+        "venue": "江戸川",
+        "venue_code": "03",
+        "confirmed_races": 12,
+        "winner_hits": 8,
+        "trifecta_top1_hits": 1,
+        "top3_hits": 1,
+        "top5_hits": 4,
+        "top10_hits": 6,
+        "top5_hit_rate": 0.3333333333333333,
+        "top3_hit_rate": 0.08333333333333333,
+        "top1_hit_rate": 0.08333333333333333,
+        "eligible": false
+      },
+      {
+        "venue": "平和島",
+        "venue_code": "04",
+        "confirmed_races": 12,
+        "winner_hits": 6,
+        "trifecta_top1_hits": 1,
+        "top3_hits": 3,
+        "top5_hits": 3,
+        "top10_hits": 4,
+        "top5_hit_rate": 0.25,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.08333333333333333,
+        "eligible": false
+      },
+      {
+        "venue": "常滑",
+        "venue_code": "08",
+        "confirmed_races": 12,
+        "winner_hits": 6,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 2,
+        "top5_hits": 3,
+        "top10_hits": 4,
+        "top5_hit_rate": 0.25,
+        "top3_hit_rate": 0.16666666666666666,
+        "top1_hit_rate": 0.0,
+        "eligible": false
+      },
+      {
+        "venue": "戸田",
+        "venue_code": "02",
+        "confirmed_races": 12,
+        "winner_hits": 5,
+        "trifecta_top1_hits": 1,
+        "top3_hits": 1,
+        "top5_hits": 2,
+        "top10_hits": 3,
+        "top5_hit_rate": 0.16666666666666666,
+        "top3_hit_rate": 0.08333333333333333,
+        "top1_hit_rate": 0.08333333333333333,
+        "eligible": false
+      }
+    ],
+    "source_policy": "FORWARD_LEDGER_CONFIRMED_ONLY_NO_TEST_SHADOW_NO_MARKET",
+    "generated_at": "2026-08-22T13:23:39.530274+00:00"
   },
   "paper_connection": {
     "market_odds_available": false,
@@ -293,6 +591,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 24,
@@ -304,7 +606,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 15,
       "result": {
         "actual_combination": "1-6-2",
         "finish_lanes": [
@@ -312,7 +615,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -360,6 +663,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 30,
       "attention_rank": 135,
@@ -371,7 +678,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-6-3",
         "finish_lanes": [
@@ -379,7 +687,7 @@
           6,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -427,6 +735,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 32,
       "attention_rank": 130,
@@ -438,7 +750,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-3-5",
         "finish_lanes": [
@@ -446,7 +759,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -494,6 +807,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 25,
       "attention_rank": 146,
@@ -505,7 +822,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 104,
       "result": {
         "actual_combination": "4-1-3",
         "finish_lanes": [
@@ -513,7 +831,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -561,6 +879,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 76,
       "attention_rank": 19,
@@ -572,7 +894,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 6,
       "result": {
         "actual_combination": "1-5-3",
         "finish_lanes": [
@@ -580,7 +903,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -628,6 +951,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 70,
       "attention_rank": 42,
@@ -639,7 +966,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 18,
       "result": {
         "actual_combination": "3-1-5",
         "finish_lanes": [
@@ -647,7 +975,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -695,6 +1023,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 52,
       "attention_rank": 88,
@@ -706,7 +1038,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 28,
       "result": {
         "actual_combination": "2-3-4",
         "finish_lanes": [
@@ -714,7 +1047,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -762,6 +1095,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 66,
       "attention_rank": 61,
@@ -773,7 +1110,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 5,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -781,7 +1119,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -829,6 +1167,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 76,
       "attention_rank": 20,
@@ -840,7 +1182,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -848,7 +1191,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -896,6 +1239,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_type": null,
+      "market_odds_captured_at": "2026-08-22T13:24:16.526530+00:00",
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 83,
       "attention_rank": 3,
@@ -907,7 +1254,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 11,
       "result": {
         "actual_combination": "1-5-3",
         "finish_lanes": [
@@ -915,7 +1263,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -963,6 +1311,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 76,
       "attention_rank": 21,
@@ -974,7 +1326,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-3-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 12,
       "result": {
         "actual_combination": "4-3-1",
         "finish_lanes": [
@@ -982,7 +1335,7 @@
           3,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1030,6 +1383,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 35,
@@ -1041,7 +1398,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 5,
       "result": {
         "actual_combination": "1-3-5",
         "finish_lanes": [
@@ -1049,7 +1407,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1097,6 +1455,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 36,
@@ -1108,7 +1470,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 7,
       "result": {
         "actual_combination": "1-4-2",
         "finish_lanes": [
@@ -1116,7 +1479,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1164,6 +1527,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 23,
       "attention_rank": 150,
@@ -1175,7 +1542,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-5-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 60,
       "result": {
         "actual_combination": "3-5-4",
         "finish_lanes": [
@@ -1183,7 +1551,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1231,6 +1599,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 37,
       "attention_rank": 118,
@@ -1242,7 +1614,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -1250,7 +1623,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1298,6 +1671,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 50,
       "attention_rank": 94,
@@ -1309,7 +1686,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -1317,7 +1695,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1365,6 +1743,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 67,
       "attention_rank": 55,
@@ -1376,7 +1758,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-4-3",
         "finish_lanes": [
@@ -1384,7 +1767,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1432,6 +1815,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 64,
       "attention_rank": 69,
@@ -1443,7 +1830,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 7,
       "result": {
         "actual_combination": "1-5-2",
         "finish_lanes": [
@@ -1451,7 +1839,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1499,6 +1887,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 64,
       "attention_rank": 70,
@@ -1510,7 +1902,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -1518,7 +1911,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1566,6 +1959,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 25,
@@ -1577,7 +1974,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 7,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -1585,7 +1983,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1633,6 +2031,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 77,
       "attention_rank": 14,
@@ -1644,7 +2046,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-3-5",
         "finish_lanes": [
@@ -1652,7 +2055,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1700,6 +2103,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 77,
       "attention_rank": 15,
@@ -1711,7 +2118,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-4",
         "finish_lanes": [
@@ -1719,7 +2127,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1767,6 +2175,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 80,
       "attention_rank": 6,
@@ -1778,7 +2190,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 13,
       "result": {
         "actual_combination": "1-4-5",
         "finish_lanes": [
@@ -1786,7 +2199,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1834,6 +2247,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 26,
@@ -1845,7 +2262,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 33,
       "result": {
         "actual_combination": "1-6-2",
         "finish_lanes": [
@@ -1853,7 +2271,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1901,6 +2319,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 27,
@@ -1912,7 +2334,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-4",
         "finish_lanes": [
@@ -1920,7 +2343,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1968,6 +2391,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 73,
       "attention_rank": 31,
@@ -1979,7 +2406,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -1987,7 +2415,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2035,6 +2463,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 69,
       "attention_rank": 46,
@@ -2046,7 +2478,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 12,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -2054,7 +2487,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2102,6 +2535,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 35,
       "attention_rank": 126,
@@ -2113,7 +2550,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-5-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 40,
       "result": {
         "actual_combination": "6-5-2",
         "finish_lanes": [
@@ -2121,7 +2559,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2169,6 +2607,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 52,
       "attention_rank": 89,
@@ -2180,7 +2622,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 26,
       "result": {
         "actual_combination": "3-1-4",
         "finish_lanes": [
@@ -2188,7 +2631,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2236,6 +2679,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 38,
       "attention_rank": 113,
@@ -2247,7 +2694,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 10,
       "result": {
         "actual_combination": "4-1-2",
         "finish_lanes": [
@@ -2255,7 +2703,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2303,6 +2751,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 52,
       "attention_rank": 90,
@@ -2314,7 +2766,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -2322,7 +2775,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2370,6 +2823,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 49,
       "attention_rank": 95,
@@ -2381,7 +2838,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 9,
       "result": {
         "actual_combination": "1-6-4",
         "finish_lanes": [
@@ -2389,7 +2847,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2437,6 +2895,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 46,
       "attention_rank": 103,
@@ -2448,7 +2910,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 69,
       "result": {
         "actual_combination": "3-1-2",
         "finish_lanes": [
@@ -2456,7 +2919,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2504,6 +2967,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_type": null,
+      "market_odds_captured_at": "2026-08-22T13:24:35.551758+00:00",
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 82,
       "attention_rank": 4,
@@ -2515,7 +2982,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -2523,7 +2991,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2571,6 +3039,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 67,
       "attention_rank": 56,
@@ -2582,7 +3054,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 6,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -2590,7 +3063,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2638,6 +3111,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 79,
       "attention_rank": 8,
@@ -2649,7 +3126,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-4",
         "finish_lanes": [
@@ -2657,7 +3135,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2705,6 +3183,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 58,
       "attention_rank": 82,
@@ -2717,6 +3199,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -2758,6 +3241,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 32,
       "attention_rank": 131,
@@ -2770,6 +3257,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -2811,6 +3299,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 69,
       "attention_rank": 47,
@@ -2823,6 +3315,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -2864,6 +3357,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 60,
       "attention_rank": 80,
@@ -2876,6 +3373,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -2917,6 +3415,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 63,
       "attention_rank": 72,
@@ -2929,6 +3431,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -2970,6 +3473,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 65,
       "attention_rank": 64,
@@ -2982,6 +3489,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3023,6 +3531,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 79,
       "attention_rank": 9,
@@ -3035,6 +3547,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3076,6 +3589,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 62,
       "attention_rank": 76,
@@ -3088,6 +3605,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3129,6 +3647,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 77,
       "attention_rank": 16,
@@ -3141,6 +3663,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3182,6 +3705,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 63,
       "attention_rank": 73,
@@ -3194,6 +3721,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3235,6 +3763,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_type": null,
+      "market_odds_captured_at": "2026-08-22T13:23:59.695544+00:00",
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 86,
       "attention_rank": 1,
@@ -3247,6 +3779,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3288,6 +3821,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 68,
       "attention_rank": 51,
@@ -3300,6 +3837,7 @@
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
+      "actual_combination_rank": null,
       "result": null,
       "answer_check": null
     },
@@ -3341,6 +3879,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 67,
       "attention_rank": 57,
@@ -3352,7 +3894,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-4-2",
         "finish_lanes": [
@@ -3360,7 +3903,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3408,6 +3951,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 30,
       "attention_rank": 136,
@@ -3419,7 +3966,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-5-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 25,
       "result": {
         "actual_combination": "2-5-4",
         "finish_lanes": [
@@ -3427,7 +3975,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3475,6 +4023,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 34,
       "attention_rank": 128,
@@ -3486,7 +4038,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 77,
       "result": {
         "actual_combination": "4-1-6",
         "finish_lanes": [
@@ -3494,7 +4047,7 @@
           1,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3542,6 +4095,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 38,
       "attention_rank": 114,
@@ -3553,7 +4110,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-4-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 62,
       "result": {
         "actual_combination": "6-4-2",
         "finish_lanes": [
@@ -3561,7 +4119,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3609,6 +4167,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 69,
       "attention_rank": 48,
@@ -3620,7 +4182,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 40,
       "result": {
         "actual_combination": "1-6-5",
         "finish_lanes": [
@@ -3628,7 +4191,7 @@
           6,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3676,6 +4239,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 67,
       "attention_rank": 58,
@@ -3687,7 +4254,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -3695,7 +4263,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3743,6 +4311,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 29,
       "attention_rank": 138,
@@ -3754,7 +4326,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 46,
       "result": {
         "actual_combination": "1-3-4",
         "finish_lanes": [
@@ -3762,7 +4335,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3810,6 +4383,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 48,
       "attention_rank": 99,
@@ -3821,7 +4398,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -3829,7 +4407,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3877,6 +4455,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 52,
       "attention_rank": 91,
@@ -3888,7 +4470,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 16,
       "result": {
         "actual_combination": "2-4-1",
         "finish_lanes": [
@@ -3896,7 +4479,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3944,6 +4527,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 56,
       "attention_rank": 86,
@@ -3955,7 +4542,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 9,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -3963,7 +4551,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4011,6 +4599,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 37,
@@ -4022,7 +4614,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-1-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 34,
       "result": {
         "actual_combination": "6-1-2",
         "finish_lanes": [
@@ -4030,7 +4623,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4078,6 +4671,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 69,
       "attention_rank": 49,
@@ -4089,7 +4686,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 56,
       "result": {
         "actual_combination": "4-5-6",
         "finish_lanes": [
@@ -4097,7 +4695,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4145,6 +4743,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 36,
       "attention_rank": 121,
@@ -4156,7 +4758,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-2-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 13,
       "result": {
         "actual_combination": "5-2-1",
         "finish_lanes": [
@@ -4164,7 +4767,7 @@
           2,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4212,6 +4815,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_type": null,
+      "market_odds_captured_at": "2026-08-22T13:24:08.213331+00:00",
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 84,
       "attention_rank": 2,
@@ -4223,7 +4830,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -4231,7 +4839,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4279,6 +4887,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 25,
       "attention_rank": 147,
@@ -4290,7 +4902,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-6-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 74,
       "result": {
         "actual_combination": "5-6-2",
         "finish_lanes": [
@@ -4298,7 +4911,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4346,6 +4959,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 30,
       "attention_rank": 137,
@@ -4357,7 +4974,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 10,
       "result": {
         "actual_combination": "1-6-4",
         "finish_lanes": [
@@ -4365,7 +4983,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4413,6 +5031,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 32,
       "attention_rank": 132,
@@ -4424,7 +5046,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 36,
       "result": {
         "actual_combination": "2-4-5",
         "finish_lanes": [
@@ -4432,7 +5055,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4480,6 +5103,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 36,
       "attention_rank": 122,
@@ -4491,7 +5118,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 30,
       "result": {
         "actual_combination": "3-2-6",
         "finish_lanes": [
@@ -4499,7 +5127,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4547,6 +5175,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 27,
       "attention_rank": 142,
@@ -4558,7 +5190,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 40,
       "result": {
         "actual_combination": "1-5-3",
         "finish_lanes": [
@@ -4566,7 +5199,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4614,6 +5247,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 37,
       "attention_rank": 119,
@@ -4625,7 +5262,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-3-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 13,
       "result": {
         "actual_combination": "4-3-1",
         "finish_lanes": [
@@ -4633,7 +5271,7 @@
           3,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4681,6 +5319,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 23,
       "attention_rank": 151,
@@ -4692,7 +5334,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-6-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 61,
       "result": {
         "actual_combination": "3-6-1",
         "finish_lanes": [
@@ -4700,7 +5343,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4748,6 +5391,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 70,
       "attention_rank": 43,
@@ -4759,7 +5406,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-1-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 19,
       "result": {
         "actual_combination": "5-1-4",
         "finish_lanes": [
@@ -4767,7 +5415,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4815,6 +5463,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 38,
       "attention_rank": 115,
@@ -4826,7 +5478,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -4834,7 +5487,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4882,6 +5535,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 79,
       "attention_rank": 10,
@@ -4893,7 +5550,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -4901,7 +5559,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4949,6 +5607,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 45,
       "attention_rank": 105,
@@ -4960,7 +5622,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 23,
       "result": {
         "actual_combination": "1-5-3",
         "finish_lanes": [
@@ -4968,7 +5631,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5016,6 +5679,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 29,
       "attention_rank": 139,
@@ -5027,7 +5694,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 22,
       "result": {
         "actual_combination": "2-3-6",
         "finish_lanes": [
@@ -5035,7 +5703,7 @@
           3,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5083,6 +5751,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 11,
       "attention_rank": 156,
@@ -5094,7 +5766,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 48,
       "result": {
         "actual_combination": "1-6-4",
         "finish_lanes": [
@@ -5102,7 +5775,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5150,6 +5823,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 27,
       "attention_rank": 143,
@@ -5161,7 +5838,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 47,
       "result": {
         "actual_combination": "3-2-6",
         "finish_lanes": [
@@ -5169,7 +5847,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5217,6 +5895,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 38,
       "attention_rank": 116,
@@ -5228,7 +5910,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 48,
       "result": {
         "actual_combination": "4-5-6",
         "finish_lanes": [
@@ -5236,7 +5919,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5284,6 +5967,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 19,
       "attention_rank": 153,
@@ -5295,7 +5982,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "4-5-6",
         "finish_lanes": [
@@ -5303,7 +5991,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5351,6 +6039,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 77,
       "attention_rank": 17,
@@ -5362,7 +6054,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-1-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 52,
       "result": {
         "actual_combination": "5-1-3",
         "finish_lanes": [
@@ -5370,7 +6063,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5418,6 +6111,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 24,
       "attention_rank": 148,
@@ -5429,7 +6126,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 18,
       "result": {
         "actual_combination": "3-4-6",
         "finish_lanes": [
@@ -5437,7 +6135,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5485,6 +6183,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 44,
       "attention_rank": 106,
@@ -5496,7 +6198,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 9,
       "result": {
         "actual_combination": "3-2-1",
         "finish_lanes": [
@@ -5504,7 +6207,7 @@
           2,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5552,6 +6255,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 28,
       "attention_rank": 141,
@@ -5563,7 +6270,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 15,
       "result": {
         "actual_combination": "2-3-4",
         "finish_lanes": [
@@ -5571,7 +6279,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5619,6 +6327,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 59,
       "attention_rank": 81,
@@ -5630,7 +6342,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-4-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 47,
       "result": {
         "actual_combination": "5-4-6",
         "finish_lanes": [
@@ -5638,7 +6351,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5686,6 +6399,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 63,
       "attention_rank": 74,
@@ -5697,7 +6414,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "1-4-5",
         "finish_lanes": [
@@ -5705,7 +6423,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5753,6 +6471,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 55,
       "attention_rank": 87,
@@ -5764,7 +6486,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-3-4",
         "finish_lanes": [
@@ -5772,7 +6495,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5820,6 +6543,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 13,
       "attention_rank": 155,
@@ -5831,7 +6558,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-6-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 73,
       "result": {
         "actual_combination": "2-6-3",
         "finish_lanes": [
@@ -5839,7 +6567,7 @@
           6,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5887,6 +6615,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 36,
       "attention_rank": 123,
@@ -5898,7 +6630,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 48,
       "result": {
         "actual_combination": "3-1-5",
         "finish_lanes": [
@@ -5906,7 +6639,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5954,6 +6687,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 26,
       "attention_rank": 145,
@@ -5965,7 +6702,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "4-5-3",
         "finish_lanes": [
@@ -5973,7 +6711,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6021,6 +6759,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 29,
       "attention_rank": 140,
@@ -6032,7 +6774,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 5,
       "result": {
         "actual_combination": "4-1-5",
         "finish_lanes": [
@@ -6040,7 +6783,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6088,6 +6831,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 24,
       "attention_rank": 149,
@@ -6099,7 +6846,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 28,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -6107,7 +6855,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6155,6 +6903,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 37,
       "attention_rank": 120,
@@ -6166,7 +6918,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 11,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -6174,7 +6927,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6222,6 +6975,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 34,
       "attention_rank": 129,
@@ -6233,7 +6990,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 15,
       "result": {
         "actual_combination": "2-3-4",
         "finish_lanes": [
@@ -6241,7 +6999,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6289,6 +7047,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 66,
       "attention_rank": 62,
@@ -6300,7 +7062,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 10,
       "result": {
         "actual_combination": "1-6-2",
         "finish_lanes": [
@@ -6308,7 +7071,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6356,6 +7119,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 79,
       "attention_rank": 11,
@@ -6367,7 +7134,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 6,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -6375,7 +7143,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6423,6 +7191,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 38,
@@ -6434,7 +7206,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 31,
       "result": {
         "actual_combination": "4-5-1",
         "finish_lanes": [
@@ -6442,7 +7215,7 @@
           5,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6490,6 +7263,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 39,
@@ -6501,7 +7278,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -6509,7 +7287,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6557,6 +7335,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 58,
       "attention_rank": 83,
@@ -6568,7 +7350,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-2-4",
         "finish_lanes": [
@@ -6576,7 +7359,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6624,6 +7407,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 31,
       "attention_rank": 133,
@@ -6635,7 +7422,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 34,
       "result": {
         "actual_combination": "3-1-2",
         "finish_lanes": [
@@ -6643,7 +7431,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6691,6 +7479,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 18,
       "attention_rank": 154,
@@ -6702,7 +7494,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 17,
       "result": {
         "actual_combination": "2-4-1",
         "finish_lanes": [
@@ -6710,7 +7503,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6758,6 +7551,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 78,
       "attention_rank": 13,
@@ -6769,7 +7566,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -6777,7 +7575,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6825,6 +7623,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 39,
       "attention_rank": 111,
@@ -6836,7 +7638,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-4-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 66,
       "result": {
         "actual_combination": "6-4-5",
         "finish_lanes": [
@@ -6844,7 +7647,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6892,6 +7695,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 27,
       "attention_rank": 144,
@@ -6903,7 +7710,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-6-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 16,
       "result": {
         "actual_combination": "3-6-2",
         "finish_lanes": [
@@ -6911,7 +7719,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6959,6 +7767,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 47,
       "attention_rank": 100,
@@ -6970,7 +7782,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "2-1-3",
         "finish_lanes": [
@@ -6978,7 +7791,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7026,6 +7839,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 49,
       "attention_rank": 96,
@@ -7037,7 +7854,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-2-4",
         "finish_lanes": [
@@ -7045,7 +7863,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7093,6 +7911,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 58,
       "attention_rank": 84,
@@ -7104,7 +7926,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 18,
       "result": {
         "actual_combination": "2-1-4",
         "finish_lanes": [
@@ -7112,7 +7935,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7160,6 +7983,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 64,
       "attention_rank": 71,
@@ -7171,7 +7998,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 54,
       "result": {
         "actual_combination": "2-3-5",
         "finish_lanes": [
@@ -7179,7 +8007,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7227,6 +8055,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 70,
       "attention_rank": 44,
@@ -7238,7 +8070,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 17,
       "result": {
         "actual_combination": "3-4-5",
         "finish_lanes": [
@@ -7246,7 +8079,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7294,6 +8127,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 28,
@@ -7305,7 +8142,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-4-3",
         "finish_lanes": [
@@ -7313,7 +8151,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7361,6 +8199,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 73,
       "attention_rank": 32,
@@ -7372,7 +8214,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -7380,7 +8223,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7428,6 +8271,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 35,
       "attention_rank": 127,
@@ -7439,7 +8286,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 27,
       "result": {
         "actual_combination": "3-2-5",
         "finish_lanes": [
@@ -7447,7 +8295,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7495,6 +8343,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 42,
       "attention_rank": 110,
@@ -7506,7 +8358,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-1-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 25,
       "result": {
         "actual_combination": "5-1-3",
         "finish_lanes": [
@@ -7514,7 +8367,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7562,6 +8415,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 49,
       "attention_rank": 97,
@@ -7573,7 +8430,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-2-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 97,
       "result": {
         "actual_combination": "5-2-4",
         "finish_lanes": [
@@ -7581,7 +8439,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7629,6 +8487,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 44,
       "attention_rank": 107,
@@ -7640,7 +8502,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -7648,7 +8511,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7696,6 +8559,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 39,
       "attention_rank": 112,
@@ -7707,7 +8574,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 12,
       "result": {
         "actual_combination": "4-2-5",
         "finish_lanes": [
@@ -7715,7 +8583,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7763,6 +8631,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 44,
       "attention_rank": 108,
@@ -7774,7 +8646,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 10,
       "result": {
         "actual_combination": "1-3-4",
         "finish_lanes": [
@@ -7782,7 +8655,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7830,6 +8703,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 38,
       "attention_rank": 117,
@@ -7841,7 +8718,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 26,
       "result": {
         "actual_combination": "1-5-4",
         "finish_lanes": [
@@ -7849,7 +8727,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7897,6 +8775,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 62,
       "attention_rank": 77,
@@ -7908,7 +8790,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 8,
       "result": {
         "actual_combination": "1-4-6",
         "finish_lanes": [
@@ -7916,7 +8799,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7964,6 +8847,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 40,
@@ -7975,7 +8862,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -7983,7 +8871,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8031,6 +8919,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 72,
       "attention_rank": 34,
@@ -8042,7 +8934,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -8050,7 +8943,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8098,6 +8991,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 69,
       "attention_rank": 50,
@@ -8109,7 +9006,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-6-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 64,
       "result": {
         "actual_combination": "4-6-1",
         "finish_lanes": [
@@ -8117,7 +9015,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8165,6 +9063,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 73,
       "attention_rank": 33,
@@ -8176,7 +9078,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 29,
       "result": {
         "actual_combination": "3-4-1",
         "finish_lanes": [
@@ -8184,7 +9087,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8232,6 +9135,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 65,
       "attention_rank": 65,
@@ -8243,7 +9150,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 36,
       "result": {
         "actual_combination": "5-4-1",
         "finish_lanes": [
@@ -8251,7 +9159,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8299,6 +9207,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 65,
       "attention_rank": 66,
@@ -8310,7 +9222,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -8318,7 +9231,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8366,6 +9279,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 67,
       "attention_rank": 59,
@@ -8377,7 +9294,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 11,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -8385,7 +9303,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8433,6 +9351,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 65,
       "attention_rank": 67,
@@ -8444,7 +9366,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-6",
         "finish_lanes": [
@@ -8452,7 +9375,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8500,6 +9423,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 31,
       "attention_rank": 134,
@@ -8511,7 +9438,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -8519,7 +9447,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8567,6 +9495,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 52,
       "attention_rank": 92,
@@ -8578,7 +9510,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-5",
         "finish_lanes": [
@@ -8586,7 +9519,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8634,6 +9567,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 46,
       "attention_rank": 104,
@@ -8645,7 +9582,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-3-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 32,
       "result": {
         "actual_combination": "6-3-5",
         "finish_lanes": [
@@ -8653,7 +9591,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8701,6 +9639,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 49,
       "attention_rank": 98,
@@ -8712,7 +9654,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 7,
       "result": {
         "actual_combination": "2-1-5",
         "finish_lanes": [
@@ -8720,7 +9663,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8768,6 +9711,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 29,
@@ -8779,7 +9726,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 57,
       "result": {
         "actual_combination": "3-1-4",
         "finish_lanes": [
@@ -8787,7 +9735,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8835,6 +9783,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 67,
       "attention_rank": 60,
@@ -8846,7 +9798,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-6-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 24,
       "result": {
         "actual_combination": "5-6-1",
         "finish_lanes": [
@@ -8854,7 +9807,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8902,6 +9855,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 65,
       "attention_rank": 68,
@@ -8913,7 +9870,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 86,
       "result": {
         "actual_combination": "3-4-6",
         "finish_lanes": [
@@ -8921,7 +9879,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8969,6 +9927,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 57,
       "attention_rank": 85,
@@ -8980,7 +9942,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -8988,7 +9951,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9036,6 +9999,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 22,
       "attention_rank": 152,
@@ -9047,7 +10014,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-5-2",
         "finish_lanes": [
@@ -9055,7 +10023,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9103,6 +10071,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 43,
       "attention_rank": 109,
@@ -9114,7 +10086,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-1-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 60,
       "result": {
         "actual_combination": "6-1-3",
         "finish_lanes": [
@@ -9122,7 +10095,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -9170,6 +10143,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 52,
       "attention_rank": 93,
@@ -9181,7 +10158,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 16,
       "result": {
         "actual_combination": "1-4-6",
         "finish_lanes": [
@@ -9189,7 +10167,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9237,6 +10215,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 74,
       "attention_rank": 30,
@@ -9248,7 +10230,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 34,
       "result": {
         "actual_combination": "2-4-1",
         "finish_lanes": [
@@ -9256,7 +10239,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -9304,6 +10287,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 36,
       "attention_rank": 124,
@@ -9315,7 +10302,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 47,
       "result": {
         "actual_combination": "3-4-2",
         "finish_lanes": [
@@ -9323,7 +10311,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -9371,6 +10359,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 47,
       "attention_rank": 101,
@@ -9382,7 +10374,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-5",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "1-3-5",
         "finish_lanes": [
@@ -9390,7 +10383,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9438,6 +10431,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 77,
       "attention_rank": 18,
@@ -9449,7 +10446,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-3-2",
         "finish_lanes": [
@@ -9457,7 +10455,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9505,6 +10503,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 61,
       "attention_rank": 79,
@@ -9516,7 +10518,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 85,
       "result": {
         "actual_combination": "4-5-2",
         "finish_lanes": [
@@ -9524,7 +10527,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -9572,6 +10575,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_type": null,
+      "market_odds_captured_at": "2026-08-22T13:24:54.640920+00:00",
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 81,
       "attention_rank": 5,
@@ -9583,7 +10590,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -9591,7 +10599,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9639,6 +10647,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 70,
       "attention_rank": 45,
@@ -9650,7 +10662,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 12,
       "result": {
         "actual_combination": "2-1-3",
         "finish_lanes": [
@@ -9658,7 +10671,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -9706,6 +10719,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 68,
       "attention_rank": 52,
@@ -9717,7 +10734,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 3,
       "result": {
         "actual_combination": "1-3-4",
         "finish_lanes": [
@@ -9725,7 +10743,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9773,6 +10791,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 68,
       "attention_rank": 53,
@@ -9784,7 +10806,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 15,
       "result": {
         "actual_combination": "1-6-2",
         "finish_lanes": [
@@ -9792,7 +10815,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9840,6 +10863,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 47,
       "attention_rank": 102,
@@ -9851,7 +10878,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-6-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 10,
       "result": {
         "actual_combination": "5-6-1",
         "finish_lanes": [
@@ -9859,7 +10887,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -9907,6 +10935,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 66,
       "attention_rank": 63,
@@ -9918,7 +10950,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 10,
       "result": {
         "actual_combination": "2-4-1",
         "finish_lanes": [
@@ -9926,7 +10959,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -9974,6 +11007,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 62,
       "attention_rank": 78,
@@ -9985,7 +11022,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-4-1",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 57,
       "result": {
         "actual_combination": "6-4-1",
         "finish_lanes": [
@@ -9993,7 +11031,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -10041,6 +11079,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 36,
       "attention_rank": 125,
@@ -10052,7 +11094,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-6-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 17,
       "result": {
         "actual_combination": "2-6-3",
         "finish_lanes": [
@@ -10060,7 +11103,7 @@
           6,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -10108,6 +11151,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 68,
       "attention_rank": 54,
@@ -10119,7 +11166,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-2",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 1,
       "result": {
         "actual_combination": "1-4-2",
         "finish_lanes": [
@@ -10127,7 +11175,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -10175,6 +11223,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 79,
       "attention_rank": 12,
@@ -10186,7 +11238,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-4-3",
         "finish_lanes": [
@@ -10194,7 +11247,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -10242,6 +11295,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 76,
       "attention_rank": 22,
@@ -10253,7 +11310,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 2,
       "result": {
         "actual_combination": "1-3-6",
         "finish_lanes": [
@@ -10261,7 +11319,7 @@
           3,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -10309,6 +11367,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 71,
       "attention_rank": 41,
@@ -10320,7 +11382,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 13,
       "result": {
         "actual_combination": "1-6-3",
         "finish_lanes": [
@@ -10328,7 +11391,7 @@
           6,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -10376,6 +11439,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 80,
       "attention_rank": 7,
@@ -10387,7 +11454,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 7,
       "result": {
         "actual_combination": "1-4-6",
         "finish_lanes": [
@@ -10395,7 +11463,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -10443,6 +11511,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 75,
       "attention_rank": 23,
@@ -10454,7 +11526,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-3-6",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 115,
       "result": {
         "actual_combination": "5-3-6",
         "finish_lanes": [
@@ -10462,7 +11535,7 @@
           3,
           6
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -10510,6 +11583,10 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 63,
       "attention_rank": 75,
@@ -10521,7 +11598,8 @@
       ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
-      "official_result_revision": 1,
+      "official_result_revision": 2,
+      "actual_combination_rank": 4,
       "result": {
         "actual_combination": "1-2-3",
         "finish_lanes": [
@@ -10529,7 +11607,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T12:25:33.707953+00:00"
+        "official_result_captured_at": "2026-08-22T13:23:38.151284+00:00"
       },
       "answer_check": {
         "winner_hit": true,
