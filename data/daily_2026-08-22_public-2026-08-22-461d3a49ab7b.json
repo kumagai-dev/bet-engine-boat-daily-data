@@ -1,10 +1,10 @@
 {
   "schema_version": "phase10_2_public_daily_data_v3",
   "dataset_date": "2026-08-22",
-  "generated_at": "2026-08-22T20:11:37.099843+09:00",
+  "generated_at": "2026-08-22T20:15:19.621009+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-22-e6b3b29b9dca",
-  "manifest_sha256": "e6b3b29b9dcac15b6b1a5e2f20915a6ffa4168a70c40f96e37c3e98eee5c88a2",
+  "dataset_version": "public-2026-08-22-461d3a49ab7b",
+  "manifest_sha256": "461d3a49ab7bb634a5f2f1d1f03efd1b85cb4e4d4ec7cacbb4f2d50fc679f377",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 156,
@@ -739,7 +739,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -806,7 +806,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -873,7 +873,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -940,7 +940,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1007,7 +1007,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1074,7 +1074,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1141,7 +1141,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1208,7 +1208,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1275,7 +1275,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1342,7 +1342,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1409,7 +1409,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1476,7 +1476,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1543,7 +1543,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1610,7 +1610,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1677,7 +1677,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1744,7 +1744,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1811,7 +1811,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1878,7 +1878,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1945,7 +1945,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2012,7 +2012,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2079,7 +2079,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2146,7 +2146,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2213,7 +2213,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2280,7 +2280,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2983,7 +2983,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3050,7 +3050,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3117,7 +3117,7 @@
           1,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3184,7 +3184,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3251,7 +3251,7 @@
           6,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3318,7 +3318,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3385,7 +3385,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3452,7 +3452,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3519,7 +3519,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3586,7 +3586,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3653,7 +3653,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3720,7 +3720,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3787,7 +3787,7 @@
           2,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3854,7 +3854,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3921,7 +3921,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3988,7 +3988,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4055,7 +4055,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4122,7 +4122,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4189,7 +4189,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4256,7 +4256,7 @@
           3,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4323,7 +4323,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4390,7 +4390,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4457,7 +4457,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4524,7 +4524,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4591,7 +4591,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4658,7 +4658,7 @@
           3,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4725,7 +4725,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4792,7 +4792,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4859,7 +4859,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4926,7 +4926,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4993,7 +4993,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5060,7 +5060,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5127,7 +5127,7 @@
           2,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5194,7 +5194,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5261,7 +5261,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5328,7 +5328,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5395,7 +5395,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5462,7 +5462,7 @@
           6,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5529,7 +5529,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5596,7 +5596,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5663,7 +5663,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5730,7 +5730,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5797,7 +5797,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5864,7 +5864,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5931,7 +5931,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5998,7 +5998,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6065,7 +6065,7 @@
           5,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6132,7 +6132,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6199,7 +6199,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6266,7 +6266,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6333,7 +6333,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6400,7 +6400,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6467,7 +6467,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6534,7 +6534,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6601,7 +6601,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6668,7 +6668,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6735,7 +6735,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6802,7 +6802,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6869,7 +6869,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6936,7 +6936,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7003,7 +7003,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7070,7 +7070,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7137,7 +7137,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7204,7 +7204,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7271,7 +7271,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7338,7 +7338,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7405,7 +7405,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7472,7 +7472,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7539,7 +7539,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7606,7 +7606,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7673,7 +7673,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7740,7 +7740,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7807,7 +7807,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7874,7 +7874,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7941,7 +7941,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8008,7 +8008,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8075,7 +8075,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8142,7 +8142,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8209,7 +8209,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -8276,7 +8276,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8343,7 +8343,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8410,7 +8410,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8477,7 +8477,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -8544,7 +8544,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
+        "official_result_captured_at": "2026-08-22T11:15:16.349405+00:00"
       },
       "answer_check": {
         "winner_hit": false,
