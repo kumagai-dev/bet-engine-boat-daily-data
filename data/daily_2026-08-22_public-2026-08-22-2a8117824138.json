@@ -1,0 +1,6100 @@
+{
+  "schema_version": "phase9_1_public_daily_data_v1",
+  "dataset_date": "2026-08-22",
+  "generated_at": "2026-08-22T17:49:25.157535+09:00",
+  "timezone": "Asia/Tokyo",
+  "dataset_version": "public-2026-08-22-2a8117824138",
+  "manifest_sha256": "2a8117824138fb7c389fead81518e26d06c162b79b002ec276be55722f83722f",
+  "prediction_model_version": "phase3_lightgbm_feature_v2_isotonic",
+  "rule_version": "decision_rule_v0.3_provisional",
+  "publication_status": "VALIDATED_FOR_PUBLICATION",
+  "race_count": 156,
+  "trifecta_row_count": 18720,
+  "market_odds_available": false,
+  "races": [
+    {
+      "race_id": "2026-08-22:下関:01",
+      "venue": "下関",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5687109554,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "2-1-3",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "2-1-3",
+        "1-2-6",
+        "1-3-4",
+        "2-1-4",
+        "1-4-2",
+        "1-3-6",
+        "2-3-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:02",
+      "venue": "下関",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3900211764,
+      "trifecta_top1": "1-6-2",
+      "trifecta_top3": [
+        "1-6-2",
+        "1-3-6",
+        "1-6-3"
+      ],
+      "trifecta_top5": [
+        "1-6-2",
+        "1-3-6",
+        "1-6-3",
+        "1-2-6",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-6-2",
+        "1-3-6",
+        "1-6-3",
+        "1-2-6",
+        "1-3-2",
+        "1-2-3",
+        "6-1-2",
+        "6-1-3",
+        "1-6-5",
+        "2-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:03",
+      "venue": "下関",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3999871782,
+      "trifecta_top1": "1-3-2",
+      "trifecta_top3": [
+        "1-3-2",
+        "1-2-3",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-3-2",
+        "1-2-3",
+        "1-3-5",
+        "1-3-4",
+        "3-1-5"
+      ],
+      "trifecta_top10": [
+        "1-3-2",
+        "1-2-3",
+        "1-3-5",
+        "1-3-4",
+        "3-1-5",
+        "1-2-5",
+        "1-5-3",
+        "3-1-2",
+        "1-5-2",
+        "1-2-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:04",
+      "venue": "下関",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 2,
+      "ai_favorite_probability": 0.3786548238,
+      "trifecta_top1": "2-1-6",
+      "trifecta_top3": [
+        "2-1-6",
+        "1-2-6",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "2-1-6",
+        "1-2-6",
+        "1-2-3",
+        "2-1-3",
+        "2-1-5"
+      ],
+      "trifecta_top10": [
+        "2-1-6",
+        "1-2-6",
+        "1-2-3",
+        "2-1-3",
+        "2-1-5",
+        "1-2-5",
+        "2-3-6",
+        "1-3-2",
+        "2-1-4",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:05",
+      "venue": "下関",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6847400176,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "1-3-4",
+        "1-2-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "1-3-4",
+        "1-2-5",
+        "1-5-3",
+        "1-2-4",
+        "1-5-2",
+        "3-1-5",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:06",
+      "venue": "下関",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5727797305,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-2",
+        "3-1-4"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-2",
+        "3-1-4",
+        "1-4-3",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-2",
+        "3-1-4",
+        "1-4-3",
+        "1-2-3",
+        "1-2-4",
+        "1-4-2",
+        "3-1-2",
+        "3-4-1",
+        "1-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:07",
+      "venue": "下関",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4537888269,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "3-1-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "3-1-2",
+        "2-1-3",
+        "3-1-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "3-1-2",
+        "2-1-3",
+        "3-1-5",
+        "1-3-5",
+        "3-2-1",
+        "1-2-5",
+        "2-3-1",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:08",
+      "venue": "下関",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6571169893,
+      "trifecta_top1": "1-4-2",
+      "trifecta_top3": [
+        "1-4-2",
+        "1-3-4",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-4-2",
+        "1-3-4",
+        "1-2-3",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-4-2",
+        "1-3-4",
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-4-3",
+        "1-4-5",
+        "1-3-5",
+        "1-2-5",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:09",
+      "venue": "下関",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6387550005,
+      "trifecta_top1": "1-2-6",
+      "trifecta_top3": [
+        "1-2-6",
+        "1-2-3",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-6",
+        "1-2-3",
+        "1-2-4",
+        "2-1-6",
+        "1-2-5"
+      ],
+      "trifecta_top10": [
+        "1-2-6",
+        "1-2-3",
+        "1-2-4",
+        "2-1-6",
+        "1-2-5",
+        "1-3-2",
+        "2-1-3",
+        "2-1-4",
+        "1-4-2",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:10",
+      "venue": "下関",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7648043116,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2",
+        "1-4-5",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2",
+        "1-4-5",
+        "1-3-2",
+        "1-3-5",
+        "1-2-3",
+        "1-2-4",
+        "1-5-4",
+        "3-1-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:11",
+      "venue": "下関",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6572813402,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2",
+        "1-3-2",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2",
+        "1-3-2",
+        "1-2-3",
+        "1-2-4",
+        "4-1-3",
+        "4-1-2",
+        "3-1-4",
+        "1-4-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:下関:12",
+      "venue": "下関",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7859371653,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-2",
+        "1-2-3",
+        "1-4-3",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-2",
+        "1-2-3",
+        "1-4-3",
+        "1-3-5",
+        "1-2-4",
+        "1-4-2",
+        "1-4-5",
+        "1-2-5",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:01",
+      "venue": "児島",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6324444047,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-2-6",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-2-6",
+        "1-3-4",
+        "1-3-6",
+        "1-4-2",
+        "2-1-3",
+        "1-4-3",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:02",
+      "venue": "児島",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3567805339,
+      "trifecta_top1": "5-4-6",
+      "trifecta_top3": [
+        "5-4-6",
+        "1-5-4",
+        "1-5-6"
+      ],
+      "trifecta_top5": [
+        "5-4-6",
+        "1-5-4",
+        "1-5-6",
+        "5-6-4",
+        "1-4-5"
+      ],
+      "trifecta_top10": [
+        "5-4-6",
+        "1-5-4",
+        "1-5-6",
+        "5-6-4",
+        "1-4-5",
+        "5-1-4",
+        "4-5-6",
+        "1-5-2",
+        "5-4-1",
+        "5-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:03",
+      "venue": "児島",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3973436148,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-3",
+        "2-1-5",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-3",
+        "2-1-5",
+        "1-2-6",
+        "2-1-3",
+        "2-5-1",
+        "1-5-6",
+        "1-5-3",
+        "1-3-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:04",
+      "venue": "児島",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4901125604,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "1-3-5",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "1-3-5",
+        "1-2-6",
+        "1-3-6",
+        "1-5-2",
+        "2-1-3",
+        "1-6-2",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:05",
+      "venue": "児島",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6301121549,
+      "trifecta_top1": "1-4-5",
+      "trifecta_top3": [
+        "1-4-5",
+        "1-4-3",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-4-5",
+        "1-4-3",
+        "1-3-4",
+        "1-5-4",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-4-5",
+        "1-4-3",
+        "1-3-4",
+        "1-5-4",
+        "1-3-5",
+        "1-5-3",
+        "1-2-4",
+        "1-4-2",
+        "4-1-5",
+        "1-2-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:06",
+      "venue": "児島",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4901004431,
+      "trifecta_top1": "1-4-5",
+      "trifecta_top3": [
+        "1-4-5",
+        "1-5-4",
+        "5-1-4"
+      ],
+      "trifecta_top5": [
+        "1-4-5",
+        "1-5-4",
+        "5-1-4",
+        "4-1-5",
+        "5-4-1"
+      ],
+      "trifecta_top10": [
+        "1-4-5",
+        "1-5-4",
+        "5-1-4",
+        "4-1-5",
+        "5-4-1",
+        "4-5-1",
+        "1-5-2",
+        "1-4-2",
+        "1-4-3",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:07",
+      "venue": "児島",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6618983529,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-5-2",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-5-2",
+        "1-3-5",
+        "1-5-3",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-5-2",
+        "1-3-5",
+        "1-5-3",
+        "1-2-3",
+        "1-5-4",
+        "1-3-2",
+        "1-2-4",
+        "1-5-6",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:08",
+      "venue": "児島",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5921819687,
+      "trifecta_top1": "1-4-3",
+      "trifecta_top3": [
+        "1-4-3",
+        "1-3-4",
+        "1-4-5"
+      ],
+      "trifecta_top5": [
+        "1-4-3",
+        "1-3-4",
+        "1-4-5",
+        "1-4-2",
+        "4-1-3"
+      ],
+      "trifecta_top10": [
+        "1-4-3",
+        "1-3-4",
+        "1-4-5",
+        "1-4-2",
+        "4-1-3",
+        "1-3-5",
+        "1-3-2",
+        "3-1-4",
+        "3-4-1",
+        "4-3-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:09",
+      "venue": "児島",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6908057944,
+      "trifecta_top1": "1-5-3",
+      "trifecta_top3": [
+        "1-5-3",
+        "1-3-5",
+        "1-5-4"
+      ],
+      "trifecta_top5": [
+        "1-5-3",
+        "1-3-5",
+        "1-5-4",
+        "1-3-4",
+        "1-4-5"
+      ],
+      "trifecta_top10": [
+        "1-5-3",
+        "1-3-5",
+        "1-5-4",
+        "1-3-4",
+        "1-4-5",
+        "1-4-3",
+        "5-1-3",
+        "1-5-2",
+        "5-1-4",
+        "1-2-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:10",
+      "venue": "児島",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6826310589,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2",
+        "1-4-3",
+        "1-3-5",
+        "1-2-5",
+        "2-1-3",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:11",
+      "venue": "児島",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7095795961,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-4-3"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-4-3",
+        "1-3-4",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-4-3",
+        "1-3-4",
+        "1-4-2",
+        "1-3-2",
+        "3-1-4",
+        "1-4-6",
+        "4-1-3",
+        "2-1-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:児島:12",
+      "venue": "児島",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6729741231,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2",
+        "1-2-5",
+        "1-3-5",
+        "2-1-3",
+        "1-4-3",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:01",
+      "venue": "唐津",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6782279796,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-3",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-4-2",
+        "1-2-6",
+        "1-3-6",
+        "1-4-3",
+        "2-1-4",
+        "1-4-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:02",
+      "venue": "唐津",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6367764789,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-3",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-3",
+        "1-2-5",
+        "1-3-2",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-3",
+        "1-2-5",
+        "1-3-2",
+        "1-4-2",
+        "2-1-4",
+        "2-1-3",
+        "1-2-6",
+        "1-5-2",
+        "2-1-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:03",
+      "venue": "唐津",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5805678685,
+      "trifecta_top1": "1-4-5",
+      "trifecta_top3": [
+        "1-4-5",
+        "1-4-2",
+        "1-4-3"
+      ],
+      "trifecta_top5": [
+        "1-4-5",
+        "1-4-2",
+        "1-4-3",
+        "1-3-4",
+        "4-1-5"
+      ],
+      "trifecta_top10": [
+        "1-4-5",
+        "1-4-2",
+        "1-4-3",
+        "1-3-4",
+        "4-1-5",
+        "1-2-4",
+        "4-5-1",
+        "1-5-4",
+        "4-1-3",
+        "4-1-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:04",
+      "venue": "唐津",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4017711267,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "1-6-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "1-6-3",
+        "1-3-2",
+        "1-2-3",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "1-6-3",
+        "1-3-2",
+        "1-2-3",
+        "1-2-6",
+        "1-3-5",
+        "3-1-6",
+        "1-6-2",
+        "6-1-3",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:05",
+      "venue": "唐津",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5340032266,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "1-6-2",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "1-6-2",
+        "1-3-2",
+        "1-2-6",
+        "1-6-3"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "1-6-2",
+        "1-3-2",
+        "1-2-6",
+        "1-6-3",
+        "1-6-4",
+        "1-2-3",
+        "1-3-4",
+        "1-4-6",
+        "6-1-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:06",
+      "venue": "唐津",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4202758214,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-5"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-5",
+        "1-2-5",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-5",
+        "1-2-5",
+        "1-2-3",
+        "4-1-5",
+        "1-4-3",
+        "4-5-1",
+        "2-1-4",
+        "4-1-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:07",
+      "venue": "唐津",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.527692473,
+      "trifecta_top1": "1-2-6",
+      "trifecta_top3": [
+        "1-2-6",
+        "1-2-3",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-6",
+        "1-2-3",
+        "1-2-5",
+        "1-6-2",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-6",
+        "1-2-3",
+        "1-2-5",
+        "1-6-2",
+        "1-3-2",
+        "1-5-2",
+        "1-3-6",
+        "1-5-6",
+        "1-2-4",
+        "2-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:08",
+      "venue": "唐津",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4761178306,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "1-2-3",
+        "1-6-2"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "1-2-3",
+        "1-6-2",
+        "1-6-3",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "1-2-3",
+        "1-6-2",
+        "1-6-3",
+        "1-2-6",
+        "1-3-2",
+        "6-1-3",
+        "6-1-2",
+        "1-6-4",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:09",
+      "venue": "唐津",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4756288574,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-5",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-5",
+        "1-4-2",
+        "1-4-5",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-5",
+        "1-4-2",
+        "1-4-5",
+        "1-5-2",
+        "1-5-4",
+        "1-2-3",
+        "2-1-4",
+        "1-4-6",
+        "1-2-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:10",
+      "venue": "唐津",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7285392827,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "1-2-6",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "1-2-6",
+        "1-3-5",
+        "1-2-4",
+        "1-5-2",
+        "2-1-3",
+        "1-3-6",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:11",
+      "venue": "唐津",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6940098901,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-2-4",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-2-4",
+        "1-3-5",
+        "1-2-5",
+        "1-5-2",
+        "1-5-3",
+        "1-5-4",
+        "1-4-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:唐津:12",
+      "venue": "唐津",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7500541081,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2",
+        "1-4-3",
+        "1-2-5",
+        "1-3-5",
+        "1-2-6",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:01",
+      "venue": "大村",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5721638007,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6",
+        "1-2-6",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6",
+        "1-2-6",
+        "1-3-4",
+        "1-2-4",
+        "1-6-2",
+        "1-6-3",
+        "2-1-3",
+        "3-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:02",
+      "venue": "大村",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4104152877,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "2-1-4",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "2-1-4",
+        "1-2-6",
+        "2-1-6",
+        "2-1-5"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "2-1-4",
+        "1-2-6",
+        "2-1-6",
+        "2-1-5",
+        "1-2-5",
+        "1-2-3",
+        "2-1-3",
+        "1-4-2",
+        "2-4-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:03",
+      "venue": "大村",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6291276638,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-4",
+        "1-2-3",
+        "1-5-4"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-4",
+        "1-2-3",
+        "1-5-4",
+        "1-5-3",
+        "1-3-5",
+        "1-3-2",
+        "5-1-2",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:04",
+      "venue": "大村",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6976775637,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-3-5",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-3-5",
+        "1-2-3",
+        "1-3-2",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-3-5",
+        "1-2-3",
+        "1-3-2",
+        "1-2-6",
+        "1-3-6",
+        "1-5-2",
+        "1-5-6",
+        "1-5-3",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:05",
+      "venue": "大村",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.591567591,
+      "trifecta_top1": "1-5-2",
+      "trifecta_top3": [
+        "1-5-2",
+        "1-2-3",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-5-2",
+        "1-2-3",
+        "1-2-5",
+        "1-5-3",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-5-2",
+        "1-2-3",
+        "1-2-5",
+        "1-5-3",
+        "1-3-5",
+        "1-3-2",
+        "1-5-4",
+        "1-2-4",
+        "5-1-2",
+        "2-1-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:06",
+      "venue": "大村",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5104179595,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "1-6-3",
+        "3-1-6"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "1-6-3",
+        "3-1-6",
+        "1-3-2",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "1-6-3",
+        "3-1-6",
+        "1-3-2",
+        "1-3-5",
+        "6-1-3",
+        "3-6-1",
+        "6-3-1",
+        "1-3-4",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:07",
+      "venue": "大村",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7160633444,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "1-2-3",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "1-2-3",
+        "1-2-4",
+        "1-4-2",
+        "3-1-4",
+        "1-3-5",
+        "1-3-6",
+        "1-4-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:08",
+      "venue": "大村",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6281713166,
+      "trifecta_top1": "1-4-5",
+      "trifecta_top3": [
+        "1-4-5",
+        "1-3-4",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-4-5",
+        "1-3-4",
+        "1-3-5",
+        "1-5-4",
+        "1-4-3"
+      ],
+      "trifecta_top10": [
+        "1-4-5",
+        "1-3-4",
+        "1-3-5",
+        "1-5-4",
+        "1-4-3",
+        "1-4-2",
+        "1-2-4",
+        "1-5-3",
+        "4-1-5",
+        "1-3-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:09",
+      "venue": "大村",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6938281049,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3",
+        "1-3-4",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-4-3",
+        "1-2-6",
+        "2-1-4",
+        "1-4-6",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:10",
+      "venue": "大村",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6189599679,
+      "trifecta_top1": "1-4-3",
+      "trifecta_top3": [
+        "1-4-3",
+        "1-3-4",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-4-3",
+        "1-3-4",
+        "1-4-2",
+        "1-4-5",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-4-3",
+        "1-3-4",
+        "1-4-2",
+        "1-4-5",
+        "1-2-3",
+        "1-4-6",
+        "1-3-2",
+        "1-2-4",
+        "1-3-5",
+        "4-1-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:11",
+      "venue": "大村",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7659392785,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-2-4",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-2-4",
+        "1-3-5",
+        "1-2-5",
+        "1-4-3",
+        "1-4-2",
+        "1-5-3",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:大村:12",
+      "venue": "大村",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.8007320335,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-2-3",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-2-3",
+        "1-2-4",
+        "1-3-5",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-2-3",
+        "1-2-4",
+        "1-3-5",
+        "1-3-2",
+        "1-2-5",
+        "1-5-4",
+        "1-4-5",
+        "1-4-3",
+        "1-4-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:01",
+      "venue": "常滑",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6413404206,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-3",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-3",
+        "1-4-2",
+        "1-2-5",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-3",
+        "1-4-2",
+        "1-2-5",
+        "1-3-2",
+        "1-3-4",
+        "1-4-3",
+        "1-2-6",
+        "1-4-5",
+        "2-1-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:02",
+      "venue": "常滑",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3675868877,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "2-1-3",
+        "2-1-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "2-1-3",
+        "2-1-5",
+        "1-5-2",
+        "1-3-5",
+        "1-5-3",
+        "1-2-4",
+        "2-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:03",
+      "venue": "常滑",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4101831558,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-4",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-3-5",
+        "3-1-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-3-5",
+        "3-1-5",
+        "3-1-4",
+        "1-2-4",
+        "3-1-2",
+        "2-1-3",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:04",
+      "venue": "常滑",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4320221913,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-6",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-6",
+        "1-2-3",
+        "1-2-5",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-6",
+        "1-2-3",
+        "1-2-5",
+        "1-4-2",
+        "1-3-2",
+        "1-4-6",
+        "2-1-4",
+        "1-4-5",
+        "2-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:05",
+      "venue": "常滑",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5671562981,
+      "trifecta_top1": "1-3-5",
+      "trifecta_top3": [
+        "1-3-5",
+        "1-5-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-5",
+        "1-5-3",
+        "1-3-2",
+        "3-1-5",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-3-5",
+        "1-5-3",
+        "1-3-2",
+        "3-1-5",
+        "1-2-3",
+        "1-3-4",
+        "5-1-3",
+        "1-2-5",
+        "1-5-2",
+        "5-3-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:06",
+      "venue": "常滑",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7333185459,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "1-2-5",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "1-2-5",
+        "1-3-2",
+        "1-3-4",
+        "1-3-6",
+        "1-4-2",
+        "1-3-5",
+        "1-4-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:07",
+      "venue": "常滑",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3797279798,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-5-2",
+        "2-1-5"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-5-2",
+        "2-1-5",
+        "1-2-4",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-5-2",
+        "2-1-5",
+        "1-2-4",
+        "1-2-3",
+        "5-1-2",
+        "1-4-5",
+        "1-5-4",
+        "1-4-2",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:08",
+      "venue": "常滑",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4985618426,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-6",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-6",
+        "1-2-4",
+        "1-3-2",
+        "1-3-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-6",
+        "1-2-4",
+        "1-3-2",
+        "1-3-6",
+        "1-3-4",
+        "1-4-2",
+        "1-4-6",
+        "1-4-3",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:09",
+      "venue": "常滑",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5002963685,
+      "trifecta_top1": "1-2-6",
+      "trifecta_top3": [
+        "1-2-6",
+        "1-2-4",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-6",
+        "1-2-4",
+        "1-2-3",
+        "1-4-2",
+        "2-1-6"
+      ],
+      "trifecta_top10": [
+        "1-2-6",
+        "1-2-4",
+        "1-2-3",
+        "1-4-2",
+        "2-1-6",
+        "1-3-2",
+        "2-1-4",
+        "1-4-6",
+        "1-6-2",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:10",
+      "venue": "常滑",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.636307301,
+      "trifecta_top1": "1-4-6",
+      "trifecta_top3": [
+        "1-4-6",
+        "1-2-4",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-4-6",
+        "1-2-4",
+        "1-2-6",
+        "1-6-4",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-4-6",
+        "1-2-4",
+        "1-2-6",
+        "1-6-4",
+        "1-3-4",
+        "1-4-2",
+        "1-4-3",
+        "1-3-6",
+        "1-2-3",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:11",
+      "venue": "常滑",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6881719214,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-5",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-5",
+        "1-2-3",
+        "1-4-2",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-5",
+        "1-2-3",
+        "1-4-2",
+        "1-5-2",
+        "1-2-6",
+        "1-4-5",
+        "1-3-2",
+        "1-5-4",
+        "2-1-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:常滑:12",
+      "venue": "常滑",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6952130231,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-3-4",
+        "1-2-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-3-4",
+        "1-2-5",
+        "1-4-2",
+        "1-3-5",
+        "1-4-3",
+        "1-4-5",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:01",
+      "venue": "平和島",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3756036254,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "2-1-5",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "2-1-5",
+        "1-2-4",
+        "1-5-2",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "2-1-5",
+        "1-2-4",
+        "1-5-2",
+        "1-2-6",
+        "5-1-2",
+        "1-5-6",
+        "5-1-6",
+        "5-2-6",
+        "2-1-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:02",
+      "venue": "平和島",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7661557397,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-5",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-5",
+        "1-2-6",
+        "1-3-2",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-5",
+        "1-2-6",
+        "1-3-2",
+        "1-5-2",
+        "1-3-5",
+        "1-6-2",
+        "1-3-6",
+        "1-5-6",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:03",
+      "venue": "平和島",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.352585265,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "1-6-2",
+        "1-6-4"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "1-6-2",
+        "1-6-4",
+        "1-2-6",
+        "1-6-3"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "1-6-2",
+        "1-6-4",
+        "1-2-6",
+        "1-6-3",
+        "1-4-6",
+        "3-1-6",
+        "1-3-4",
+        "1-2-3",
+        "1-6-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:04",
+      "venue": "平和島",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4102529915,
+      "trifecta_top1": "1-4-6",
+      "trifecta_top3": [
+        "1-4-6",
+        "4-1-6",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-4-6",
+        "4-1-6",
+        "1-4-2",
+        "1-4-5",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-4-6",
+        "4-1-6",
+        "1-4-2",
+        "1-4-5",
+        "1-2-4",
+        "4-6-1",
+        "4-6-5",
+        "4-1-5",
+        "4-5-6",
+        "1-6-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:05",
+      "venue": "平和島",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.3733086633,
+      "trifecta_top1": "4-5-3",
+      "trifecta_top3": [
+        "4-5-3",
+        "4-3-5",
+        "3-4-5"
+      ],
+      "trifecta_top5": [
+        "4-5-3",
+        "4-3-5",
+        "3-4-5",
+        "4-5-1",
+        "4-5-2"
+      ],
+      "trifecta_top10": [
+        "4-5-3",
+        "4-3-5",
+        "3-4-5",
+        "4-5-1",
+        "4-5-2",
+        "4-1-5",
+        "5-4-3",
+        "3-5-4",
+        "1-4-3",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:06",
+      "venue": "平和島",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 3,
+      "ai_favorite_probability": 0.4373974651,
+      "trifecta_top1": "3-4-5",
+      "trifecta_top3": [
+        "3-4-5",
+        "3-1-4",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "3-4-5",
+        "3-1-4",
+        "1-3-4",
+        "3-4-1",
+        "3-1-5"
+      ],
+      "trifecta_top10": [
+        "3-4-5",
+        "3-1-4",
+        "1-3-4",
+        "3-4-1",
+        "3-1-5",
+        "3-4-2",
+        "1-3-2",
+        "3-2-4",
+        "3-1-2",
+        "1-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:07",
+      "venue": "平和島",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 3,
+      "ai_favorite_probability": 0.3817332985,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "3-1-6",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "3-1-6",
+        "1-3-2",
+        "1-2-3",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "3-1-6",
+        "1-3-2",
+        "1-2-3",
+        "1-3-5",
+        "3-1-2",
+        "3-2-6",
+        "3-1-5",
+        "1-3-4",
+        "3-6-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:08",
+      "venue": "平和島",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.4412873215,
+      "trifecta_top1": "1-4-2",
+      "trifecta_top3": [
+        "1-4-2",
+        "4-1-2",
+        "4-1-5"
+      ],
+      "trifecta_top5": [
+        "1-4-2",
+        "4-1-2",
+        "4-1-5",
+        "1-2-4",
+        "1-4-3"
+      ],
+      "trifecta_top10": [
+        "1-4-2",
+        "4-1-2",
+        "4-1-5",
+        "1-2-4",
+        "1-4-3",
+        "4-1-3",
+        "4-2-1",
+        "1-4-5",
+        "4-1-6",
+        "4-5-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:09",
+      "venue": "平和島",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3153568305,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "2-1-3"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "2-1-3",
+        "3-1-2",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "2-1-3",
+        "3-1-2",
+        "1-3-5",
+        "3-1-5",
+        "1-2-5",
+        "2-1-5",
+        "3-2-5",
+        "2-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:10",
+      "venue": "平和島",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5781703109,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-6",
+        "2-1-5",
+        "1-5-6"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-5-2",
+        "1-2-6",
+        "2-1-5",
+        "1-5-6",
+        "1-2-4",
+        "5-1-2",
+        "5-1-6",
+        "1-5-4",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:11",
+      "venue": "平和島",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4070834604,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "2-1-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "2-1-3",
+        "1-3-2",
+        "1-2-4",
+        "1-2-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "2-1-3",
+        "1-3-2",
+        "1-2-4",
+        "1-2-5",
+        "2-1-4",
+        "2-1-5",
+        "2-3-1",
+        "1-3-4",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:平和島:12",
+      "venue": "平和島",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.76335326,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-3-6",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-3-6",
+        "1-2-4",
+        "1-3-5",
+        "1-2-6",
+        "1-2-5",
+        "1-4-3",
+        "1-4-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:01",
+      "venue": "戸田",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4712248454,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6",
+        "3-1-6",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6",
+        "3-1-6",
+        "1-2-6",
+        "1-6-3",
+        "3-1-2",
+        "1-3-5",
+        "1-6-2",
+        "2-1-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:02",
+      "venue": "戸田",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 2,
+      "ai_favorite_probability": 0.3984611949,
+      "trifecta_top1": "2-1-5",
+      "trifecta_top3": [
+        "2-1-5",
+        "1-2-5",
+        "2-1-4"
+      ],
+      "trifecta_top5": [
+        "2-1-5",
+        "1-2-5",
+        "2-1-4",
+        "2-1-3",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "2-1-5",
+        "1-2-5",
+        "2-1-4",
+        "2-1-3",
+        "1-2-3",
+        "2-3-5",
+        "1-2-4",
+        "1-3-2",
+        "2-4-5",
+        "2-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:03",
+      "venue": "戸田",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.2521713008,
+      "trifecta_top1": "4-2-6",
+      "trifecta_top3": [
+        "4-2-6",
+        "1-2-4",
+        "2-4-6"
+      ],
+      "trifecta_top5": [
+        "4-2-6",
+        "1-2-4",
+        "2-4-6",
+        "2-1-4",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "4-2-6",
+        "1-2-4",
+        "2-4-6",
+        "2-1-4",
+        "1-2-6",
+        "4-6-2",
+        "4-2-5",
+        "1-4-2",
+        "1-2-3",
+        "2-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:04",
+      "venue": "戸田",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3790898643,
+      "trifecta_top1": "1-4-2",
+      "trifecta_top3": [
+        "1-4-2",
+        "1-4-3",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-4-2",
+        "1-4-3",
+        "1-2-4",
+        "1-2-3",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-4-2",
+        "1-4-3",
+        "1-2-4",
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-4-6",
+        "4-1-2",
+        "4-1-3",
+        "4-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:05",
+      "venue": "戸田",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4351773544,
+      "trifecta_top1": "1-4-3",
+      "trifecta_top3": [
+        "1-4-3",
+        "1-4-5",
+        "4-1-5"
+      ],
+      "trifecta_top5": [
+        "1-4-3",
+        "1-4-5",
+        "4-1-5",
+        "1-3-4",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-4-3",
+        "1-4-5",
+        "4-1-5",
+        "1-3-4",
+        "1-4-2",
+        "4-1-3",
+        "4-5-1",
+        "4-1-2",
+        "1-5-4",
+        "1-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:06",
+      "venue": "戸田",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.3200562612,
+      "trifecta_top1": "4-5-6",
+      "trifecta_top3": [
+        "4-5-6",
+        "4-5-2",
+        "1-4-5"
+      ],
+      "trifecta_top5": [
+        "4-5-6",
+        "4-5-2",
+        "1-4-5",
+        "4-5-1",
+        "5-4-6"
+      ],
+      "trifecta_top10": [
+        "4-5-6",
+        "4-5-2",
+        "1-4-5",
+        "4-5-1",
+        "5-4-6",
+        "1-4-2",
+        "1-2-4",
+        "4-1-5",
+        "4-6-5",
+        "4-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:07",
+      "venue": "戸田",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7132335494,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-3-6",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-3-6",
+        "1-2-4",
+        "1-4-3",
+        "1-2-6",
+        "1-3-5",
+        "1-4-2",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:08",
+      "venue": "戸田",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 3,
+      "ai_favorite_probability": 0.323989475,
+      "trifecta_top1": "1-3-2",
+      "trifecta_top3": [
+        "1-3-2",
+        "1-2-3",
+        "2-1-3"
+      ],
+      "trifecta_top5": [
+        "1-3-2",
+        "1-2-3",
+        "2-1-3",
+        "2-3-4",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-3-2",
+        "1-2-3",
+        "2-1-3",
+        "2-3-4",
+        "1-3-4",
+        "3-1-2",
+        "3-2-4",
+        "2-3-1",
+        "3-2-1",
+        "3-2-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:09",
+      "venue": "戸田",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4431058577,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "3-1-2",
+        "1-3-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "3-1-2",
+        "1-3-6",
+        "3-1-5",
+        "2-1-3",
+        "3-1-6",
+        "3-2-1",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:10",
+      "venue": "戸田",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3290426731,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "2-1-3"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "2-1-3",
+        "3-1-2",
+        "3-2-1"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "2-1-3",
+        "3-1-2",
+        "3-2-1",
+        "2-3-1",
+        "3-1-5",
+        "1-3-4",
+        "1-2-4",
+        "3-2-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:11",
+      "venue": "戸田",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6070184494,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-2-4",
+        "1-5-2"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-2-4",
+        "1-5-2",
+        "1-2-6",
+        "1-5-4"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-2-4",
+        "1-5-2",
+        "1-2-6",
+        "1-5-4",
+        "1-5-6",
+        "1-2-3",
+        "1-4-5",
+        "1-4-2",
+        "2-1-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:戸田:12",
+      "venue": "戸田",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6691060454,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-2-4",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-2-4",
+        "1-4-2",
+        "1-4-5",
+        "1-4-3"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-2-4",
+        "1-4-2",
+        "1-4-5",
+        "1-4-3",
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "1-2-5",
+        "1-5-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:01",
+      "venue": "江戸川",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5960966239,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-2-4",
+        "1-3-2",
+        "1-2-3",
+        "1-4-3"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-2-4",
+        "1-3-2",
+        "1-2-3",
+        "1-4-3",
+        "1-4-2",
+        "1-4-6",
+        "1-3-6",
+        "1-3-5",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:02",
+      "venue": "江戸川",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.28529075,
+      "trifecta_top1": "1-3-5",
+      "trifecta_top3": [
+        "1-3-5",
+        "1-3-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-3-5",
+        "1-3-2",
+        "1-2-3",
+        "1-3-4",
+        "3-1-5"
+      ],
+      "trifecta_top10": [
+        "1-3-5",
+        "1-3-2",
+        "1-2-3",
+        "1-3-4",
+        "3-1-5",
+        "1-5-3",
+        "3-2-5",
+        "3-5-6",
+        "1-3-6",
+        "3-5-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:03",
+      "venue": "江戸川",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.4246590294,
+      "trifecta_top1": "4-1-3",
+      "trifecta_top3": [
+        "4-1-3",
+        "4-3-6",
+        "3-4-6"
+      ],
+      "trifecta_top5": [
+        "4-1-3",
+        "4-3-6",
+        "3-4-6",
+        "4-3-1",
+        "1-4-3"
+      ],
+      "trifecta_top10": [
+        "4-1-3",
+        "4-3-6",
+        "3-4-6",
+        "4-3-1",
+        "1-4-3",
+        "1-3-4",
+        "4-6-3",
+        "3-4-1",
+        "3-1-4",
+        "4-1-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:04",
+      "venue": "江戸川",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.3707196573,
+      "trifecta_top1": "4-5-2",
+      "trifecta_top3": [
+        "4-5-2",
+        "1-4-2",
+        "4-1-5"
+      ],
+      "trifecta_top5": [
+        "4-5-2",
+        "1-4-2",
+        "4-1-5",
+        "4-5-3",
+        "1-4-5"
+      ],
+      "trifecta_top10": [
+        "4-5-2",
+        "1-4-2",
+        "4-1-5",
+        "4-5-3",
+        "1-4-5",
+        "4-2-5",
+        "4-5-1",
+        "3-4-5",
+        "4-3-5",
+        "4-1-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:05",
+      "venue": "江戸川",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 4,
+      "ai_favorite_probability": 0.405498118,
+      "trifecta_top1": "4-1-6",
+      "trifecta_top3": [
+        "4-1-6",
+        "4-5-6",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "4-1-6",
+        "4-5-6",
+        "1-4-6",
+        "4-6-5",
+        "4-1-5"
+      ],
+      "trifecta_top10": [
+        "4-1-6",
+        "4-5-6",
+        "1-4-6",
+        "4-6-5",
+        "4-1-5",
+        "1-4-2",
+        "4-2-6",
+        "4-1-2",
+        "1-4-5",
+        "1-2-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:06",
+      "venue": "江戸川",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3694378584,
+      "trifecta_top1": "1-4-5",
+      "trifecta_top3": [
+        "1-4-5",
+        "1-2-4",
+        "1-5-4"
+      ],
+      "trifecta_top5": [
+        "1-4-5",
+        "1-2-4",
+        "1-5-4",
+        "4-5-1",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-4-5",
+        "1-2-4",
+        "1-5-4",
+        "4-5-1",
+        "1-4-2",
+        "4-1-5",
+        "4-5-6",
+        "1-2-5",
+        "1-4-6",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:07",
+      "venue": "江戸川",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4032113929,
+      "trifecta_top1": "1-2-6",
+      "trifecta_top3": [
+        "1-2-6",
+        "2-1-6",
+        "1-6-2"
+      ],
+      "trifecta_top5": [
+        "1-2-6",
+        "2-1-6",
+        "1-6-2",
+        "1-2-3",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-2-6",
+        "2-1-6",
+        "1-6-2",
+        "1-2-3",
+        "1-2-4",
+        "2-1-3",
+        "2-1-4",
+        "2-6-1",
+        "1-3-2",
+        "6-1-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:08",
+      "venue": "江戸川",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3756877346,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-2",
+        "1-2-3",
+        "3-1-4",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-2",
+        "1-2-3",
+        "3-1-4",
+        "1-2-4",
+        "3-1-2",
+        "1-4-3",
+        "2-1-3",
+        "3-2-4",
+        "1-4-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:09",
+      "venue": "江戸川",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6037644799,
+      "trifecta_top1": "1-4-6",
+      "trifecta_top3": [
+        "1-4-6",
+        "1-6-4",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-4-6",
+        "1-6-4",
+        "1-2-4",
+        "1-2-6",
+        "6-1-4"
+      ],
+      "trifecta_top10": [
+        "1-4-6",
+        "1-6-4",
+        "1-2-4",
+        "1-2-6",
+        "6-1-4",
+        "4-1-6",
+        "1-4-5",
+        "1-4-2",
+        "1-4-3",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:10",
+      "venue": "江戸川",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6671566238,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-3",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-3",
+        "1-4-2",
+        "1-3-4",
+        "1-4-3"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-3",
+        "1-4-2",
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "2-1-4",
+        "1-4-5",
+        "1-2-5",
+        "4-1-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:11",
+      "venue": "江戸川",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6851768512,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-5",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-5",
+        "1-4-2",
+        "1-2-3",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-5",
+        "1-4-2",
+        "1-2-3",
+        "1-2-6",
+        "1-4-5",
+        "2-1-4",
+        "1-4-6",
+        "1-5-2",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:江戸川:12",
+      "venue": "江戸川",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7365959716,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-6",
+        "1-2-6",
+        "1-4-5"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-6",
+        "1-2-6",
+        "1-4-5",
+        "1-2-5",
+        "1-2-3",
+        "1-4-3",
+        "1-3-4",
+        "1-6-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:01",
+      "venue": "浜名湖",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4993440288,
+      "trifecta_top1": "1-4-2",
+      "trifecta_top3": [
+        "1-4-2",
+        "1-2-4",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-4-2",
+        "1-2-4",
+        "1-2-3",
+        "1-4-3",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-4-2",
+        "1-2-4",
+        "1-2-3",
+        "1-4-3",
+        "1-3-4",
+        "1-3-2",
+        "2-1-4",
+        "4-1-2",
+        "2-4-1",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:02",
+      "venue": "浜名湖",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3705922932,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-5",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-5",
+        "1-2-4",
+        "1-3-2",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-5",
+        "1-2-4",
+        "1-3-2",
+        "1-5-2",
+        "1-3-5",
+        "2-1-5",
+        "2-1-3",
+        "1-4-2",
+        "1-2-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:03",
+      "venue": "浜名湖",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 2,
+      "ai_favorite_probability": 0.2952392658,
+      "trifecta_top1": "2-4-3",
+      "trifecta_top3": [
+        "2-4-3",
+        "2-4-5",
+        "2-3-4"
+      ],
+      "trifecta_top5": [
+        "2-4-3",
+        "2-4-5",
+        "2-3-4",
+        "4-2-3",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "2-4-3",
+        "2-4-5",
+        "2-3-4",
+        "4-2-3",
+        "1-2-4",
+        "3-2-4",
+        "4-2-5",
+        "2-4-6",
+        "3-4-2",
+        "4-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:04",
+      "venue": "浜名湖",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7535632918,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "1-2-4",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-5",
+        "1-2-4",
+        "1-5-2",
+        "1-3-5",
+        "1-3-4",
+        "1-4-2",
+        "1-5-3",
+        "1-2-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:05",
+      "venue": "浜名湖",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3960620883,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-6",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-6",
+        "1-4-6",
+        "1-6-4",
+        "1-6-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-6",
+        "1-4-6",
+        "1-6-4",
+        "1-6-2",
+        "1-4-2",
+        "2-1-4",
+        "4-1-6",
+        "2-1-6",
+        "6-1-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:06",
+      "venue": "浜名湖",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 3,
+      "ai_favorite_probability": 0.3797617187,
+      "trifecta_top1": "3-1-6",
+      "trifecta_top3": [
+        "3-1-6",
+        "1-3-6",
+        "3-6-5"
+      ],
+      "trifecta_top5": [
+        "3-1-6",
+        "1-3-6",
+        "3-6-5",
+        "3-6-1",
+        "1-6-3"
+      ],
+      "trifecta_top10": [
+        "3-1-6",
+        "1-3-6",
+        "3-6-5",
+        "3-6-1",
+        "1-6-3",
+        "3-1-5",
+        "1-3-5",
+        "6-1-3",
+        "1-3-2",
+        "1-2-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:07",
+      "venue": "浜名湖",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 2,
+      "ai_favorite_probability": 0.4410532695,
+      "trifecta_top1": "2-1-3",
+      "trifecta_top3": [
+        "2-1-3",
+        "1-2-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "2-1-3",
+        "1-2-3",
+        "1-3-2",
+        "2-3-1",
+        "2-1-6"
+      ],
+      "trifecta_top10": [
+        "2-1-3",
+        "1-2-3",
+        "1-3-2",
+        "2-3-1",
+        "2-1-6",
+        "2-1-4",
+        "1-2-6",
+        "2-3-6",
+        "2-3-4",
+        "1-2-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:08",
+      "venue": "浜名湖",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.50152034,
+      "trifecta_top1": "1-4-2",
+      "trifecta_top3": [
+        "1-4-2",
+        "1-2-4",
+        "1-4-5"
+      ],
+      "trifecta_top5": [
+        "1-4-2",
+        "1-2-4",
+        "1-4-5",
+        "1-4-3",
+        "1-4-6"
+      ],
+      "trifecta_top10": [
+        "1-4-2",
+        "1-2-4",
+        "1-4-5",
+        "1-4-3",
+        "1-4-6",
+        "4-1-5",
+        "4-1-2",
+        "4-1-6",
+        "1-3-4",
+        "2-1-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:09",
+      "venue": "浜名湖",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5778429433,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2",
+        "1-4-5",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-4-2",
+        "1-4-5",
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-5",
+        "4-1-5",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:10",
+      "venue": "浜名湖",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6617515663,
+      "trifecta_top1": "1-3-5",
+      "trifecta_top3": [
+        "1-3-5",
+        "1-3-6",
+        "1-5-6"
+      ],
+      "trifecta_top5": [
+        "1-3-5",
+        "1-3-6",
+        "1-5-6",
+        "1-5-3",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-3-5",
+        "1-3-6",
+        "1-5-6",
+        "1-5-3",
+        "1-3-2",
+        "1-2-3",
+        "1-5-2",
+        "1-2-5",
+        "1-2-6",
+        "1-6-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:11",
+      "venue": "浜名湖",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6044053691,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-5",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-5",
+        "1-3-2",
+        "1-4-3",
+        "3-1-5"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-5",
+        "1-3-2",
+        "1-4-3",
+        "3-1-5",
+        "1-5-3",
+        "1-4-5",
+        "3-1-4",
+        "1-2-3",
+        "1-5-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:浜名湖:12",
+      "venue": "浜名湖",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7129644579,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-2-3",
+        "1-2-4",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-2-3",
+        "1-2-4",
+        "1-4-2",
+        "1-4-5",
+        "1-3-2",
+        "1-4-6",
+        "1-3-5",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:01",
+      "venue": "福岡",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6835723894,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-2-5",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-2-5",
+        "1-2-6",
+        "1-3-4",
+        "1-3-5",
+        "1-4-2",
+        "1-3-6",
+        "1-4-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:02",
+      "venue": "福岡",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4214474283,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-2-3",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "3-1-4"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "3-1-4",
+        "1-4-3",
+        "1-3-5",
+        "3-1-5",
+        "1-4-2",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:03",
+      "venue": "福岡",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 3,
+      "ai_favorite_probability": 0.4365014641,
+      "trifecta_top1": "3-1-5",
+      "trifecta_top3": [
+        "3-1-5",
+        "1-3-2",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "3-1-5",
+        "1-3-2",
+        "1-3-5",
+        "3-1-2",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "3-1-5",
+        "1-3-2",
+        "1-3-5",
+        "3-1-2",
+        "1-2-3",
+        "3-1-4",
+        "3-5-1",
+        "3-2-5",
+        "1-3-4",
+        "3-2-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:04",
+      "venue": "福岡",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.470532581,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-2-3",
+        "1-4-3"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-2-3",
+        "1-4-3",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-2-3",
+        "1-4-3",
+        "1-2-4",
+        "1-3-2",
+        "1-4-2",
+        "3-1-4",
+        "1-3-6",
+        "1-4-6",
+        "2-1-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:05",
+      "venue": "福岡",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4530895592,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "2-1-3",
+        "2-1-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "2-1-3",
+        "2-1-4",
+        "2-1-6",
+        "1-3-2",
+        "1-4-2",
+        "1-2-5",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:06",
+      "venue": "福岡",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3781380394,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "2-1-4"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "2-1-4",
+        "4-1-2",
+        "2-4-1"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "2-1-4",
+        "4-1-2",
+        "2-4-1",
+        "4-2-1",
+        "1-2-3",
+        "1-4-5",
+        "1-4-3",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:07",
+      "venue": "福岡",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4912238565,
+      "trifecta_top1": "1-2-5",
+      "trifecta_top3": [
+        "1-2-5",
+        "1-5-2",
+        "1-5-4"
+      ],
+      "trifecta_top5": [
+        "1-2-5",
+        "1-5-2",
+        "1-5-4",
+        "1-3-5",
+        "1-2-3"
+      ],
+      "trifecta_top10": [
+        "1-2-5",
+        "1-5-2",
+        "1-5-4",
+        "1-3-5",
+        "1-2-3",
+        "1-2-4",
+        "1-5-3",
+        "1-4-5",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:08",
+      "venue": "福岡",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4165135065,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "2-1-3"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "2-1-3",
+        "2-1-4",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "2-1-3",
+        "2-1-4",
+        "1-3-2",
+        "1-4-2",
+        "1-3-4",
+        "2-3-1",
+        "2-1-5",
+        "2-4-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:09",
+      "venue": "福岡",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6424989078,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "1-3-2",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "1-3-2",
+        "1-4-2",
+        "1-3-4",
+        "1-3-6",
+        "1-4-6",
+        "1-4-3",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:10",
+      "venue": "福岡",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6774045795,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-2-5",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-2-5",
+        "1-3-4",
+        "1-3-5",
+        "1-5-2",
+        "1-4-2",
+        "1-5-3",
+        "1-5-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:11",
+      "venue": "福岡",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7837951488,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-3",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-3",
+        "1-2-6",
+        "1-4-2",
+        "1-4-6"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-3",
+        "1-2-6",
+        "1-4-2",
+        "1-4-6",
+        "1-3-4",
+        "1-3-2",
+        "1-4-3",
+        "1-2-5",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:福岡:12",
+      "venue": "福岡",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7347888662,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-3-4",
+        "1-2-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-2",
+        "1-3-4",
+        "1-2-5",
+        "1-3-5",
+        "1-2-6",
+        "1-4-2",
+        "1-4-3",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:01",
+      "venue": "芦屋",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6898068396,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-3-5",
+        "1-3-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-3-5",
+        "1-3-6",
+        "1-2-4",
+        "1-4-3",
+        "1-2-5",
+        "1-2-6",
+        "1-4-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:02",
+      "venue": "芦屋",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.587120597,
+      "trifecta_top1": "1-4-3",
+      "trifecta_top3": [
+        "1-4-3",
+        "1-4-5",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "1-4-3",
+        "1-4-5",
+        "1-4-6",
+        "1-4-2",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-4-3",
+        "1-4-5",
+        "1-4-6",
+        "1-4-2",
+        "1-3-4",
+        "4-1-6",
+        "4-1-5",
+        "4-1-3",
+        "1-2-4",
+        "1-5-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:03",
+      "venue": "芦屋",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5604408259,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "1-2-5",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-5",
+        "1-2-5",
+        "1-3-4",
+        "1-2-4",
+        "2-1-3",
+        "1-5-3",
+        "3-1-5",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:04",
+      "venue": "芦屋",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6533198177,
+      "trifecta_top1": "1-3-5",
+      "trifecta_top3": [
+        "1-3-5",
+        "1-3-4",
+        "1-4-5"
+      ],
+      "trifecta_top5": [
+        "1-3-5",
+        "1-3-4",
+        "1-4-5",
+        "1-4-3",
+        "1-5-3"
+      ],
+      "trifecta_top10": [
+        "1-3-5",
+        "1-3-4",
+        "1-4-5",
+        "1-4-3",
+        "1-5-3",
+        "1-5-4",
+        "1-3-2",
+        "1-2-3",
+        "1-4-2",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:05",
+      "venue": "芦屋",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7139010045,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "1-4-2",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-6",
+        "1-4-2",
+        "1-3-4",
+        "1-3-2",
+        "1-4-6",
+        "1-3-6",
+        "1-4-3",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:06",
+      "venue": "芦屋",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3993025368,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-5",
+        "1-3-2",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-2-5",
+        "1-3-2",
+        "1-2-6",
+        "2-1-3",
+        "2-1-5",
+        "2-1-4",
+        "1-3-4",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:07",
+      "venue": "芦屋",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5765321344,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-5",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-5",
+        "1-2-5",
+        "1-3-4",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-5",
+        "1-2-5",
+        "1-3-4",
+        "1-3-2",
+        "1-5-3",
+        "1-2-4",
+        "1-5-2",
+        "1-5-4",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:08",
+      "venue": "芦屋",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 3,
+      "ai_favorite_probability": 0.4662708417,
+      "trifecta_top1": "3-1-6",
+      "trifecta_top3": [
+        "3-1-6",
+        "1-3-2",
+        "1-3-6"
+      ],
+      "trifecta_top5": [
+        "3-1-6",
+        "1-3-2",
+        "1-3-6",
+        "3-1-2",
+        "3-6-1"
+      ],
+      "trifecta_top10": [
+        "3-1-6",
+        "1-3-2",
+        "1-3-6",
+        "3-1-2",
+        "3-6-1",
+        "1-2-3",
+        "3-2-6",
+        "3-6-2",
+        "3-1-5",
+        "3-2-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:09",
+      "venue": "芦屋",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4902503648,
+      "trifecta_top1": "1-2-6",
+      "trifecta_top3": [
+        "1-2-6",
+        "1-2-3",
+        "2-1-6"
+      ],
+      "trifecta_top5": [
+        "1-2-6",
+        "1-2-3",
+        "2-1-6",
+        "1-2-5",
+        "2-1-3"
+      ],
+      "trifecta_top10": [
+        "1-2-6",
+        "1-2-3",
+        "2-1-6",
+        "1-2-5",
+        "2-1-3",
+        "1-2-4",
+        "2-1-5",
+        "1-3-2",
+        "2-1-4",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:10",
+      "venue": "芦屋",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6547476381,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-6",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-6",
+        "1-2-5",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-6",
+        "1-2-5",
+        "1-3-2",
+        "1-2-4",
+        "2-1-3",
+        "2-1-6",
+        "2-1-5",
+        "1-3-6",
+        "1-5-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:11",
+      "venue": "芦屋",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7241978336,
+      "trifecta_top1": "1-3-6",
+      "trifecta_top3": [
+        "1-3-6",
+        "1-3-5",
+        "1-5-6"
+      ],
+      "trifecta_top5": [
+        "1-3-6",
+        "1-3-5",
+        "1-5-6",
+        "1-5-3",
+        "1-6-3"
+      ],
+      "trifecta_top10": [
+        "1-3-6",
+        "1-3-5",
+        "1-5-6",
+        "1-5-3",
+        "1-6-3",
+        "1-6-5",
+        "1-2-3",
+        "1-3-4",
+        "1-3-2",
+        "1-2-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:芦屋:12",
+      "venue": "芦屋",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.718594536,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-2-5",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-2-5",
+        "1-2-3",
+        "1-4-2",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-2-5",
+        "1-2-3",
+        "1-4-2",
+        "1-3-2",
+        "1-3-4",
+        "1-5-2",
+        "1-4-5",
+        "1-2-6",
+        "1-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:01",
+      "venue": "若松",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5275716825,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-2-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-2-4",
+        "1-3-4",
+        "1-2-5",
+        "1-2-6",
+        "2-1-3",
+        "1-4-2",
+        "1-4-3",
+        "1-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:02",
+      "venue": "若松",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3585884817,
+      "trifecta_top1": "1-5-6",
+      "trifecta_top3": [
+        "1-5-6",
+        "5-1-6",
+        "1-5-2"
+      ],
+      "trifecta_top5": [
+        "1-5-6",
+        "5-1-6",
+        "1-5-2",
+        "1-2-5",
+        "5-1-2"
+      ],
+      "trifecta_top10": [
+        "1-5-6",
+        "5-1-6",
+        "1-5-2",
+        "1-2-5",
+        "5-1-2",
+        "5-2-6",
+        "1-5-4",
+        "1-2-6",
+        "1-5-3",
+        "5-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:03",
+      "venue": "若松",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.477452473,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-6",
+        "1-2-6",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "1-4-6",
+        "1-2-6",
+        "1-3-4",
+        "1-3-2",
+        "1-2-3",
+        "1-3-6",
+        "1-6-4",
+        "1-6-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:04",
+      "venue": "若松",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5196461794,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-2-3",
+        "1-2-4",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-2-3",
+        "1-2-4",
+        "1-3-5",
+        "1-4-5",
+        "1-3-2",
+        "1-4-2",
+        "1-5-3",
+        "1-5-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:05",
+      "venue": "若松",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6962894257,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2",
+        "1-3-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-4",
+        "1-3-4",
+        "1-4-2",
+        "1-3-2",
+        "1-4-3",
+        "1-2-6",
+        "1-4-6",
+        "1-2-5",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:06",
+      "venue": "若松",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4040511795,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "2-1-4",
+        "1-4-2"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "2-1-4",
+        "1-4-2",
+        "1-2-3",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "2-1-4",
+        "1-4-2",
+        "1-2-3",
+        "1-2-6",
+        "2-4-1",
+        "2-1-3",
+        "2-1-6",
+        "2-4-6",
+        "2-4-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:07",
+      "venue": "若松",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.4888336316,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-2",
+        "3-1-4"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-2",
+        "3-1-4",
+        "1-3-5",
+        "1-3-6"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-2",
+        "3-1-4",
+        "1-3-5",
+        "1-3-6",
+        "3-1-5",
+        "3-1-6",
+        "3-1-2",
+        "1-2-3",
+        "1-4-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:08",
+      "venue": "若松",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6856759305,
+      "trifecta_top1": "1-3-2",
+      "trifecta_top3": [
+        "1-3-2",
+        "1-2-3",
+        "1-3-5"
+      ],
+      "trifecta_top5": [
+        "1-3-2",
+        "1-2-3",
+        "1-3-5",
+        "1-2-5",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-3-2",
+        "1-2-3",
+        "1-3-5",
+        "1-2-5",
+        "1-3-4",
+        "1-3-6",
+        "1-2-4",
+        "3-1-2",
+        "1-2-6",
+        "3-1-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:09",
+      "venue": "若松",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6787447557,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-3-4",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-3-4",
+        "1-4-6",
+        "1-2-3",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-3-4",
+        "1-4-6",
+        "1-2-3",
+        "1-2-6",
+        "1-3-6",
+        "1-3-2",
+        "1-4-2",
+        "1-4-3",
+        "1-6-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:10",
+      "venue": "若松",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7259361933,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3",
+        "1-2-5",
+        "1-2-6"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3",
+        "1-2-5",
+        "1-2-6",
+        "1-4-3",
+        "1-3-2",
+        "1-3-4",
+        "1-4-5",
+        "2-1-4"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:11",
+      "venue": "若松",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6951933266,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6",
+        "1-2-6",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-6",
+        "1-2-6",
+        "1-3-4",
+        "1-3-5",
+        "1-2-4",
+        "1-6-2",
+        "1-6-3",
+        "1-2-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:若松:12",
+      "venue": "若松",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7661981542,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-2-4",
+        "1-3-5"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-3-2",
+        "1-3-4",
+        "1-2-4",
+        "1-3-5",
+        "1-4-2",
+        "1-2-5",
+        "1-5-2",
+        "1-4-3",
+        "1-5-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:01",
+      "venue": "蒲郡",
+      "race_no": 1,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5822064382,
+      "trifecta_top1": "1-2-3",
+      "trifecta_top3": [
+        "1-2-3",
+        "1-2-5",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-2-3",
+        "1-2-5",
+        "1-3-2",
+        "1-3-5",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-2-3",
+        "1-2-5",
+        "1-3-2",
+        "1-3-5",
+        "1-5-2",
+        "2-1-5",
+        "1-5-3",
+        "1-2-6",
+        "2-1-3",
+        "1-3-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:02",
+      "venue": "蒲郡",
+      "race_no": 2,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5005625828,
+      "trifecta_top1": "1-5-6",
+      "trifecta_top3": [
+        "1-5-6",
+        "1-5-3",
+        "5-1-6"
+      ],
+      "trifecta_top5": [
+        "1-5-6",
+        "1-5-3",
+        "5-1-6",
+        "1-3-5",
+        "1-5-2"
+      ],
+      "trifecta_top10": [
+        "1-5-6",
+        "1-5-3",
+        "5-1-6",
+        "1-3-5",
+        "1-5-2",
+        "1-6-5",
+        "1-3-6",
+        "1-2-5",
+        "1-5-4",
+        "5-6-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:03",
+      "venue": "蒲郡",
+      "race_no": 3,
+      "scheduled_start": null,
+      "ai_favorite_lane": 2,
+      "ai_favorite_probability": 0.5658057851,
+      "trifecta_top1": "2-1-5",
+      "trifecta_top3": [
+        "2-1-5",
+        "2-1-4",
+        "1-2-5"
+      ],
+      "trifecta_top5": [
+        "2-1-5",
+        "2-1-4",
+        "1-2-5",
+        "1-2-4",
+        "2-5-1"
+      ],
+      "trifecta_top10": [
+        "2-1-5",
+        "2-1-4",
+        "1-2-5",
+        "1-2-4",
+        "2-5-1",
+        "2-1-6",
+        "2-5-4",
+        "2-4-5",
+        "2-5-6",
+        "2-4-1"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:04",
+      "venue": "蒲郡",
+      "race_no": 4,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5586513257,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-6",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-6",
+        "1-3-2",
+        "1-2-3",
+        "3-1-6"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-6",
+        "1-3-2",
+        "1-2-3",
+        "3-1-6",
+        "1-4-3",
+        "3-1-4",
+        "1-6-3",
+        "1-3-5",
+        "1-4-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:05",
+      "venue": "蒲郡",
+      "race_no": 5,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.3935183631,
+      "trifecta_top1": "1-2-6",
+      "trifecta_top3": [
+        "1-2-6",
+        "1-2-3",
+        "1-6-2"
+      ],
+      "trifecta_top5": [
+        "1-2-6",
+        "1-2-3",
+        "1-6-2",
+        "1-3-6",
+        "6-1-2"
+      ],
+      "trifecta_top10": [
+        "1-2-6",
+        "1-2-3",
+        "1-6-2",
+        "1-3-6",
+        "6-1-2",
+        "1-3-2",
+        "1-6-3",
+        "2-1-6",
+        "6-1-3",
+        "2-1-3"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:06",
+      "venue": "蒲郡",
+      "race_no": 6,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.5832792239,
+      "trifecta_top1": "1-4-2",
+      "trifecta_top3": [
+        "1-4-2",
+        "1-2-4",
+        "1-4-6"
+      ],
+      "trifecta_top5": [
+        "1-4-2",
+        "1-2-4",
+        "1-4-6",
+        "4-1-2",
+        "4-1-6"
+      ],
+      "trifecta_top10": [
+        "1-4-2",
+        "1-2-4",
+        "1-4-6",
+        "4-1-2",
+        "4-1-6",
+        "1-4-3",
+        "1-4-5",
+        "1-3-4",
+        "1-2-6",
+        "4-1-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:07",
+      "venue": "蒲郡",
+      "race_no": 7,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7181991562,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "1-3-5",
+        "1-3-6"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "1-3-5",
+        "1-3-6",
+        "1-4-2",
+        "1-2-3",
+        "1-2-4",
+        "1-4-6",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:08",
+      "venue": "蒲郡",
+      "race_no": 8,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.7036482184,
+      "trifecta_top1": "1-3-5",
+      "trifecta_top3": [
+        "1-3-5",
+        "1-3-6",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-3-5",
+        "1-3-6",
+        "1-3-4",
+        "1-5-3",
+        "1-6-3"
+      ],
+      "trifecta_top10": [
+        "1-3-5",
+        "1-3-6",
+        "1-3-4",
+        "1-5-3",
+        "1-6-3",
+        "1-5-6",
+        "1-4-3",
+        "1-6-5",
+        "1-4-5",
+        "1-4-6"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:09",
+      "venue": "蒲郡",
+      "race_no": 9,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6836929496,
+      "trifecta_top1": "1-4-6",
+      "trifecta_top3": [
+        "1-4-6",
+        "1-4-3",
+        "1-3-4"
+      ],
+      "trifecta_top5": [
+        "1-4-6",
+        "1-4-3",
+        "1-3-4",
+        "1-3-6",
+        "1-4-2"
+      ],
+      "trifecta_top10": [
+        "1-4-6",
+        "1-4-3",
+        "1-3-4",
+        "1-3-6",
+        "1-4-2",
+        "1-4-5",
+        "4-1-6",
+        "1-6-4",
+        "1-2-4",
+        "1-3-2"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:10",
+      "venue": "蒲郡",
+      "race_no": 10,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.8083790097,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "1-2-3",
+        "1-3-6"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-4-3",
+        "1-3-2",
+        "1-2-3",
+        "1-3-6",
+        "1-4-2",
+        "1-4-6",
+        "1-2-4",
+        "1-4-5",
+        "1-3-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:11",
+      "venue": "蒲郡",
+      "race_no": 11,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.620643574,
+      "trifecta_top1": "1-2-4",
+      "trifecta_top3": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3"
+      ],
+      "trifecta_top5": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3",
+        "1-4-3",
+        "1-3-4"
+      ],
+      "trifecta_top10": [
+        "1-2-4",
+        "1-4-2",
+        "1-2-3",
+        "1-4-3",
+        "1-3-4",
+        "4-1-2",
+        "1-3-2",
+        "1-2-5",
+        "2-1-4",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    },
+    {
+      "race_id": "2026-08-22:蒲郡:12",
+      "venue": "蒲郡",
+      "race_no": 12,
+      "scheduled_start": null,
+      "ai_favorite_lane": 1,
+      "ai_favorite_probability": 0.6885130824,
+      "trifecta_top1": "1-3-4",
+      "trifecta_top3": [
+        "1-3-4",
+        "1-3-5",
+        "1-3-2"
+      ],
+      "trifecta_top5": [
+        "1-3-4",
+        "1-3-5",
+        "1-3-2",
+        "1-2-3",
+        "1-5-3"
+      ],
+      "trifecta_top10": [
+        "1-3-4",
+        "1-3-5",
+        "1-3-2",
+        "1-2-3",
+        "1-5-3",
+        "1-5-4",
+        "1-5-2",
+        "1-2-5",
+        "1-4-3",
+        "1-4-5"
+      ],
+      "reliability_grade": "未集計",
+      "prediction_status": "PREDICTION_READY",
+      "market_status": "ODDS_WAITING",
+      "decision": "ODDS_WAITING",
+      "result": null,
+      "answer_check": null
+    }
+  ]
+}
