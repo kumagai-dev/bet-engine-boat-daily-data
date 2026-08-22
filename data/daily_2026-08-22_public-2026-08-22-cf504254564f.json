@@ -1,10 +1,10 @@
 {
   "schema_version": "phase10_4_public_daily_data_v5",
   "dataset_date": "2026-08-22",
-  "generated_at": "2026-08-22T22:24:55.878871+09:00",
+  "generated_at": "2026-08-22T22:29:56.284781+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-22-696ae4914242",
-  "manifest_sha256": "696ae4914242ba9a3a50d96cc19c67e0dfd8c96897c7d1fb16466c859e059c05",
+  "dataset_version": "public-2026-08-22-cf504254564f",
+  "manifest_sha256": "cf504254564f91840dfd8409674da47e738343dcb23b9504a37a286728c43631",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 156,
@@ -19,7 +19,7 @@
     "closing_race_count": 0,
     "waiting_race_count": 151,
     "retryable_race_count": 5,
-    "generated_at": "2026-08-22T13:24:54.644496+00:00"
+    "generated_at": "2026-08-22T13:29:54.678399+00:00"
   },
   "result_summary": {
     "confirmed_race_count": 144,
@@ -58,16 +58,12 @@
     ]
   },
   "forward_validation_summary": {
-    "schema_version": "phase10_3_daily_forward_validation_summary_v1",
     "dataset_date": "2026-08-22",
-    "prediction_snapshot_id": "prediction-2026-08-22-0065dbfa94911ab4",
-    "prediction_snapshot_sha256": "0065dbfa94911ab45784ef5a0040dd091d5da10ac488ffc61a1cd0d668fab320",
     "confirmed_races": 144,
     "waiting_races": 12,
     "retryable_races": 0,
     "invalid_races": 0,
     "total_races": 156,
-    "ledger_row_count": 288,
     "winner_hits": 86,
     "trifecta_top1_hits": 17,
     "top3_hits": 41,
@@ -293,7 +289,7 @@
       }
     ],
     "denominator_policy": "OFFICIAL_RESULT_STATUS_CONFIRMED_ONLY",
-    "generated_at": "2026-08-22T13:23:39.498543+00:00"
+    "generated_at": "2026-08-22T13:28:59.871427+00:00"
   },
   "venue_best3": [
     {
@@ -359,7 +355,7 @@
     "daily_summary_paths": [
       "data/phase9/predictions/year=2026/month=08/day=22/daily_forward_validation_summary.json"
     ],
-    "generated_at": "2026-08-22T13:23:39.512490+00:00"
+    "generated_at": "2026-08-22T13:28:59.902552+00:00"
   },
   "venue_compatibility_summary": {
     "schema_version": "phase10_4_recent_venue_compatibility_v1",
@@ -540,7 +536,7 @@
       }
     ],
     "source_policy": "FORWARD_LEDGER_CONFIRMED_ONLY_NO_TEST_SHADOW_NO_MARKET",
-    "generated_at": "2026-08-22T13:23:39.530274+00:00"
+    "generated_at": "2026-08-22T13:28:59.938608+00:00"
   },
   "paper_connection": {
     "market_odds_available": false,
@@ -1241,7 +1237,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-22T13:24:16.526530+00:00",
+      "market_odds_captured_at": "2026-08-22T13:29:35.957134+00:00",
       "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 83,
@@ -2969,7 +2965,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-22T13:24:35.551758+00:00",
+      "market_odds_captured_at": "2026-08-22T13:29:45.382159+00:00",
       "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 82,
@@ -3765,7 +3761,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-22T13:23:59.695544+00:00",
+      "market_odds_captured_at": "2026-08-22T13:29:08.565908+00:00",
       "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 86,
@@ -4817,7 +4813,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-22T13:24:08.213331+00:00",
+      "market_odds_captured_at": "2026-08-22T13:29:16.931201+00:00",
       "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 84,
@@ -10577,7 +10573,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-22T13:24:54.640920+00:00",
+      "market_odds_captured_at": "2026-08-22T13:29:54.673255+00:00",
       "market_odds_top5": [],
       "decision": "PASS",
       "attention_score": 81,
