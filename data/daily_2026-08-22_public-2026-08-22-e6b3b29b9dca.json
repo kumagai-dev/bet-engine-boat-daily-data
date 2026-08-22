@@ -1,10 +1,10 @@
 {
-  "schema_version": "phase10_1_public_daily_data_v2",
+  "schema_version": "phase10_2_public_daily_data_v3",
   "dataset_date": "2026-08-22",
-  "generated_at": "2026-08-22T19:28:12.741706+09:00",
+  "generated_at": "2026-08-22T20:11:37.099843+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-22-0be5d8c71f05",
-  "manifest_sha256": "0be5d8c71f05db2491ca93b3c5e31f088bb4bf0b167db78f400996ec6e506484",
+  "dataset_version": "public-2026-08-22-e6b3b29b9dca",
+  "manifest_sha256": "e6b3b29b9dcac15b6b1a5e2f20915a6ffa4168a70c40f96e37c3e98eee5c88a2",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 156,
@@ -15,12 +15,43 @@
     "result_waiting_race_count": 48,
     "invalid_race_count": 0
   },
+  "attention_summary": {
+    "scoring_version": "race_attention_scoring_v1",
+    "featured_races": [
+      {
+        "race_id": "2026-08-22:大村:11",
+        "attention_score": 86,
+        "attention_rank": 1
+      },
+      {
+        "race_id": "2026-08-22:平和島:02",
+        "attention_score": 84,
+        "attention_rank": 2
+      },
+      {
+        "race_id": "2026-08-22:下関:10",
+        "attention_score": 83,
+        "attention_rank": 3
+      },
+      {
+        "race_id": "2026-08-22:唐津:10",
+        "attention_score": 82,
+        "attention_rank": 4
+      },
+      {
+        "race_id": "2026-08-22:若松:10",
+        "attention_score": 81,
+        "attention_rank": 5
+      }
+    ]
+  },
   "races": [
     {
       "race_id": "2026-08-22:下関:01",
       "venue": "下関",
       "race_no": 1,
       "scheduled_start": "2026-08-22T15:25:00+09:00",
+      "scheduled_close": "2026-08-22T15:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5687109553920641,
@@ -54,6 +85,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 24,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -65,6 +104,7 @@
       "venue": "下関",
       "race_no": 2,
       "scheduled_start": "2026-08-22T15:51:00+09:00",
+      "scheduled_close": "2026-08-22T15:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.39002117643562156,
@@ -98,6 +138,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 30,
+      "attention_rank": 135,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -109,6 +157,7 @@
       "venue": "下関",
       "race_no": 3,
       "scheduled_start": "2026-08-22T16:19:00+09:00",
+      "scheduled_close": "2026-08-22T16:19:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.39998717823545255,
@@ -142,6 +191,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 32,
+      "attention_rank": 130,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -153,6 +210,7 @@
       "venue": "下関",
       "race_no": 4,
       "scheduled_start": "2026-08-22T16:46:00+09:00",
+      "scheduled_close": "2026-08-22T16:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
       "ai_favorite_probability": 0.3786548238089627,
@@ -186,6 +244,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 25,
+      "attention_rank": 146,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -197,6 +263,7 @@
       "venue": "下関",
       "race_no": 5,
       "scheduled_start": "2026-08-22T17:17:00+09:00",
+      "scheduled_close": "2026-08-22T17:17:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6847400176455223,
@@ -230,6 +297,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 76,
+      "attention_rank": 19,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -241,6 +316,7 @@
       "venue": "下関",
       "race_no": 6,
       "scheduled_start": "2026-08-22T17:48:00+09:00",
+      "scheduled_close": "2026-08-22T17:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5727797304705111,
@@ -274,6 +350,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 70,
+      "attention_rank": 42,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -285,6 +369,7 @@
       "venue": "下関",
       "race_no": 7,
       "scheduled_start": "2026-08-22T18:17:00+09:00",
+      "scheduled_close": "2026-08-22T18:17:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4537888269250865,
@@ -318,6 +403,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 52,
+      "attention_rank": 88,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "上位3点へ確率が集中",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -329,6 +422,7 @@
       "venue": "下関",
       "race_no": 8,
       "scheduled_start": "2026-08-22T18:48:00+09:00",
+      "scheduled_close": "2026-08-22T18:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6571169893388757,
@@ -362,6 +456,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 66,
+      "attention_rank": 61,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -373,6 +475,7 @@
       "venue": "下関",
       "race_no": 9,
       "scheduled_start": "2026-08-22T19:16:00+09:00",
+      "scheduled_close": "2026-08-22T19:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6387550004764604,
@@ -406,6 +509,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 76,
+      "attention_rank": 20,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -417,6 +528,7 @@
       "venue": "下関",
       "race_no": 10,
       "scheduled_start": "2026-08-22T19:48:00+09:00",
+      "scheduled_close": "2026-08-22T19:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7648043115736587,
@@ -450,6 +562,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 83,
+      "attention_rank": 3,
+      "attention_featured": true,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -461,6 +581,7 @@
       "venue": "下関",
       "race_no": 11,
       "scheduled_start": "2026-08-22T20:17:00+09:00",
+      "scheduled_close": "2026-08-22T20:17:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6572813402352025,
@@ -494,6 +615,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 76,
+      "attention_rank": 21,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -505,6 +634,7 @@
       "venue": "下関",
       "race_no": 12,
       "scheduled_start": "2026-08-22T20:45:00+09:00",
+      "scheduled_close": "2026-08-22T20:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7859371653140603,
@@ -538,6 +668,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 35,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -549,6 +687,7 @@
       "venue": "児島",
       "race_no": 1,
       "scheduled_start": "2026-08-22T10:52:00+09:00",
+      "scheduled_close": "2026-08-22T10:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6324444047315886,
@@ -582,6 +721,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 36,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-2",
       "official_result_revision": 1,
@@ -592,7 +739,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -607,6 +754,7 @@
       "venue": "児島",
       "race_no": 2,
       "scheduled_start": "2026-08-22T11:24:00+09:00",
+      "scheduled_close": "2026-08-22T11:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3567805339062786,
@@ -640,6 +788,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 23,
+      "attention_rank": 150,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-5-4",
       "official_result_revision": 1,
@@ -650,7 +806,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -665,6 +821,7 @@
       "venue": "児島",
       "race_no": 3,
       "scheduled_start": "2026-08-22T11:53:00+09:00",
+      "scheduled_close": "2026-08-22T11:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.39734361479606634,
@@ -698,6 +855,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 37,
+      "attention_rank": 118,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -708,7 +873,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -723,6 +888,7 @@
       "venue": "児島",
       "race_no": 4,
       "scheduled_start": "2026-08-22T12:22:00+09:00",
+      "scheduled_close": "2026-08-22T12:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.49011256035247136,
@@ -756,6 +922,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 50,
+      "attention_rank": 94,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -766,7 +940,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -781,6 +955,7 @@
       "venue": "児島",
       "race_no": 5,
       "scheduled_start": "2026-08-22T12:52:00+09:00",
+      "scheduled_close": "2026-08-22T12:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6301121549145424,
@@ -814,6 +989,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 67,
+      "attention_rank": 55,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-3",
       "official_result_revision": 1,
@@ -824,7 +1007,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -839,6 +1022,7 @@
       "venue": "児島",
       "race_no": 6,
       "scheduled_start": "2026-08-22T13:22:00+09:00",
+      "scheduled_close": "2026-08-22T13:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.490100443143218,
@@ -872,6 +1056,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 64,
+      "attention_rank": 69,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-2",
       "official_result_revision": 1,
@@ -882,7 +1074,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -897,6 +1089,7 @@
       "venue": "児島",
       "race_no": 7,
       "scheduled_start": "2026-08-22T13:53:00+09:00",
+      "scheduled_close": "2026-08-22T13:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6618983529003556,
@@ -930,6 +1123,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 64,
+      "attention_rank": 70,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -940,7 +1141,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -955,6 +1156,7 @@
       "venue": "児島",
       "race_no": 8,
       "scheduled_start": "2026-08-22T14:33:00+09:00",
+      "scheduled_close": "2026-08-22T14:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5921819687487035,
@@ -988,6 +1190,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 25,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
       "official_result_revision": 1,
@@ -998,7 +1208,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1013,6 +1223,7 @@
       "venue": "児島",
       "race_no": 9,
       "scheduled_start": "2026-08-22T15:06:00+09:00",
+      "scheduled_close": "2026-08-22T15:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6908057943951839,
@@ -1046,6 +1257,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 77,
+      "attention_rank": 14,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-5",
       "official_result_revision": 1,
@@ -1056,7 +1275,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1071,6 +1290,7 @@
       "venue": "児島",
       "race_no": 10,
       "scheduled_start": "2026-08-22T15:39:00+09:00",
+      "scheduled_close": "2026-08-22T15:39:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6826310588503016,
@@ -1104,6 +1324,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 77,
+      "attention_rank": 15,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
       "official_result_revision": 1,
@@ -1114,7 +1342,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1129,6 +1357,7 @@
       "venue": "児島",
       "race_no": 11,
       "scheduled_start": "2026-08-22T16:11:00+09:00",
+      "scheduled_close": "2026-08-22T16:11:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7095795960819548,
@@ -1162,6 +1391,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 80,
+      "attention_rank": 6,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-5",
       "official_result_revision": 1,
@@ -1172,7 +1409,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1187,6 +1424,7 @@
       "venue": "児島",
       "race_no": 12,
       "scheduled_start": "2026-08-22T16:50:00+09:00",
+      "scheduled_close": "2026-08-22T16:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6729741230836488,
@@ -1220,6 +1458,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 26,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-2",
       "official_result_revision": 1,
@@ -1230,7 +1476,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1245,6 +1491,7 @@
       "venue": "唐津",
       "race_no": 1,
       "scheduled_start": "2026-08-22T08:44:00+09:00",
+      "scheduled_close": "2026-08-22T08:44:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6782279796458447,
@@ -1278,6 +1525,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 27,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
       "official_result_revision": 1,
@@ -1288,7 +1543,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1303,6 +1558,7 @@
       "venue": "唐津",
       "race_no": 2,
       "scheduled_start": "2026-08-22T09:10:00+09:00",
+      "scheduled_close": "2026-08-22T09:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.636776478946137,
@@ -1336,6 +1592,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 73,
+      "attention_rank": 31,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
       "official_result_revision": 1,
@@ -1346,7 +1610,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1361,6 +1625,7 @@
       "venue": "唐津",
       "race_no": 3,
       "scheduled_start": "2026-08-22T09:36:00+09:00",
+      "scheduled_close": "2026-08-22T09:36:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.580567868518112,
@@ -1394,6 +1659,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 69,
+      "attention_rank": 46,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -1404,7 +1677,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1419,6 +1692,7 @@
       "venue": "唐津",
       "race_no": 4,
       "scheduled_start": "2026-08-22T10:02:00+09:00",
+      "scheduled_close": "2026-08-22T10:02:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.40177112667613185,
@@ -1452,6 +1726,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 35,
+      "attention_rank": 126,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-5-2",
       "official_result_revision": 1,
@@ -1462,7 +1744,7 @@
           5,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1477,6 +1759,7 @@
       "venue": "唐津",
       "race_no": 5,
       "scheduled_start": "2026-08-22T10:28:00+09:00",
+      "scheduled_close": "2026-08-22T10:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.534003226594777,
@@ -1510,6 +1793,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 52,
+      "attention_rank": 89,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-4",
       "official_result_revision": 1,
@@ -1520,7 +1811,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1535,6 +1826,7 @@
       "venue": "唐津",
       "race_no": 6,
       "scheduled_start": "2026-08-22T11:01:00+09:00",
+      "scheduled_close": "2026-08-22T11:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4202758214237398,
@@ -1568,6 +1860,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 38,
+      "attention_rank": 113,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-2",
       "official_result_revision": 1,
@@ -1578,7 +1878,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1593,6 +1893,7 @@
       "venue": "唐津",
       "race_no": 7,
       "scheduled_start": "2026-08-22T11:32:00+09:00",
+      "scheduled_close": "2026-08-22T11:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5276924729585386,
@@ -1626,6 +1927,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 52,
+      "attention_rank": 90,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -1636,7 +1945,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1651,6 +1960,7 @@
       "venue": "唐津",
       "race_no": 8,
       "scheduled_start": "2026-08-22T12:03:00+09:00",
+      "scheduled_close": "2026-08-22T12:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.47611783057415574,
@@ -1684,6 +1994,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 49,
+      "attention_rank": 95,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-4",
       "official_result_revision": 1,
@@ -1694,7 +2012,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1709,6 +2027,7 @@
       "venue": "唐津",
       "race_no": 9,
       "scheduled_start": "2026-08-22T12:33:00+09:00",
+      "scheduled_close": "2026-08-22T12:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.47562885738833327,
@@ -1742,6 +2061,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 46,
+      "attention_rank": 103,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-2",
       "official_result_revision": 1,
@@ -1752,7 +2079,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -1767,6 +2094,7 @@
       "venue": "唐津",
       "race_no": 10,
       "scheduled_start": "2026-08-22T13:08:00+09:00",
+      "scheduled_close": "2026-08-22T13:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7285392827181002,
@@ -1800,6 +2128,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 82,
+      "attention_rank": 4,
+      "attention_featured": true,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -1810,7 +2146,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1825,6 +2161,7 @@
       "venue": "唐津",
       "race_no": 11,
       "scheduled_start": "2026-08-22T13:42:00+09:00",
+      "scheduled_close": "2026-08-22T13:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6940098900627811,
@@ -1858,6 +2195,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 67,
+      "attention_rank": 56,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -1868,7 +2213,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1883,6 +2228,7 @@
       "venue": "唐津",
       "race_no": 12,
       "scheduled_start": "2026-08-22T14:22:00+09:00",
+      "scheduled_close": "2026-08-22T14:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7500541080554702,
@@ -1916,6 +2262,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 79,
+      "attention_rank": 8,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
       "official_result_revision": 1,
@@ -1926,7 +2280,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -1941,6 +2295,7 @@
       "venue": "大村",
       "race_no": 1,
       "scheduled_start": "2026-08-22T17:41:00+09:00",
+      "scheduled_close": "2026-08-22T17:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5721638007036627,
@@ -1974,6 +2329,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 58,
+      "attention_rank": 82,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -1985,6 +2348,7 @@
       "venue": "大村",
       "race_no": 2,
       "scheduled_start": "2026-08-22T18:08:00+09:00",
+      "scheduled_close": "2026-08-22T18:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.41041528772966257,
@@ -2018,6 +2382,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 32,
+      "attention_rank": 131,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2029,6 +2401,7 @@
       "venue": "大村",
       "race_no": 3,
       "scheduled_start": "2026-08-22T18:34:00+09:00",
+      "scheduled_close": "2026-08-22T18:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6291276638335079,
@@ -2062,6 +2435,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 69,
+      "attention_rank": 47,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2073,6 +2454,7 @@
       "venue": "大村",
       "race_no": 4,
       "scheduled_start": "2026-08-22T19:03:00+09:00",
+      "scheduled_close": "2026-08-22T19:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6976775637244457,
@@ -2106,6 +2488,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 60,
+      "attention_rank": 80,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2117,6 +2507,7 @@
       "venue": "大村",
       "race_no": 5,
       "scheduled_start": "2026-08-22T19:30:00+09:00",
+      "scheduled_close": "2026-08-22T19:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5915675909879914,
@@ -2150,6 +2541,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 63,
+      "attention_rank": 72,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2161,6 +2560,7 @@
       "venue": "大村",
       "race_no": 6,
       "scheduled_start": "2026-08-22T19:56:00+09:00",
+      "scheduled_close": "2026-08-22T19:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5104179594996809,
@@ -2194,6 +2594,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 65,
+      "attention_rank": 64,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2205,6 +2613,7 @@
       "venue": "大村",
       "race_no": 7,
       "scheduled_start": "2026-08-22T20:25:00+09:00",
+      "scheduled_close": "2026-08-22T20:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7160633444129536,
@@ -2238,6 +2647,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 79,
+      "attention_rank": 9,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2249,6 +2666,7 @@
       "venue": "大村",
       "race_no": 8,
       "scheduled_start": "2026-08-22T20:59:00+09:00",
+      "scheduled_close": "2026-08-22T20:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6281713165923588,
@@ -2282,6 +2700,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 62,
+      "attention_rank": 76,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2293,6 +2719,7 @@
       "venue": "大村",
       "race_no": 9,
       "scheduled_start": "2026-08-22T21:25:00+09:00",
+      "scheduled_close": "2026-08-22T21:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6938281048862859,
@@ -2326,6 +2753,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 77,
+      "attention_rank": 16,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2337,6 +2772,7 @@
       "venue": "大村",
       "race_no": 10,
       "scheduled_start": "2026-08-22T21:51:00+09:00",
+      "scheduled_close": "2026-08-22T21:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6189599678959417,
@@ -2370,6 +2806,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 63,
+      "attention_rank": 73,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2381,6 +2825,7 @@
       "venue": "大村",
       "race_no": 11,
       "scheduled_start": "2026-08-22T22:16:00+09:00",
+      "scheduled_close": "2026-08-22T22:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7659392784962972,
@@ -2414,6 +2859,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 86,
+      "attention_rank": 1,
+      "attention_featured": true,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2425,6 +2878,7 @@
       "venue": "大村",
       "race_no": 12,
       "scheduled_start": "2026-08-22T22:41:00+09:00",
+      "scheduled_close": "2026-08-22T22:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.8007320335377396,
@@ -2458,6 +2912,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 68,
+      "attention_rank": 51,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -2469,6 +2931,7 @@
       "venue": "常滑",
       "race_no": 1,
       "scheduled_start": "2026-08-22T10:30:00+09:00",
+      "scheduled_close": "2026-08-22T10:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6413404206256245,
@@ -2502,6 +2965,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 67,
+      "attention_rank": 57,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-2",
       "official_result_revision": 1,
@@ -2512,7 +2983,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2527,6 +2998,7 @@
       "venue": "常滑",
       "race_no": 2,
       "scheduled_start": "2026-08-22T10:58:00+09:00",
+      "scheduled_close": "2026-08-22T10:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3675868877380918,
@@ -2560,6 +3032,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 30,
+      "attention_rank": 136,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-5-4",
       "official_result_revision": 1,
@@ -2570,7 +3050,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2585,6 +3065,7 @@
       "venue": "常滑",
       "race_no": 3,
       "scheduled_start": "2026-08-22T11:28:00+09:00",
+      "scheduled_close": "2026-08-22T11:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4101831557904884,
@@ -2618,6 +3099,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 34,
+      "attention_rank": 128,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-6",
       "official_result_revision": 1,
@@ -2628,7 +3117,7 @@
           1,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2643,6 +3132,7 @@
       "venue": "常滑",
       "race_no": 4,
       "scheduled_start": "2026-08-22T11:57:00+09:00",
+      "scheduled_close": "2026-08-22T11:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4320221912903152,
@@ -2676,6 +3166,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 38,
+      "attention_rank": 114,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-4-2",
       "official_result_revision": 1,
@@ -2686,7 +3184,7 @@
           4,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2701,6 +3199,7 @@
       "venue": "常滑",
       "race_no": 5,
       "scheduled_start": "2026-08-22T12:31:00+09:00",
+      "scheduled_close": "2026-08-22T12:31:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5671562980727332,
@@ -2734,6 +3233,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 69,
+      "attention_rank": 48,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-5",
       "official_result_revision": 1,
@@ -2744,7 +3251,7 @@
           6,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2759,6 +3266,7 @@
       "venue": "常滑",
       "race_no": 6,
       "scheduled_start": "2026-08-22T12:57:00+09:00",
+      "scheduled_close": "2026-08-22T12:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7333185458782964,
@@ -2792,6 +3300,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 67,
+      "attention_rank": 58,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -2802,7 +3318,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2817,6 +3333,7 @@
       "venue": "常滑",
       "race_no": 7,
       "scheduled_start": "2026-08-22T13:27:00+09:00",
+      "scheduled_close": "2026-08-22T13:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3797279797568378,
@@ -2850,6 +3367,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 29,
+      "attention_rank": 138,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
       "official_result_revision": 1,
@@ -2860,7 +3385,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2875,6 +3400,7 @@
       "venue": "常滑",
       "race_no": 8,
       "scheduled_start": "2026-08-22T13:59:00+09:00",
+      "scheduled_close": "2026-08-22T13:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.49856184259631564,
@@ -2908,6 +3434,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 48,
+      "attention_rank": 99,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -2918,7 +3452,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -2933,6 +3467,7 @@
       "venue": "常滑",
       "race_no": 9,
       "scheduled_start": "2026-08-22T14:28:00+09:00",
+      "scheduled_close": "2026-08-22T14:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5002963685035413,
@@ -2966,6 +3501,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 52,
+      "attention_rank": 91,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-1",
       "official_result_revision": 1,
@@ -2976,7 +3519,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -2991,6 +3534,7 @@
       "venue": "常滑",
       "race_no": 10,
       "scheduled_start": "2026-08-22T14:56:00+09:00",
+      "scheduled_close": "2026-08-22T14:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6363073009781673,
@@ -3024,6 +3568,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 56,
+      "attention_rank": 86,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -3034,7 +3586,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3049,6 +3601,7 @@
       "venue": "常滑",
       "race_no": 11,
       "scheduled_start": "2026-08-22T15:29:00+09:00",
+      "scheduled_close": "2026-08-22T15:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.688171921395855,
@@ -3082,6 +3635,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 37,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-1-2",
       "official_result_revision": 1,
@@ -3092,7 +3653,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3107,6 +3668,7 @@
       "venue": "常滑",
       "race_no": 12,
       "scheduled_start": "2026-08-22T16:01:00+09:00",
+      "scheduled_close": "2026-08-22T16:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6952130231052023,
@@ -3140,6 +3702,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 69,
+      "attention_rank": 49,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-6",
       "official_result_revision": 1,
@@ -3150,7 +3720,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3165,6 +3735,7 @@
       "venue": "平和島",
       "race_no": 1,
       "scheduled_start": "2026-08-22T11:55:00+09:00",
+      "scheduled_close": "2026-08-22T11:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3756036254047618,
@@ -3198,6 +3769,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 36,
+      "attention_rank": 121,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-2-1",
       "official_result_revision": 1,
@@ -3208,7 +3787,7 @@
           2,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3223,6 +3802,7 @@
       "venue": "平和島",
       "race_no": 2,
       "scheduled_start": "2026-08-22T12:24:00+09:00",
+      "scheduled_close": "2026-08-22T12:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.766155739696558,
@@ -3256,6 +3836,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 84,
+      "attention_rank": 2,
+      "attention_featured": true,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -3266,7 +3854,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3281,6 +3869,7 @@
       "venue": "平和島",
       "race_no": 3,
       "scheduled_start": "2026-08-22T12:54:00+09:00",
+      "scheduled_close": "2026-08-22T12:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.35258526499206866,
@@ -3314,6 +3903,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 25,
+      "attention_rank": 147,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-6-2",
       "official_result_revision": 1,
@@ -3324,7 +3921,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3339,6 +3936,7 @@
       "venue": "平和島",
       "race_no": 4,
       "scheduled_start": "2026-08-22T13:24:00+09:00",
+      "scheduled_close": "2026-08-22T13:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.41025299152041705,
@@ -3372,6 +3970,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 30,
+      "attention_rank": 137,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-4",
       "official_result_revision": 1,
@@ -3382,7 +3988,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3397,6 +4003,7 @@
       "venue": "平和島",
       "race_no": 5,
       "scheduled_start": "2026-08-22T13:55:00+09:00",
+      "scheduled_close": "2026-08-22T13:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.373308663319582,
@@ -3430,6 +4037,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 32,
+      "attention_rank": 132,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-5",
       "official_result_revision": 1,
@@ -3440,7 +4055,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3455,6 +4070,7 @@
       "venue": "平和島",
       "race_no": 6,
       "scheduled_start": "2026-08-22T14:26:00+09:00",
+      "scheduled_close": "2026-08-22T14:26:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
       "ai_favorite_probability": 0.4373974651483727,
@@ -3488,6 +4104,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 36,
+      "attention_rank": 122,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-6",
       "official_result_revision": 1,
@@ -3498,7 +4122,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3513,6 +4137,7 @@
       "venue": "平和島",
       "race_no": 7,
       "scheduled_start": "2026-08-22T14:58:00+09:00",
+      "scheduled_close": "2026-08-22T14:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
       "ai_favorite_probability": 0.3817332984841033,
@@ -3546,6 +4171,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 27,
+      "attention_rank": 142,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-3",
       "official_result_revision": 1,
@@ -3556,7 +4189,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3571,6 +4204,7 @@
       "venue": "平和島",
       "race_no": 8,
       "scheduled_start": "2026-08-22T15:31:00+09:00",
+      "scheduled_close": "2026-08-22T15:31:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.4412873214526901,
@@ -3604,6 +4238,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 37,
+      "attention_rank": 119,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-3-1",
       "official_result_revision": 1,
@@ -3614,7 +4256,7 @@
           3,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3629,6 +4271,7 @@
       "venue": "平和島",
       "race_no": 9,
       "scheduled_start": "2026-08-22T16:05:00+09:00",
+      "scheduled_close": "2026-08-22T16:05:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3153568304501581,
@@ -3662,6 +4305,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 23,
+      "attention_rank": 151,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-6-1",
       "official_result_revision": 1,
@@ -3672,7 +4323,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3687,6 +4338,7 @@
       "venue": "平和島",
       "race_no": 10,
       "scheduled_start": "2026-08-22T16:37:00+09:00",
+      "scheduled_close": "2026-08-22T16:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5781703108698556,
@@ -3720,6 +4372,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 70,
+      "attention_rank": 43,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-1-4",
       "official_result_revision": 1,
@@ -3730,7 +4390,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -3745,6 +4405,7 @@
       "venue": "平和島",
       "race_no": 11,
       "scheduled_start": "2026-08-22T17:08:00+09:00",
+      "scheduled_close": "2026-08-22T17:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.40708346044483484,
@@ -3778,6 +4439,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 38,
+      "attention_rank": 115,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
       "official_result_revision": 1,
@@ -3788,7 +4457,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3803,6 +4472,7 @@
       "venue": "平和島",
       "race_no": 12,
       "scheduled_start": "2026-08-22T17:42:00+09:00",
+      "scheduled_close": "2026-08-22T17:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.763353259975519,
@@ -3836,6 +4506,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 79,
+      "attention_rank": 10,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -3846,7 +4524,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3861,6 +4539,7 @@
       "venue": "戸田",
       "race_no": 1,
       "scheduled_start": "2026-08-22T10:47:00+09:00",
+      "scheduled_close": "2026-08-22T10:47:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4712248453978779,
@@ -3894,6 +4573,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 45,
+      "attention_rank": 105,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-3",
       "official_result_revision": 1,
@@ -3904,7 +4591,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3919,6 +4606,7 @@
       "venue": "戸田",
       "race_no": 2,
       "scheduled_start": "2026-08-22T11:16:00+09:00",
+      "scheduled_close": "2026-08-22T11:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
       "ai_favorite_probability": 0.3984611948577472,
@@ -3952,6 +4640,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 29,
+      "attention_rank": 139,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-6",
       "official_result_revision": 1,
@@ -3962,7 +4658,7 @@
           3,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -3977,6 +4673,7 @@
       "venue": "戸田",
       "race_no": 3,
       "scheduled_start": "2026-08-22T11:45:00+09:00",
+      "scheduled_close": "2026-08-22T11:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.25217130084034406,
@@ -4010,6 +4707,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 11,
+      "attention_rank": 156,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "過去のAI予測安定性を確認"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-4",
       "official_result_revision": 1,
@@ -4020,7 +4725,7 @@
           6,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4035,6 +4740,7 @@
       "venue": "戸田",
       "race_no": 4,
       "scheduled_start": "2026-08-22T12:14:00+09:00",
+      "scheduled_close": "2026-08-22T12:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3790898643130585,
@@ -4068,6 +4774,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 27,
+      "attention_rank": 143,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-6",
       "official_result_revision": 1,
@@ -4078,7 +4792,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4093,6 +4807,7 @@
       "venue": "戸田",
       "race_no": 5,
       "scheduled_start": "2026-08-22T12:44:00+09:00",
+      "scheduled_close": "2026-08-22T12:44:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4351773543663268,
@@ -4126,6 +4841,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 38,
+      "attention_rank": 116,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-6",
       "official_result_revision": 1,
@@ -4136,7 +4859,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4151,6 +4874,7 @@
       "venue": "戸田",
       "race_no": 6,
       "scheduled_start": "2026-08-22T13:14:00+09:00",
+      "scheduled_close": "2026-08-22T13:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.32005626118740693,
@@ -4184,6 +4908,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 19,
+      "attention_rank": 153,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-6",
       "official_result_revision": 1,
@@ -4194,7 +4926,7 @@
           5,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4209,6 +4941,7 @@
       "venue": "戸田",
       "race_no": 7,
       "scheduled_start": "2026-08-22T13:45:00+09:00",
+      "scheduled_close": "2026-08-22T13:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7132335493519103,
@@ -4242,6 +4975,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 77,
+      "attention_rank": 17,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-1-3",
       "official_result_revision": 1,
@@ -4252,7 +4993,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4267,6 +5008,7 @@
       "venue": "戸田",
       "race_no": 8,
       "scheduled_start": "2026-08-22T14:16:00+09:00",
+      "scheduled_close": "2026-08-22T14:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
       "ai_favorite_probability": 0.32398947503691516,
@@ -4300,6 +5042,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 24,
+      "attention_rank": 148,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-6",
       "official_result_revision": 1,
@@ -4310,7 +5060,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4325,6 +5075,7 @@
       "venue": "戸田",
       "race_no": 9,
       "scheduled_start": "2026-08-22T14:48:00+09:00",
+      "scheduled_close": "2026-08-22T14:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.44310585768229216,
@@ -4358,6 +5109,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 44,
+      "attention_rank": 106,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-1",
       "official_result_revision": 1,
@@ -4368,7 +5127,7 @@
           2,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4383,6 +5142,7 @@
       "venue": "戸田",
       "race_no": 10,
       "scheduled_start": "2026-08-22T15:21:00+09:00",
+      "scheduled_close": "2026-08-22T15:21:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.329042673126809,
@@ -4416,6 +5176,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 28,
+      "attention_rank": 141,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "上位3点へ確率が集中",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-4",
       "official_result_revision": 1,
@@ -4426,7 +5194,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4441,6 +5209,7 @@
       "venue": "戸田",
       "race_no": 11,
       "scheduled_start": "2026-08-22T15:55:00+09:00",
+      "scheduled_close": "2026-08-22T15:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6070184493624629,
@@ -4474,6 +5243,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 59,
+      "attention_rank": 81,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-4-6",
       "official_result_revision": 1,
@@ -4484,7 +5261,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4499,6 +5276,7 @@
       "venue": "戸田",
       "race_no": 12,
       "scheduled_start": "2026-08-22T16:30:00+09:00",
+      "scheduled_close": "2026-08-22T16:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6691060453643407,
@@ -4532,6 +5310,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 63,
+      "attention_rank": 74,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-5",
       "official_result_revision": 1,
@@ -4542,7 +5328,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4557,6 +5343,7 @@
       "venue": "江戸川",
       "race_no": 1,
       "scheduled_start": "2026-08-22T11:14:00+09:00",
+      "scheduled_close": "2026-08-22T11:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5960966239062883,
@@ -4590,6 +5377,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 55,
+      "attention_rank": 87,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
       "official_result_revision": 1,
@@ -4600,7 +5395,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4615,6 +5410,7 @@
       "venue": "江戸川",
       "race_no": 2,
       "scheduled_start": "2026-08-22T11:41:00+09:00",
+      "scheduled_close": "2026-08-22T11:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.2852907500320566,
@@ -4648,6 +5444,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 13,
+      "attention_rank": 155,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "過去のAI予測安定性を確認"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-6-3",
       "official_result_revision": 1,
@@ -4658,7 +5462,7 @@
           6,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4673,6 +5477,7 @@
       "venue": "江戸川",
       "race_no": 3,
       "scheduled_start": "2026-08-22T12:08:00+09:00",
+      "scheduled_close": "2026-08-22T12:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.4246590294177651,
@@ -4706,6 +5511,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 36,
+      "attention_rank": 123,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-5",
       "official_result_revision": 1,
@@ -4716,7 +5529,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -4731,6 +5544,7 @@
       "venue": "江戸川",
       "race_no": 4,
       "scheduled_start": "2026-08-22T12:35:00+09:00",
+      "scheduled_close": "2026-08-22T12:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.3707196573122534,
@@ -4764,6 +5578,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 26,
+      "attention_rank": 145,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-3",
       "official_result_revision": 1,
@@ -4774,7 +5596,7 @@
           5,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4789,6 +5611,7 @@
       "venue": "江戸川",
       "race_no": 5,
       "scheduled_start": "2026-08-22T13:02:00+09:00",
+      "scheduled_close": "2026-08-22T13:02:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
       "ai_favorite_probability": 0.4054981180395873,
@@ -4822,6 +5645,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 29,
+      "attention_rank": 140,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-1-5",
       "official_result_revision": 1,
@@ -4832,7 +5663,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4847,6 +5678,7 @@
       "venue": "江戸川",
       "race_no": 6,
       "scheduled_start": "2026-08-22T13:29:00+09:00",
+      "scheduled_close": "2026-08-22T13:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.36943785844301796,
@@ -4880,6 +5712,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 24,
+      "attention_rank": 149,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -4890,7 +5730,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4905,6 +5745,7 @@
       "venue": "江戸川",
       "race_no": 7,
       "scheduled_start": "2026-08-22T13:56:00+09:00",
+      "scheduled_close": "2026-08-22T13:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.40321139287044805,
@@ -4938,6 +5779,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 37,
+      "attention_rank": 120,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -4948,7 +5797,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -4963,6 +5812,7 @@
       "venue": "江戸川",
       "race_no": 8,
       "scheduled_start": "2026-08-22T14:24:00+09:00",
+      "scheduled_close": "2026-08-22T14:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3756877345548065,
@@ -4996,6 +5846,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 34,
+      "attention_rank": 129,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-4",
       "official_result_revision": 1,
@@ -5006,7 +5864,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5021,6 +5879,7 @@
       "venue": "江戸川",
       "race_no": 9,
       "scheduled_start": "2026-08-22T14:52:00+09:00",
+      "scheduled_close": "2026-08-22T14:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6037644798606766,
@@ -5054,6 +5913,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 66,
+      "attention_rank": 62,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-6-2",
       "official_result_revision": 1,
@@ -5064,7 +5931,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5079,6 +5946,7 @@
       "venue": "江戸川",
       "race_no": 10,
       "scheduled_start": "2026-08-22T15:22:00+09:00",
+      "scheduled_close": "2026-08-22T15:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6671566237892583,
@@ -5112,6 +5980,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 79,
+      "attention_rank": 11,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
       "official_result_revision": 1,
@@ -5122,7 +5998,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5137,6 +6013,7 @@
       "venue": "江戸川",
       "race_no": 11,
       "scheduled_start": "2026-08-22T15:53:00+09:00",
+      "scheduled_close": "2026-08-22T15:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6851768512329856,
@@ -5170,6 +6047,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 38,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-5-1",
       "official_result_revision": 1,
@@ -5180,7 +6065,7 @@
           5,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5195,6 +6080,7 @@
       "venue": "江戸川",
       "race_no": 12,
       "scheduled_start": "2026-08-22T16:25:00+09:00",
+      "scheduled_close": "2026-08-22T16:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7365959715718224,
@@ -5228,6 +6114,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 39,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -5238,7 +6132,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5253,6 +6147,7 @@
       "venue": "浜名湖",
       "race_no": 1,
       "scheduled_start": "2026-08-22T11:35:00+09:00",
+      "scheduled_close": "2026-08-22T11:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.499344028807557,
@@ -5286,6 +6181,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 58,
+      "attention_rank": 83,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
       "official_result_revision": 1,
@@ -5296,7 +6199,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5311,6 +6214,7 @@
       "venue": "浜名湖",
       "race_no": 2,
       "scheduled_start": "2026-08-22T12:00:00+09:00",
+      "scheduled_close": "2026-08-22T12:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.37059229321736303,
@@ -5344,6 +6248,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 31,
+      "attention_rank": 133,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-2",
       "official_result_revision": 1,
@@ -5354,7 +6266,7 @@
           1,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5369,6 +6281,7 @@
       "venue": "浜名湖",
       "race_no": 3,
       "scheduled_start": "2026-08-22T12:29:00+09:00",
+      "scheduled_close": "2026-08-22T12:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
       "ai_favorite_probability": 0.295239265802053,
@@ -5402,6 +6315,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 18,
+      "attention_rank": 154,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-4-1",
       "official_result_revision": 1,
@@ -5412,7 +6333,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5427,6 +6348,7 @@
       "venue": "浜名湖",
       "race_no": 4,
       "scheduled_start": "2026-08-22T12:59:00+09:00",
+      "scheduled_close": "2026-08-22T12:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7535632917903132,
@@ -5460,6 +6382,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 78,
+      "attention_rank": 13,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -5470,7 +6400,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5485,6 +6415,7 @@
       "venue": "浜名湖",
       "race_no": 5,
       "scheduled_start": "2026-08-22T13:34:00+09:00",
+      "scheduled_close": "2026-08-22T13:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3960620882873464,
@@ -5518,6 +6449,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 39,
+      "attention_rank": 111,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-4-5",
       "official_result_revision": 1,
@@ -5528,7 +6467,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5543,6 +6482,7 @@
       "venue": "浜名湖",
       "race_no": 6,
       "scheduled_start": "2026-08-22T14:05:00+09:00",
+      "scheduled_close": "2026-08-22T14:05:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
       "ai_favorite_probability": 0.3797617187082307,
@@ -5576,6 +6516,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 27,
+      "attention_rank": 144,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-6-2",
       "official_result_revision": 1,
@@ -5586,7 +6534,7 @@
           6,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5601,6 +6549,7 @@
       "venue": "浜名湖",
       "race_no": 7,
       "scheduled_start": "2026-08-22T14:37:00+09:00",
+      "scheduled_close": "2026-08-22T14:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
       "ai_favorite_probability": 0.4410532694581012,
@@ -5634,6 +6583,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 47,
+      "attention_rank": 100,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-3",
       "official_result_revision": 1,
@@ -5644,7 +6601,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5659,6 +6616,7 @@
       "venue": "浜名湖",
       "race_no": 8,
       "scheduled_start": "2026-08-22T15:04:00+09:00",
+      "scheduled_close": "2026-08-22T15:04:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5015203400090154,
@@ -5692,6 +6650,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 49,
+      "attention_rank": 96,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-4",
       "official_result_revision": 1,
@@ -5702,7 +6668,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5717,6 +6683,7 @@
       "venue": "浜名湖",
       "race_no": 9,
       "scheduled_start": "2026-08-22T15:35:00+09:00",
+      "scheduled_close": "2026-08-22T15:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5778429432579834,
@@ -5750,6 +6717,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 58,
+      "attention_rank": 84,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-4",
       "official_result_revision": 1,
@@ -5760,7 +6735,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5775,6 +6750,7 @@
       "venue": "浜名湖",
       "race_no": 10,
       "scheduled_start": "2026-08-22T16:03:00+09:00",
+      "scheduled_close": "2026-08-22T16:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6617515662816873,
@@ -5808,6 +6784,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 64,
+      "attention_rank": 71,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-3-5",
       "official_result_revision": 1,
@@ -5818,7 +6802,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5833,6 +6817,7 @@
       "venue": "浜名湖",
       "race_no": 11,
       "scheduled_start": "2026-08-22T16:35:00+09:00",
+      "scheduled_close": "2026-08-22T16:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6044053690693231,
@@ -5866,6 +6851,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 70,
+      "attention_rank": 44,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-5",
       "official_result_revision": 1,
@@ -5876,7 +6869,7 @@
           4,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -5891,6 +6884,7 @@
       "venue": "浜名湖",
       "race_no": 12,
       "scheduled_start": "2026-08-22T17:06:00+09:00",
+      "scheduled_close": "2026-08-22T17:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7129644579027395,
@@ -5924,6 +6918,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 28,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-3",
       "official_result_revision": 1,
@@ -5934,7 +6936,7 @@
           4,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -5949,6 +6951,7 @@
       "venue": "福岡",
       "race_no": 1,
       "scheduled_start": "2026-08-22T12:18:00+09:00",
+      "scheduled_close": "2026-08-22T12:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6835723893927558,
@@ -5982,6 +6985,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 73,
+      "attention_rank": 32,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-2",
       "official_result_revision": 1,
@@ -5992,7 +7003,7 @@
           3,
           2
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6007,6 +7018,7 @@
       "venue": "福岡",
       "race_no": 2,
       "scheduled_start": "2026-08-22T12:48:00+09:00",
+      "scheduled_close": "2026-08-22T12:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.42144742833749205,
@@ -6040,6 +7052,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 35,
+      "attention_rank": 127,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-2-5",
       "official_result_revision": 1,
@@ -6050,7 +7070,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6065,6 +7085,7 @@
       "venue": "福岡",
       "race_no": 3,
       "scheduled_start": "2026-08-22T13:18:00+09:00",
+      "scheduled_close": "2026-08-22T13:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
       "ai_favorite_probability": 0.4365014641216428,
@@ -6098,6 +7119,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 42,
+      "attention_rank": 110,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-1-3",
       "official_result_revision": 1,
@@ -6108,7 +7137,7 @@
           1,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6123,6 +7152,7 @@
       "venue": "福岡",
       "race_no": 4,
       "scheduled_start": "2026-08-22T13:49:00+09:00",
+      "scheduled_close": "2026-08-22T13:49:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4705325809842175,
@@ -6156,6 +7186,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 49,
+      "attention_rank": 97,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-2-4",
       "official_result_revision": 1,
@@ -6166,7 +7204,7 @@
           2,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6181,6 +7219,7 @@
       "venue": "福岡",
       "race_no": 5,
       "scheduled_start": "2026-08-22T14:19:00+09:00",
+      "scheduled_close": "2026-08-22T14:19:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4530895592233438,
@@ -6214,6 +7253,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 44,
+      "attention_rank": 107,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -6224,7 +7271,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6239,6 +7286,7 @@
       "venue": "福岡",
       "race_no": 6,
       "scheduled_start": "2026-08-22T14:46:00+09:00",
+      "scheduled_close": "2026-08-22T14:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.37813803942583324,
@@ -6272,6 +7320,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 39,
+      "attention_rank": 112,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "上位3点へ確率が集中",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-2-5",
       "official_result_revision": 1,
@@ -6282,7 +7338,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6297,6 +7353,7 @@
       "venue": "福岡",
       "race_no": 7,
       "scheduled_start": "2026-08-22T15:14:00+09:00",
+      "scheduled_close": "2026-08-22T15:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.49122385654152334,
@@ -6330,6 +7387,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 44,
+      "attention_rank": 108,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-3-4",
       "official_result_revision": 1,
@@ -6340,7 +7405,7 @@
           3,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6355,6 +7420,7 @@
       "venue": "福岡",
       "race_no": 8,
       "scheduled_start": "2026-08-22T15:44:00+09:00",
+      "scheduled_close": "2026-08-22T15:44:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4165135064790428,
@@ -6388,6 +7454,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 38,
+      "attention_rank": 117,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-5-4",
       "official_result_revision": 1,
@@ -6398,7 +7472,7 @@
           5,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6413,6 +7487,7 @@
       "venue": "福岡",
       "race_no": 9,
       "scheduled_start": "2026-08-22T16:22:00+09:00",
+      "scheduled_close": "2026-08-22T16:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6424989078387671,
@@ -6446,6 +7521,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 62,
+      "attention_rank": 77,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-4-6",
       "official_result_revision": 1,
@@ -6456,7 +7539,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6471,6 +7554,7 @@
       "venue": "福岡",
       "race_no": 10,
       "scheduled_start": "2026-08-22T16:56:00+09:00",
+      "scheduled_close": "2026-08-22T16:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6774045795059933,
@@ -6504,6 +7588,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 40,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -6514,7 +7606,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6529,6 +7621,7 @@
       "venue": "福岡",
       "race_no": 11,
       "scheduled_start": "2026-08-22T17:23:00+09:00",
+      "scheduled_close": "2026-08-22T17:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7837951487783376,
@@ -6562,6 +7655,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 72,
+      "attention_rank": 34,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -6572,7 +7673,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6587,6 +7688,7 @@
       "venue": "福岡",
       "race_no": 12,
       "scheduled_start": "2026-08-22T18:00:00+09:00",
+      "scheduled_close": "2026-08-22T18:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7347888661750092,
@@ -6620,6 +7722,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 69,
+      "attention_rank": 50,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "4-6-1",
       "official_result_revision": 1,
@@ -6630,7 +7740,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6645,6 +7755,7 @@
       "venue": "芦屋",
       "race_no": 1,
       "scheduled_start": "2026-08-22T08:32:00+09:00",
+      "scheduled_close": "2026-08-22T08:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6898068396097071,
@@ -6678,6 +7789,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 73,
+      "attention_rank": 33,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-1",
       "official_result_revision": 1,
@@ -6688,7 +7807,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6703,6 +7822,7 @@
       "venue": "芦屋",
       "race_no": 2,
       "scheduled_start": "2026-08-22T08:58:00+09:00",
+      "scheduled_close": "2026-08-22T08:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.587120597034279,
@@ -6736,6 +7856,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 65,
+      "attention_rank": 65,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-4-1",
       "official_result_revision": 1,
@@ -6746,7 +7874,7 @@
           4,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -6761,6 +7889,7 @@
       "venue": "芦屋",
       "race_no": 3,
       "scheduled_start": "2026-08-22T09:24:00+09:00",
+      "scheduled_close": "2026-08-22T09:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5604408259489904,
@@ -6794,6 +7923,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 65,
+      "attention_rank": 66,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -6804,7 +7941,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6819,6 +7956,7 @@
       "venue": "芦屋",
       "race_no": 4,
       "scheduled_start": "2026-08-22T09:50:00+09:00",
+      "scheduled_close": "2026-08-22T09:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6533198177231779,
@@ -6852,6 +7990,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 67,
+      "attention_rank": 59,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -6862,7 +8008,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6877,6 +8023,7 @@
       "venue": "芦屋",
       "race_no": 5,
       "scheduled_start": "2026-08-22T10:20:00+09:00",
+      "scheduled_close": "2026-08-22T10:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7139010044933506,
@@ -6910,6 +8057,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 65,
+      "attention_rank": 67,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-6",
       "official_result_revision": 1,
@@ -6920,7 +8075,7 @@
           2,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6935,6 +8090,7 @@
       "venue": "芦屋",
       "race_no": 6,
       "scheduled_start": "2026-08-22T10:50:00+09:00",
+      "scheduled_close": "2026-08-22T10:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.39930253682872047,
@@ -6968,6 +8124,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 31,
+      "attention_rank": 134,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-3",
       "official_result_revision": 1,
@@ -6978,7 +8142,7 @@
           2,
           3
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -6993,6 +8157,7 @@
       "venue": "芦屋",
       "race_no": 7,
       "scheduled_start": "2026-08-22T11:20:00+09:00",
+      "scheduled_close": "2026-08-22T11:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5765321343651588,
@@ -7026,6 +8191,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 52,
+      "attention_rank": 92,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "1-2-5",
       "official_result_revision": 1,
@@ -7036,7 +8209,7 @@
           2,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": true,
@@ -7051,6 +8224,7 @@
       "venue": "芦屋",
       "race_no": 8,
       "scheduled_start": "2026-08-22T11:51:00+09:00",
+      "scheduled_close": "2026-08-22T11:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
       "ai_favorite_probability": 0.46627084170304195,
@@ -7084,6 +8258,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 46,
+      "attention_rank": 104,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "6-3-5",
       "official_result_revision": 1,
@@ -7094,7 +8276,7 @@
           3,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7109,6 +8291,7 @@
       "venue": "芦屋",
       "race_no": 9,
       "scheduled_start": "2026-08-22T12:27:00+09:00",
+      "scheduled_close": "2026-08-22T12:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4902503648008332,
@@ -7142,6 +8325,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 49,
+      "attention_rank": 98,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "2-1-5",
       "official_result_revision": 1,
@@ -7152,7 +8343,7 @@
           1,
           5
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7167,6 +8358,7 @@
       "venue": "芦屋",
       "race_no": 10,
       "scheduled_start": "2026-08-22T13:04:00+09:00",
+      "scheduled_close": "2026-08-22T13:04:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6547476381180275,
@@ -7200,6 +8392,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 29,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-1-4",
       "official_result_revision": 1,
@@ -7210,7 +8410,7 @@
           1,
           4
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7225,6 +8425,7 @@
       "venue": "芦屋",
       "race_no": 11,
       "scheduled_start": "2026-08-22T13:37:00+09:00",
+      "scheduled_close": "2026-08-22T13:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7241978335794328,
@@ -7258,6 +8459,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 67,
+      "attention_rank": 60,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "5-6-1",
       "official_result_revision": 1,
@@ -7268,7 +8477,7 @@
           6,
           1
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7283,6 +8492,7 @@
       "venue": "芦屋",
       "race_no": 12,
       "scheduled_start": "2026-08-22T14:12:00+09:00",
+      "scheduled_close": "2026-08-22T14:12:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7185945360001017,
@@ -7316,6 +8526,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 65,
+      "attention_rank": 68,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "CONFIRMED",
       "official_trifecta": "3-4-6",
       "official_result_revision": 1,
@@ -7326,7 +8544,7 @@
           4,
           6
         ],
-        "official_result_captured_at": "2026-08-22T10:28:10.589763+00:00"
+        "official_result_captured_at": "2026-08-22T11:11:34.393171+00:00"
       },
       "answer_check": {
         "winner_hit": false,
@@ -7341,6 +8559,7 @@
       "venue": "若松",
       "race_no": 1,
       "scheduled_start": "2026-08-22T15:20:00+09:00",
+      "scheduled_close": "2026-08-22T15:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5275716824865057,
@@ -7374,6 +8593,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 57,
+      "attention_rank": 85,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7385,6 +8612,7 @@
       "venue": "若松",
       "race_no": 2,
       "scheduled_start": "2026-08-22T15:48:00+09:00",
+      "scheduled_close": "2026-08-22T15:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.35858848173951846,
@@ -7418,6 +8646,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 22,
+      "attention_rank": 152,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7429,6 +8665,7 @@
       "venue": "若松",
       "race_no": 3,
       "scheduled_start": "2026-08-22T16:16:00+09:00",
+      "scheduled_close": "2026-08-22T16:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4774524729833575,
@@ -7462,6 +8699,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 43,
+      "attention_rank": 109,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7473,6 +8718,7 @@
       "venue": "若松",
       "race_no": 4,
       "scheduled_start": "2026-08-22T16:42:00+09:00",
+      "scheduled_close": "2026-08-22T16:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5196461794162344,
@@ -7506,6 +8752,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 52,
+      "attention_rank": 93,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7517,6 +8771,7 @@
       "venue": "若松",
       "race_no": 5,
       "scheduled_start": "2026-08-22T17:11:00+09:00",
+      "scheduled_close": "2026-08-22T17:11:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6962894257180751,
@@ -7550,6 +8805,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 74,
+      "attention_rank": 30,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7561,6 +8824,7 @@
       "venue": "若松",
       "race_no": 6,
       "scheduled_start": "2026-08-22T17:34:00+09:00",
+      "scheduled_close": "2026-08-22T17:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.4040511794894069,
@@ -7594,6 +8858,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 36,
+      "attention_rank": 124,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7605,6 +8877,7 @@
       "venue": "若松",
       "race_no": 7,
       "scheduled_start": "2026-08-22T18:02:00+09:00",
+      "scheduled_close": "2026-08-22T18:02:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.48883363161547577,
@@ -7638,6 +8911,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 47,
+      "attention_rank": 101,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "上位3点へ確率が集中"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7649,6 +8930,7 @@
       "venue": "若松",
       "race_no": 8,
       "scheduled_start": "2026-08-22T18:41:00+09:00",
+      "scheduled_close": "2026-08-22T18:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6856759305087781,
@@ -7682,6 +8964,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 77,
+      "attention_rank": 18,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7693,6 +8983,7 @@
       "venue": "若松",
       "race_no": 9,
       "scheduled_start": "2026-08-22T19:10:00+09:00",
+      "scheduled_close": "2026-08-22T19:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.678744755660291,
@@ -7726,6 +9017,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 61,
+      "attention_rank": 79,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7737,6 +9036,7 @@
       "venue": "若松",
       "race_no": 10,
       "scheduled_start": "2026-08-22T19:39:00+09:00",
+      "scheduled_close": "2026-08-22T19:39:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7259361933280059,
@@ -7770,6 +9070,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 81,
+      "attention_rank": 5,
+      "attention_featured": true,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7781,6 +9089,7 @@
       "venue": "若松",
       "race_no": 11,
       "scheduled_start": "2026-08-22T20:10:00+09:00",
+      "scheduled_close": "2026-08-22T20:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6951933265580105,
@@ -7814,6 +9123,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 70,
+      "attention_rank": 45,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7825,6 +9142,7 @@
       "venue": "若松",
       "race_no": 12,
       "scheduled_start": "2026-08-22T20:38:00+09:00",
+      "scheduled_close": "2026-08-22T20:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7661981541784906,
@@ -7858,6 +9176,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 68,
+      "attention_rank": 52,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7869,6 +9195,7 @@
       "venue": "蒲郡",
       "race_no": 1,
       "scheduled_start": "2026-08-22T15:17:00+09:00",
+      "scheduled_close": "2026-08-22T15:17:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5822064381856399,
@@ -7902,6 +9229,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 68,
+      "attention_rank": 53,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7913,6 +9248,7 @@
       "venue": "蒲郡",
       "race_no": 2,
       "scheduled_start": "2026-08-22T15:41:00+09:00",
+      "scheduled_close": "2026-08-22T15:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5005625828464577,
@@ -7946,6 +9282,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 47,
+      "attention_rank": 102,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -7957,6 +9301,7 @@
       "venue": "蒲郡",
       "race_no": 3,
       "scheduled_start": "2026-08-22T16:07:00+09:00",
+      "scheduled_close": "2026-08-22T16:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
       "ai_favorite_probability": 0.5658057851185117,
@@ -7990,6 +9335,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 66,
+      "attention_rank": 63,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8001,6 +9354,7 @@
       "venue": "蒲郡",
       "race_no": 4,
       "scheduled_start": "2026-08-22T16:32:00+09:00",
+      "scheduled_close": "2026-08-22T16:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5586513257493155,
@@ -8034,6 +9388,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 62,
+      "attention_rank": 78,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8045,6 +9407,7 @@
       "venue": "蒲郡",
       "race_no": 5,
       "scheduled_start": "2026-08-22T17:01:00+09:00",
+      "scheduled_close": "2026-08-22T17:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.3935183631439761,
@@ -8078,6 +9441,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 36,
+      "attention_rank": 125,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8089,6 +9460,7 @@
       "venue": "蒲郡",
       "race_no": 6,
       "scheduled_start": "2026-08-22T17:27:00+09:00",
+      "scheduled_close": "2026-08-22T17:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.5832792238708955,
@@ -8122,6 +9494,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 68,
+      "attention_rank": 54,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇と2番手に明確な差",
+        "本命艇の1着確率が高い"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8133,6 +9513,7 @@
       "venue": "蒲郡",
       "race_no": 7,
       "scheduled_start": "2026-08-22T17:55:00+09:00",
+      "scheduled_close": "2026-08-22T17:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7181991561929725,
@@ -8166,6 +9547,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 79,
+      "attention_rank": 12,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8177,6 +9566,7 @@
       "venue": "蒲郡",
       "race_no": 8,
       "scheduled_start": "2026-08-22T18:25:00+09:00",
+      "scheduled_close": "2026-08-22T18:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.7036482183506346,
@@ -8210,6 +9600,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 76,
+      "attention_rank": 22,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8221,6 +9619,7 @@
       "venue": "蒲郡",
       "race_no": 9,
       "scheduled_start": "2026-08-22T18:55:00+09:00",
+      "scheduled_close": "2026-08-22T18:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6836929496170479,
@@ -8254,6 +9653,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 71,
+      "attention_rank": 41,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8265,6 +9672,7 @@
       "venue": "蒲郡",
       "race_no": 10,
       "scheduled_start": "2026-08-22T19:23:00+09:00",
+      "scheduled_close": "2026-08-22T19:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.8083790096845717,
@@ -8298,6 +9706,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 80,
+      "attention_rank": 7,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8309,6 +9725,7 @@
       "venue": "蒲郡",
       "race_no": 11,
       "scheduled_start": "2026-08-22T20:03:00+09:00",
+      "scheduled_close": "2026-08-22T20:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6206435740071072,
@@ -8342,6 +9759,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 75,
+      "attention_rank": 23,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
@@ -8353,6 +9778,7 @@
       "venue": "蒲郡",
       "race_no": 12,
       "scheduled_start": "2026-08-22T20:31:00+09:00",
+      "scheduled_close": "2026-08-22T20:31:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
       "ai_favorite_probability": 0.6885130824341785,
@@ -8386,6 +9812,14 @@
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
       "decision": "PASS",
+      "attention_score": 63,
+      "attention_rank": 75,
+      "attention_featured": false,
+      "attention_scoring_version": "race_attention_scoring_v1",
+      "attention_reasons": [
+        "本命艇の1着確率が高い",
+        "本命艇と2番手に明確な差"
+      ],
       "result_status": "RESULT_WAITING",
       "official_trifecta": null,
       "official_result_revision": null,
