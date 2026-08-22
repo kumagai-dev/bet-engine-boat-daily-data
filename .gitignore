@@ -1,0 +1,18 @@
+# This repository must only contain small public JSON and minimal documentation.
+*.parquet
+*.pkl
+*.joblib
+*.bin
+*.lzh
+*.zip
+*.tgz
+*.tar.gz
+*.csv
+*.db
+*.sqlite
+*.log
+*.key
+*.pem
+.env
+.env.*
+__pycache__/
