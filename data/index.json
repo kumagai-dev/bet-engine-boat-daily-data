@@ -9,6 +9,14 @@
       "dataset_file": "data/daily_2026-08-22_public-2026-08-22-60fb8d50e563.json",
       "publication_status": "PUBLISHED",
       "published_at": "2026-08-22T14:28:01.288Z"
+    },
+    {
+      "dataset_date": "2026-08-23",
+      "dataset_version": "public-2026-08-23-261e21eaaae9",
+      "manifest_sha256": "261e21eaaae9d8e473899075378cea2dbdd13bf62df4e565edcc74f25f065664",
+      "dataset_file": "data/daily_2026-08-23_public-2026-08-23-261e21eaaae9.json",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-23T03:40:47.006Z"
     }
   ]
 }
