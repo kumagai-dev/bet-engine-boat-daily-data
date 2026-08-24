@@ -25,6 +25,14 @@
       "dataset_file": "data/daily_2026-08-24_public-2026-08-24-87591e6a8107.json",
       "publication_status": "PUBLISHED",
       "published_at": "2026-08-24T04:25:19.875Z"
+    },
+    {
+      "dataset_date": "2026-08-25",
+      "dataset_version": "public-2026-08-25-ee6245ed241c",
+      "manifest_sha256": "ee6245ed241cc9770676cd179c58bcf7645842d9fcdcc580dab8090279305db4",
+      "dataset_file": "data/daily_2026-08-25_public-2026-08-25-ee6245ed241c.json",
+      "publication_status": "PUBLISHED",
+      "published_at": "2026-08-24T21:22:05.882Z"
     }
   ]
 }
