@@ -1,31 +1,19 @@
 {
   "schema_version": "phase10_5_public_daily_data_v7",
   "dataset_date": "2026-08-25",
-  "generated_at": "2026-08-25T16:15:02.520045+09:00",
+  "generated_at": "2026-08-25T16:47:39.360454+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-25-cf07e1407250",
-  "manifest_sha256": "cf07e1407250d13ab0becf3e1cff64e20677eacf02ec367bae764becb6ee2855",
+  "dataset_version": "public-2026-08-25-e9f2ffd0dcbf",
+  "manifest_sha256": "e9f2ffd0dcbf0a651a5c908d9864ffb9ed2b3cbf5e71c2ec36c745f8a88c8ed3",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 156,
   "trifecta_row_count": 18720,
-  "market_odds_available": true,
-  "market_observation": {
-    "schema_version": "phase10_4_official_live_odds_v1",
-    "max_races_per_manual_update": 5,
-    "polling_policy": "MANUAL_ONLY_NO_SCHEDULE; FUTURE_CADENCE_T30_ONCE_T10_T5",
-    "observed_race_count": 5,
-    "joined_120_race_count": 3,
-    "live_race_count": 0,
-    "closing_race_count": 3,
-    "waiting_race_count": 151,
-    "retryable_race_count": 2,
-    "generated_at": "2026-08-25T07:15:01.093333+00:00"
-  },
+  "market_odds_available": false,
+  "market_observation": {},
   "result_summary": {
-    "confirmed_race_count": 36,
-    "result_waiting_race_count": 120,
-    "result_retryable_race_count": 0,
+    "confirmed_race_count": 0,
+    "result_waiting_race_count": 156,
     "invalid_race_count": 0
   },
   "attention_summary": {
@@ -58,280 +46,12 @@
       }
     ]
   },
-  "forward_validation_summary": {
-    "dataset_date": "2026-08-25",
-    "confirmed_races": 36,
-    "waiting_races": 120,
-    "retryable_races": 0,
-    "invalid_races": 0,
-    "total_races": 156,
-    "winner_hits": 17,
-    "trifecta_top1_hits": 3,
-    "top3_hits": 4,
-    "top5_hits": 10,
-    "top10_hits": 14,
-    "attention_top1": {
-      "confirmed_races": 0,
-      "winner_hits": 0,
-      "trifecta_top1_hits": 0,
-      "top3_hits": 0,
-      "top5_hits": 0,
-      "top10_hits": 0
-    },
-    "attention_top3": {
-      "confirmed_races": 1,
-      "winner_hits": 0,
-      "trifecta_top1_hits": 0,
-      "top3_hits": 0,
-      "top5_hits": 1,
-      "top10_hits": 1
-    },
-    "attention_top5": {
-      "confirmed_races": 2,
-      "winner_hits": 1,
-      "trifecta_top1_hits": 0,
-      "top3_hits": 0,
-      "top5_hits": 1,
-      "top10_hits": 1
-    },
-    "attention_score_band_summary": {
-      "score_80_plus": {
-        "confirmed_races": 3,
-        "winner_hits": 1,
-        "trifecta_top1_hits": 0,
-        "top3_hits": 0,
-        "top5_hits": 1,
-        "top10_hits": 2
-      },
-      "score_60_to_79": {
-        "confirmed_races": 17,
-        "winner_hits": 9,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 2,
-        "top5_hits": 5,
-        "top10_hits": 7
-      },
-      "score_59_or_less": {
-        "confirmed_races": 16,
-        "winner_hits": 7,
-        "trifecta_top1_hits": 2,
-        "top3_hits": 2,
-        "top5_hits": 4,
-        "top10_hits": 5
-      }
-    },
-    "venue_summary": [
-      {
-        "venue": "三国",
-        "venue_code": "10",
-        "confirmed_races": 12,
-        "winner_hits": 7,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 2,
-        "top5_hits": 3,
-        "top10_hits": 4
-      },
-      {
-        "venue": "徳山",
-        "venue_code": "18",
-        "confirmed_races": 12,
-        "winner_hits": 2,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 1,
-        "top5_hits": 4,
-        "top10_hits": 5
-      },
-      {
-        "venue": "芦屋",
-        "venue_code": "21",
-        "confirmed_races": 12,
-        "winner_hits": 8,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 1,
-        "top5_hits": 3,
-        "top10_hits": 5
-      }
-    ],
-    "venue_best3": [
-      {
-        "venue": "徳山",
-        "venue_code": "18",
-        "confirmed_races": 12,
-        "winner_hits": 2,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 1,
-        "top5_hits": 4,
-        "top10_hits": 5,
-        "rank": 1,
-        "top5_hit_rate": 0.3333333333333333,
-        "top3_hit_rate": 0.08333333333333333,
-        "top1_hit_rate": 0.08333333333333333,
-        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
-      },
-      {
-        "venue": "三国",
-        "venue_code": "10",
-        "confirmed_races": 12,
-        "winner_hits": 7,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 2,
-        "top5_hits": 3,
-        "top10_hits": 4,
-        "rank": 2,
-        "top5_hit_rate": 0.25,
-        "top3_hit_rate": 0.16666666666666666,
-        "top1_hit_rate": 0.08333333333333333,
-        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
-      },
-      {
-        "venue": "芦屋",
-        "venue_code": "21",
-        "confirmed_races": 12,
-        "winner_hits": 8,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 1,
-        "top5_hits": 3,
-        "top10_hits": 5,
-        "rank": 3,
-        "top5_hit_rate": 0.25,
-        "top3_hit_rate": 0.08333333333333333,
-        "top1_hit_rate": 0.08333333333333333,
-        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
-      }
-    ],
-    "denominator_policy": "OFFICIAL_RESULT_STATUS_CONFIRMED_ONLY",
-    "generated_at": "2026-08-25T07:13:42.141316+00:00"
-  },
-  "venue_best3": [
-    {
-      "venue": "徳山",
-      "venue_code": "18",
-      "confirmed_races": 12,
-      "winner_hits": 2,
-      "trifecta_top1_hits": 1,
-      "top3_hits": 1,
-      "top5_hits": 4,
-      "top10_hits": 5,
-      "rank": 1,
-      "top5_hit_rate": 0.3333333333333333,
-      "top3_hit_rate": 0.08333333333333333,
-      "top1_hit_rate": 0.08333333333333333,
-      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
-    },
-    {
-      "venue": "三国",
-      "venue_code": "10",
-      "confirmed_races": 12,
-      "winner_hits": 7,
-      "trifecta_top1_hits": 1,
-      "top3_hits": 2,
-      "top5_hits": 3,
-      "top10_hits": 4,
-      "rank": 2,
-      "top5_hit_rate": 0.25,
-      "top3_hit_rate": 0.16666666666666666,
-      "top1_hit_rate": 0.08333333333333333,
-      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
-    },
-    {
-      "venue": "芦屋",
-      "venue_code": "21",
-      "confirmed_races": 12,
-      "winner_hits": 8,
-      "trifecta_top1_hits": 1,
-      "top3_hits": 1,
-      "top5_hits": 3,
-      "top10_hits": 5,
-      "rank": 3,
-      "top5_hit_rate": 0.25,
-      "top3_hit_rate": 0.08333333333333333,
-      "top1_hit_rate": 0.08333333333333333,
-      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
-    }
-  ],
-  "monthly_forward_validation_summary": {
-    "schema_version": "phase10_3_monthly_forward_validation_summary_v1",
-    "month": "2026-08",
-    "daily_summary_count": 1,
-    "confirmed_races": 36,
-    "waiting_races": 120,
-    "retryable_races": 0,
-    "invalid_races": 0,
-    "total_races": 156,
-    "winner_hits": 17,
-    "trifecta_top1_hits": 3,
-    "top3_hits": 4,
-    "top5_hits": 10,
-    "top10_hits": 14,
-    "daily_summary_paths": [
-      "data/phase9/predictions/year=2026/month=08/day=25/daily_forward_validation_summary.json"
-    ],
-    "generated_at": "2026-08-25T07:13:42.149116+00:00"
-  },
-  "venue_compatibility_summary": {
-    "schema_version": "phase10_4_recent_venue_compatibility_v1",
-    "window_days": 30,
-    "window_start": "2026-07-27",
-    "window_end": "2026-08-25",
-    "minimum_confirmed_races": 60,
-    "eligible_venue_count": 0,
-    "ranked_venues": [],
-    "data_accumulating_venues": [
-      {
-        "venue": "徳山",
-        "venue_code": "18",
-        "confirmed_races": 12,
-        "winner_hits": 2,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 1,
-        "top5_hits": 4,
-        "top10_hits": 5,
-        "top5_hit_rate": 0.3333333333333333,
-        "top3_hit_rate": 0.08333333333333333,
-        "top1_hit_rate": 0.08333333333333333,
-        "eligible": false
-      },
-      {
-        "venue": "三国",
-        "venue_code": "10",
-        "confirmed_races": 12,
-        "winner_hits": 7,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 2,
-        "top5_hits": 3,
-        "top10_hits": 4,
-        "top5_hit_rate": 0.25,
-        "top3_hit_rate": 0.16666666666666666,
-        "top1_hit_rate": 0.08333333333333333,
-        "eligible": false
-      },
-      {
-        "venue": "芦屋",
-        "venue_code": "21",
-        "confirmed_races": 12,
-        "winner_hits": 8,
-        "trifecta_top1_hits": 1,
-        "top3_hits": 1,
-        "top5_hits": 3,
-        "top10_hits": 5,
-        "top5_hit_rate": 0.25,
-        "top3_hit_rate": 0.08333333333333333,
-        "top1_hit_rate": 0.08333333333333333,
-        "eligible": false
-      }
-    ],
-    "source_policy": "FORWARD_LEDGER_CONFIRMED_ONLY_NO_TEST_SHADOW_NO_MARKET",
-    "generated_at": "2026-08-25T07:13:42.159746+00:00"
-  },
+  "forward_validation_summary": {},
+  "venue_best3": [],
+  "monthly_forward_validation_summary": {},
+  "venue_compatibility_summary": {},
   "paper_connection": {
-    "market_odds_available": false,
-    "eligible_decision_statuses": [
-      "STRONG_BET",
-      "BET"
-    ],
-    "eligible_race_count": 0,
-    "paper_entries_created": 0,
-    "policy": "NO_MARKET_ODDS_OR_NO_BET_STRONG_MEANS_ZERO_PAPER_ENTRIES"
+    "paper_entries_created": 0
   },
   "races": [
     {
@@ -342,7 +62,7 @@
       "scheduled_close": "2026-08-25T08:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7341185781938753,
+      "ai_favorite_probability": 0.7341185782,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -387,28 +107,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-2-4",
-      "trifecta_payout_yen": 1150,
-      "official_result_revision": 1,
-      "actual_combination_rank": 7,
-      "result": {
-        "actual_combination": "1-2-4",
-        "finish_lanes": [
-          1,
-          2,
-          4
-        ],
-        "trifecta_payout_yen": 1150,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:02",
@@ -418,7 +123,7 @@
       "scheduled_close": "2026-08-25T09:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6812381548930424,
+      "ai_favorite_probability": 0.6812381549,
       "trifecta_top1": "1-5-4",
       "trifecta_top3": [
         "1-5-4",
@@ -463,28 +168,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-4-2",
-      "trifecta_payout_yen": 1780,
-      "official_result_revision": 1,
-      "actual_combination_rank": 14,
-      "result": {
-        "actual_combination": "1-4-2",
-        "finish_lanes": [
-          1,
-          4,
-          2
-        ],
-        "trifecta_payout_yen": 1780,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:03",
@@ -494,7 +184,7 @@
       "scheduled_close": "2026-08-25T09:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.49279611366856013,
+      "ai_favorite_probability": 0.4927961137,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -539,28 +229,13 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-5-3",
-      "trifecta_payout_yen": 10720,
-      "official_result_revision": 1,
-      "actual_combination_rank": 40,
-      "result": {
-        "actual_combination": "2-5-3",
-        "finish_lanes": [
-          2,
-          5,
-          3
-        ],
-        "trifecta_payout_yen": 10720,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:04",
@@ -570,7 +245,7 @@
       "scheduled_close": "2026-08-25T10:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5619153850762114,
+      "ai_favorite_probability": 0.5619153851,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -615,28 +290,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-4-3",
-      "trifecta_payout_yen": 1960,
-      "official_result_revision": 1,
-      "actual_combination_rank": 5,
-      "result": {
-        "actual_combination": "1-4-3",
-        "finish_lanes": [
-          1,
-          4,
-          3
-        ],
-        "trifecta_payout_yen": 1960,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:05",
@@ -646,7 +306,7 @@
       "scheduled_close": "2026-08-25T10:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6640453081567392,
+      "ai_favorite_probability": 0.6640453082,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -691,28 +351,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-4-6",
-      "trifecta_payout_yen": 730,
-      "official_result_revision": 1,
-      "actual_combination_rank": 3,
-      "result": {
-        "actual_combination": "1-4-6",
-        "finish_lanes": [
-          1,
-          4,
-          6
-        ],
-        "trifecta_payout_yen": 730,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": true,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:06",
@@ -722,7 +367,7 @@
       "scheduled_close": "2026-08-25T11:04:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.2696579663961506,
+      "ai_favorite_probability": 0.2696579664,
       "trifecta_top1": "2-1-4",
       "trifecta_top3": [
         "2-1-4",
@@ -767,28 +412,13 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "3-4-6",
-      "trifecta_payout_yen": 2880,
-      "official_result_revision": 1,
-      "actual_combination_rank": 41,
-      "result": {
-        "actual_combination": "3-4-6",
-        "finish_lanes": [
-          3,
-          4,
-          6
-        ],
-        "trifecta_payout_yen": 2880,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:07",
@@ -798,7 +428,7 @@
       "scheduled_close": "2026-08-25T11:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.29564560476654866,
+      "ai_favorite_probability": 0.2956456048,
       "trifecta_top1": "2-1-5",
       "trifecta_top3": [
         "2-1-5",
@@ -843,28 +473,13 @@
         "上位3点へ確率が集中",
         "上位5点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-5-1",
-      "trifecta_payout_yen": 1500,
-      "official_result_revision": 1,
-      "actual_combination_rank": 15,
-      "result": {
-        "actual_combination": "2-5-1",
-        "finish_lanes": [
-          2,
-          5,
-          1
-        ],
-        "trifecta_payout_yen": 1500,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:08",
@@ -874,7 +489,7 @@
       "scheduled_close": "2026-08-25T12:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.4093385625239602,
+      "ai_favorite_probability": 0.4093385625,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -919,28 +534,13 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "4-2-3",
-      "trifecta_payout_yen": 5430,
-      "official_result_revision": 1,
-      "actual_combination_rank": 14,
-      "result": {
-        "actual_combination": "4-2-3",
-        "finish_lanes": [
-          4,
-          2,
-          3
-        ],
-        "trifecta_payout_yen": 5430,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:09",
@@ -950,7 +550,7 @@
       "scheduled_close": "2026-08-25T12:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.41077225199522516,
+      "ai_favorite_probability": 0.410772252,
       "trifecta_top1": "3-1-4",
       "trifecta_top3": [
         "3-1-4",
@@ -995,28 +595,13 @@
         "上位3点へ確率が集中",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "4-3-5",
-      "trifecta_payout_yen": 2610,
-      "official_result_revision": 1,
-      "actual_combination_rank": 11,
-      "result": {
-        "actual_combination": "4-3-5",
-        "finish_lanes": [
-          4,
-          3,
-          5
-        ],
-        "trifecta_payout_yen": 2610,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:10",
@@ -1026,7 +611,7 @@
       "scheduled_close": "2026-08-25T13:13:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.40881536841735994,
+      "ai_favorite_probability": 0.4088153684,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -1071,28 +656,13 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "6-2-1",
-      "trifecta_payout_yen": 3950,
-      "official_result_revision": 1,
-      "actual_combination_rank": 41,
-      "result": {
-        "actual_combination": "6-2-1",
-        "finish_lanes": [
-          6,
-          2,
-          1
-        ],
-        "trifecta_payout_yen": 3950,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:11",
@@ -1102,7 +672,7 @@
       "scheduled_close": "2026-08-25T13:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3778565714766022,
+      "ai_favorite_probability": 0.3778565715,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -1147,28 +717,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-4-5",
-      "trifecta_payout_yen": 2320,
-      "official_result_revision": 1,
-      "actual_combination_rank": 11,
-      "result": {
-        "actual_combination": "1-4-5",
-        "finish_lanes": [
-          1,
-          4,
-          5
-        ],
-        "trifecta_payout_yen": 2320,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:三国:12",
@@ -1178,7 +733,7 @@
       "scheduled_close": "2026-08-25T14:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6856881916985198,
+      "ai_favorite_probability": 0.6856881917,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1223,28 +778,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-2-3",
-      "trifecta_payout_yen": 1170,
-      "official_result_revision": 1,
-      "actual_combination_rank": 1,
-      "result": {
-        "actual_combination": "1-2-3",
-        "finish_lanes": [
-          1,
-          2,
-          3
-        ],
-        "trifecta_payout_yen": 1170,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": true,
-        "top3_hit": true,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:丸亀:01",
@@ -1254,7 +794,7 @@
       "scheduled_close": "2026-08-25T15:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5840887535243481,
+      "ai_favorite_probability": 0.5840887535,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -1315,7 +855,7 @@
       "scheduled_close": "2026-08-25T15:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.44805621783231747,
+      "ai_favorite_probability": 0.4480562178,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1376,7 +916,7 @@
       "scheduled_close": "2026-08-25T16:09:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.377757693322031,
+      "ai_favorite_probability": 0.3777576933,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -1437,7 +977,7 @@
       "scheduled_close": "2026-08-25T16:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3951510012519272,
+      "ai_favorite_probability": 0.3951510013,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1498,7 +1038,7 @@
       "scheduled_close": "2026-08-25T17:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5885891667039372,
+      "ai_favorite_probability": 0.5885891667,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1559,7 +1099,7 @@
       "scheduled_close": "2026-08-25T17:26:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6642283206924873,
+      "ai_favorite_probability": 0.6642283207,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -1620,7 +1160,7 @@
       "scheduled_close": "2026-08-25T17:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.639105119093544,
+      "ai_favorite_probability": 0.6391051191,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -1681,7 +1221,7 @@
       "scheduled_close": "2026-08-25T18:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5149021890519709,
+      "ai_favorite_probability": 0.5149021891,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1742,7 +1282,7 @@
       "scheduled_close": "2026-08-25T18:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5676690704862426,
+      "ai_favorite_probability": 0.5676690705,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1803,7 +1343,7 @@
       "scheduled_close": "2026-08-25T19:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6894477821420869,
+      "ai_favorite_probability": 0.6894477821,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -1864,7 +1404,7 @@
       "scheduled_close": "2026-08-25T19:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7632508862990625,
+      "ai_favorite_probability": 0.7632508863,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1925,7 +1465,7 @@
       "scheduled_close": "2026-08-25T20:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7422698350764991,
+      "ai_favorite_probability": 0.7422698351,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1986,7 +1526,7 @@
       "scheduled_close": "2026-08-25T10:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6505740184919999,
+      "ai_favorite_probability": 0.6505740185,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2047,7 +1587,7 @@
       "scheduled_close": "2026-08-25T11:13:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5629692203194455,
+      "ai_favorite_probability": 0.5629692203,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -2108,7 +1648,7 @@
       "scheduled_close": "2026-08-25T11:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5183990135703259,
+      "ai_favorite_probability": 0.5183990136,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -2169,7 +1709,7 @@
       "scheduled_close": "2026-08-25T12:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3755463571449367,
+      "ai_favorite_probability": 0.3755463571,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -2230,7 +1770,7 @@
       "scheduled_close": "2026-08-25T12:49:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.713912648295837,
+      "ai_favorite_probability": 0.7139126483,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -2260,149 +1800,12 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_CLOSING",
-      "market_odds_type": "CLOSING",
-      "market_odds_captured_at": "2026-08-25T07:15:01.035829+00:00",
-      "market_odds_top5": [
-        {
-          "combination": "1-3-2",
-          "market_odds": 6.9,
-          "probability": 0.1416862338516337,
-          "probability_rank": 1,
-          "fair_odds": 7.0578486901356055,
-          "market_ev": -0.022364986423727418,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "1-2-3",
-          "market_odds": 8.4,
-          "probability": 0.11355003302261164,
-          "probability_rank": 2,
-          "fair_odds": 8.806690525584138,
-          "market_ev": -0.0461797226100622,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "1-3-4",
-          "market_odds": 6.8,
-          "probability": 0.08824432303338835,
-          "probability_rank": 3,
-          "fair_odds": 11.332173737925752,
-          "market_ev": -0.3999386033729593,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-5",
-          "market_odds": 4.9,
-          "probability": 0.06254251530217088,
-          "probability_rank": 4,
-          "fair_odds": 15.989123481339893,
-          "market_ev": -0.6935416750193626,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-4-3",
-          "market_odds": 18.5,
-          "probability": 0.05162108981164833,
-          "probability_rank": 5,
-          "fair_odds": 19.37192731979768,
-          "market_ev": -0.045009838484505904,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        }
-      ],
-      "market_analysis_top10": [
-        {
-          "combination": "1-3-2",
-          "market_odds": 6.9,
-          "probability": 0.1416862338516337,
-          "probability_rank": 1,
-          "fair_odds": 7.0578486901356055,
-          "market_ev": -0.022364986423727418,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "1-2-3",
-          "market_odds": 8.4,
-          "probability": 0.11355003302261164,
-          "probability_rank": 2,
-          "fair_odds": 8.806690525584138,
-          "market_ev": -0.0461797226100622,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "1-3-4",
-          "market_odds": 6.8,
-          "probability": 0.08824432303338835,
-          "probability_rank": 3,
-          "fair_odds": 11.332173737925752,
-          "market_ev": -0.3999386033729593,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-5",
-          "market_odds": 4.9,
-          "probability": 0.06254251530217088,
-          "probability_rank": 4,
-          "fair_odds": 15.989123481339893,
-          "market_ev": -0.6935416750193626,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-4-3",
-          "market_odds": 18.5,
-          "probability": 0.05162108981164833,
-          "probability_rank": 5,
-          "fair_odds": 19.37192731979768,
-          "market_ev": -0.045009838484505904,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "1-2-4",
-          "market_odds": 18.6,
-          "probability": 0.050781202723365886,
-          "probability_rank": 6,
-          "fair_odds": 19.692326025588034,
-          "market_ev": -0.055469629345394456,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-4-2",
-          "market_odds": 28.0,
-          "probability": 0.04703868080414656,
-          "probability_rank": 7,
-          "fair_odds": 21.259099594303414,
-          "market_ev": 0.31708306251610363,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "1-2-5",
-          "market_odds": 16.2,
-          "probability": 0.03696333282062147,
-          "probability_rank": 8,
-          "fair_odds": 27.05383751115944,
-          "market_ev": -0.4011940083059322,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-5-3",
-          "market_odds": 11.0,
-          "probability": 0.032599335280243114,
-          "probability_rank": 9,
-          "fair_odds": 30.675472104060105,
-          "market_ev": -0.6414073119173258,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-5-2",
-          "market_odds": 24.0,
-          "probability": 0.031079064027572136,
-          "probability_rank": 10,
-          "fair_odds": 32.176001153472285,
-          "market_ev": -0.2541024633382687,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        }
-      ],
-      "odds_join_row_count": 120,
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
+      "market_analysis_top10": [],
+      "odds_join_row_count": 0,
       "decision": "PASS",
       "attention_score": 81,
       "attention_rank": 5,
@@ -2428,7 +1831,7 @@
       "scheduled_close": "2026-08-25T13:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.4379670598028037,
+      "ai_favorite_probability": 0.4379670598,
       "trifecta_top1": "2-1-3",
       "trifecta_top3": [
         "2-1-3",
@@ -2489,7 +1892,7 @@
       "scheduled_close": "2026-08-25T14:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.47993350873028734,
+      "ai_favorite_probability": 0.4799335087,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -2550,7 +1953,7 @@
       "scheduled_close": "2026-08-25T14:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5893324318944022,
+      "ai_favorite_probability": 0.5893324319,
       "trifecta_top1": "1-4-2",
       "trifecta_top3": [
         "1-4-2",
@@ -2611,7 +2014,7 @@
       "scheduled_close": "2026-08-25T15:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6756775452546989,
+      "ai_favorite_probability": 0.6756775453,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2672,7 +2075,7 @@
       "scheduled_close": "2026-08-25T15:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5253692110942313,
+      "ai_favorite_probability": 0.5253692111,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -2733,7 +2136,7 @@
       "scheduled_close": "2026-08-25T16:04:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6437595250561768,
+      "ai_favorite_probability": 0.6437595251,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2794,7 +2197,7 @@
       "scheduled_close": "2026-08-25T16:47:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6703968691207485,
+      "ai_favorite_probability": 0.6703968691,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2855,7 +2258,7 @@
       "scheduled_close": "2026-08-25T10:36:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3755081782258515,
+      "ai_favorite_probability": 0.3755081782,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -2916,7 +2319,7 @@
       "scheduled_close": "2026-08-25T11:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.3828757726953435,
+      "ai_favorite_probability": 0.3828757727,
       "trifecta_top1": "2-1-6",
       "trifecta_top3": [
         "2-1-6",
@@ -2977,7 +2380,7 @@
       "scheduled_close": "2026-08-25T11:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 5,
-      "ai_favorite_probability": 0.3704317515237229,
+      "ai_favorite_probability": 0.3704317515,
       "trifecta_top1": "5-3-6",
       "trifecta_top3": [
         "5-3-6",
@@ -3038,7 +2441,7 @@
       "scheduled_close": "2026-08-25T11:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.43283101470042656,
+      "ai_favorite_probability": 0.4328310147,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -3099,7 +2502,7 @@
       "scheduled_close": "2026-08-25T12:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4309775789364738,
+      "ai_favorite_probability": 0.4309775789,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -3160,7 +2563,7 @@
       "scheduled_close": "2026-08-25T12:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4414846320050524,
+      "ai_favorite_probability": 0.441484632,
       "trifecta_top1": "1-4-5",
       "trifecta_top3": [
         "1-4-5",
@@ -3221,7 +2624,7 @@
       "scheduled_close": "2026-08-25T13:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.37265784043073386,
+      "ai_favorite_probability": 0.3726578404,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3282,7 +2685,7 @@
       "scheduled_close": "2026-08-25T14:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.39801737380408403,
+      "ai_favorite_probability": 0.3980173738,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3343,7 +2746,7 @@
       "scheduled_close": "2026-08-25T14:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5860384452226192,
+      "ai_favorite_probability": 0.5860384452,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -3404,7 +2807,7 @@
       "scheduled_close": "2026-08-25T15:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5645873512781918,
+      "ai_favorite_probability": 0.5645873513,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3465,7 +2868,7 @@
       "scheduled_close": "2026-08-25T15:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7895139920149077,
+      "ai_favorite_probability": 0.789513992,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -3526,7 +2929,7 @@
       "scheduled_close": "2026-08-25T16:21:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.854464861696642,
+      "ai_favorite_probability": 0.8544648617,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -3587,7 +2990,7 @@
       "scheduled_close": "2026-08-25T10:31:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7353227577506177,
+      "ai_favorite_probability": 0.7353227578,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -3648,7 +3051,7 @@
       "scheduled_close": "2026-08-25T11:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4969130270672892,
+      "ai_favorite_probability": 0.4969130271,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -3709,7 +3112,7 @@
       "scheduled_close": "2026-08-25T11:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4478049137050687,
+      "ai_favorite_probability": 0.4478049137,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -3770,7 +3173,7 @@
       "scheduled_close": "2026-08-25T12:12:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.31038776454465683,
+      "ai_favorite_probability": 0.3103877645,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -3831,7 +3234,7 @@
       "scheduled_close": "2026-08-25T12:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.39955808297209083,
+      "ai_favorite_probability": 0.399558083,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -3892,7 +3295,7 @@
       "scheduled_close": "2026-08-25T13:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6418100270441557,
+      "ai_favorite_probability": 0.641810027,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -3953,7 +3356,7 @@
       "scheduled_close": "2026-08-25T13:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6927851530751031,
+      "ai_favorite_probability": 0.6927851531,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3983,9 +3386,9 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_status": "ODDS_WAITING",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T07:14:24.034718+00:00",
+      "market_odds_captured_at": null,
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
@@ -4014,7 +3417,7 @@
       "scheduled_close": "2026-08-25T14:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6841877616676114,
+      "ai_favorite_probability": 0.6841877617,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -4075,7 +3478,7 @@
       "scheduled_close": "2026-08-25T14:36:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.48490112295226745,
+      "ai_favorite_probability": 0.484901123,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4136,7 +3539,7 @@
       "scheduled_close": "2026-08-25T15:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5257773427471072,
+      "ai_favorite_probability": 0.5257773427,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -4197,7 +3600,7 @@
       "scheduled_close": "2026-08-25T15:36:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6789543477134408,
+      "ai_favorite_probability": 0.6789543477,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -4258,7 +3661,7 @@
       "scheduled_close": "2026-08-25T16:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6430886990568112,
+      "ai_favorite_probability": 0.6430886991,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -4319,7 +3722,7 @@
       "scheduled_close": "2026-08-25T08:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5967105748358158,
+      "ai_favorite_probability": 0.5967105748,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4364,28 +3767,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "3-5-1",
-      "trifecta_payout_yen": 23560,
-      "official_result_revision": 1,
-      "actual_combination_rank": 47,
-      "result": {
-        "actual_combination": "3-5-1",
-        "finish_lanes": [
-          3,
-          5,
-          1
-        ],
-        "trifecta_payout_yen": 23560,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:02",
@@ -4395,7 +3783,7 @@
       "scheduled_close": "2026-08-25T09:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5963961020419275,
+      "ai_favorite_probability": 0.596396102,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -4440,28 +3828,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-1-4",
-      "trifecta_payout_yen": 7220,
-      "official_result_revision": 1,
-      "actual_combination_rank": 27,
-      "result": {
-        "actual_combination": "2-1-4",
-        "finish_lanes": [
-          2,
-          1,
-          4
-        ],
-        "trifecta_payout_yen": 7220,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:03",
@@ -4471,7 +3844,7 @@
       "scheduled_close": "2026-08-25T09:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7394192640390558,
+      "ai_favorite_probability": 0.739419264,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -4516,28 +3889,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-1-6",
-      "trifecta_payout_yen": 9530,
-      "official_result_revision": 1,
-      "actual_combination_rank": 26,
-      "result": {
-        "actual_combination": "2-1-6",
-        "finish_lanes": [
-          2,
-          1,
-          6
-        ],
-        "trifecta_payout_yen": 9530,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:04",
@@ -4547,7 +3905,7 @@
       "scheduled_close": "2026-08-25T09:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6310436396978726,
+      "ai_favorite_probability": 0.6310436397,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4592,28 +3950,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-1-6",
-      "trifecta_payout_yen": 2040,
-      "official_result_revision": 1,
-      "actual_combination_rank": 8,
-      "result": {
-        "actual_combination": "2-1-6",
-        "finish_lanes": [
-          2,
-          1,
-          6
-        ],
-        "trifecta_payout_yen": 2040,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:05",
@@ -4623,7 +3966,7 @@
       "scheduled_close": "2026-08-25T10:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4818406753356055,
+      "ai_favorite_probability": 0.4818406753,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -4668,28 +4011,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "4-5-2",
-      "trifecta_payout_yen": 3340,
-      "official_result_revision": 1,
-      "actual_combination_rank": 58,
-      "result": {
-        "actual_combination": "4-5-2",
-        "finish_lanes": [
-          4,
-          5,
-          2
-        ],
-        "trifecta_payout_yen": 3340,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:06",
@@ -4699,7 +4027,7 @@
       "scheduled_close": "2026-08-25T10:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.48407077378052876,
+      "ai_favorite_probability": 0.4840707738,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4744,28 +4072,13 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-1-6",
-      "trifecta_payout_yen": 910,
-      "official_result_revision": 1,
-      "actual_combination_rank": 4,
-      "result": {
-        "actual_combination": "2-1-6",
-        "finish_lanes": [
-          2,
-          1,
-          6
-        ],
-        "trifecta_payout_yen": 910,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:07",
@@ -4775,7 +4088,7 @@
       "scheduled_close": "2026-08-25T11:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.43093299378634153,
+      "ai_favorite_probability": 0.4309329938,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4820,28 +4133,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-2-3",
-      "trifecta_payout_yen": 1270,
-      "official_result_revision": 1,
-      "actual_combination_rank": 1,
-      "result": {
-        "actual_combination": "1-2-3",
-        "finish_lanes": [
-          1,
-          2,
-          3
-        ],
-        "trifecta_payout_yen": 1270,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": true,
-        "top3_hit": true,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:08",
@@ -4851,7 +4149,7 @@
       "scheduled_close": "2026-08-25T12:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4939660680060642,
+      "ai_favorite_probability": 0.493966068,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -4896,28 +4194,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "3-2-4",
-      "trifecta_payout_yen": 5890,
-      "official_result_revision": 1,
-      "actual_combination_rank": 31,
-      "result": {
-        "actual_combination": "3-2-4",
-        "finish_lanes": [
-          3,
-          2,
-          4
-        ],
-        "trifecta_payout_yen": 5890,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:09",
@@ -4927,7 +4210,7 @@
       "scheduled_close": "2026-08-25T12:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.586348745761376,
+      "ai_favorite_probability": 0.5863487458,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4972,28 +4255,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-1-5",
-      "trifecta_payout_yen": 1450,
-      "official_result_revision": 1,
-      "actual_combination_rank": 11,
-      "result": {
-        "actual_combination": "2-1-5",
-        "finish_lanes": [
-          2,
-          1,
-          5
-        ],
-        "trifecta_payout_yen": 1450,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:10",
@@ -5003,7 +4271,7 @@
       "scheduled_close": "2026-08-25T13:05:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5885962838951743,
+      "ai_favorite_probability": 0.5885962839,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -5048,28 +4316,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "4-3-5",
-      "trifecta_payout_yen": 8910,
-      "official_result_revision": 1,
-      "actual_combination_rank": 27,
-      "result": {
-        "actual_combination": "4-3-5",
-        "finish_lanes": [
-          4,
-          3,
-          5
-        ],
-        "trifecta_payout_yen": 8910,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:11",
@@ -5079,7 +4332,7 @@
       "scheduled_close": "2026-08-25T13:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6043121331579001,
+      "ai_favorite_probability": 0.6043121332,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5109,149 +4362,12 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_CLOSING",
-      "market_odds_type": "CLOSING",
-      "market_odds_captured_at": "2026-08-25T07:14:32.329604+00:00",
-      "market_odds_top5": [
-        {
-          "combination": "1-2-3",
-          "market_odds": 4.2,
-          "probability": 0.17619134124699107,
-          "probability_rank": 1,
-          "fair_odds": 5.675647809492327,
-          "market_ev": -0.2599963667626375,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-2",
-          "market_odds": 10.2,
-          "probability": 0.11339363028024572,
-          "probability_rank": 2,
-          "fair_odds": 8.818837509025494,
-          "market_ev": 0.1566150288585062,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "1-2-6",
-          "market_odds": 10.7,
-          "probability": 0.09067057685661953,
-          "probability_rank": 3,
-          "fair_odds": 11.028936118729387,
-          "market_ev": -0.029824827634171158,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "2-1-3",
-          "market_odds": 6.1,
-          "probability": 0.08571311897800468,
-          "probability_rank": 4,
-          "fair_odds": 11.666825474599934,
-          "market_ev": -0.4771499742341715,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-6",
-          "market_odds": 26.2,
-          "probability": 0.055179545136386635,
-          "probability_rank": 5,
-          "fair_odds": 18.122657545079644,
-          "market_ev": 0.44570408257332983,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        }
-      ],
-      "market_analysis_top10": [
-        {
-          "combination": "1-2-3",
-          "market_odds": 4.2,
-          "probability": 0.17619134124699107,
-          "probability_rank": 1,
-          "fair_odds": 5.675647809492327,
-          "market_ev": -0.2599963667626375,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-2",
-          "market_odds": 10.2,
-          "probability": 0.11339363028024572,
-          "probability_rank": 2,
-          "fair_odds": 8.818837509025494,
-          "market_ev": 0.1566150288585062,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "1-2-6",
-          "market_odds": 10.7,
-          "probability": 0.09067057685661953,
-          "probability_rank": 3,
-          "fair_odds": 11.028936118729387,
-          "market_ev": -0.029824827634171158,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "2-1-3",
-          "market_odds": 6.1,
-          "probability": 0.08571311897800468,
-          "probability_rank": 4,
-          "fair_odds": 11.666825474599934,
-          "market_ev": -0.4771499742341715,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-6",
-          "market_odds": 26.2,
-          "probability": 0.055179545136386635,
-          "probability_rank": 5,
-          "fair_odds": 18.122657545079644,
-          "market_ev": 0.44570408257332983,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "2-1-6",
-          "market_odds": 13.0,
-          "probability": 0.04712076565539913,
-          "probability_rank": 6,
-          "fair_odds": 21.22206602738891,
-          "market_ev": -0.3874300464798113,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-2-5",
-          "market_odds": 16.2,
-          "probability": 0.0439540020334652,
-          "probability_rank": 7,
-          "fair_odds": 22.751056871650306,
-          "market_ev": -0.28794516705786377,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "2-3-1",
-          "market_odds": 23.2,
-          "probability": 0.03386067048405485,
-          "probability_rank": 8,
-          "fair_odds": 29.53278791307174,
-          "market_ev": -0.21443244476992762,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-5",
-          "market_odds": 34.8,
-          "probability": 0.028934105280958824,
-          "probability_rank": 9,
-          "fair_odds": 34.56128987883678,
-          "market_ev": 0.006906863777367045,
-          "market_evaluation": "MARKET_NEAR_AI_FAIR"
-        },
-        {
-          "combination": "1-6-2",
-          "market_odds": 53.5,
-          "probability": 0.024839376779717082,
-          "probability_rank": 10,
-          "fair_odds": 40.25865901823121,
-          "market_ev": 0.3289066577148638,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        }
-      ],
-      "odds_join_row_count": 120,
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
+      "market_analysis_top10": [],
+      "odds_join_row_count": 0,
       "decision": "PASS",
       "attention_score": 83,
       "attention_rank": 3,
@@ -5261,28 +4377,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "2-1-3",
-      "trifecta_payout_yen": 610,
-      "official_result_revision": 1,
-      "actual_combination_rank": 4,
-      "result": {
-        "actual_combination": "2-1-3",
-        "finish_lanes": [
-          2,
-          1,
-          3
-        ],
-        "trifecta_payout_yen": 610,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:徳山:12",
@@ -5292,7 +4393,7 @@
       "scheduled_close": "2026-08-25T14:19:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7808816741141144,
+      "ai_favorite_probability": 0.7808816741,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -5337,28 +4438,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-4-2",
-      "trifecta_payout_yen": 790,
-      "official_result_revision": 1,
-      "actual_combination_rank": 4,
-      "result": {
-        "actual_combination": "1-4-2",
-        "finish_lanes": [
-          1,
-          4,
-          2
-        ],
-        "trifecta_payout_yen": 790,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:桐生:01",
@@ -5368,7 +4454,7 @@
       "scheduled_close": "2026-08-25T14:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6087044109948817,
+      "ai_favorite_probability": 0.608704411,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -5429,7 +4515,7 @@
       "scheduled_close": "2026-08-25T15:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6074086077563887,
+      "ai_favorite_probability": 0.6074086078,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5490,7 +4576,7 @@
       "scheduled_close": "2026-08-25T15:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.563291256362632,
+      "ai_favorite_probability": 0.5632912564,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -5551,7 +4637,7 @@
       "scheduled_close": "2026-08-25T16:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5557553446962933,
+      "ai_favorite_probability": 0.5557553447,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -5612,7 +4698,7 @@
       "scheduled_close": "2026-08-25T16:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6473450860021428,
+      "ai_favorite_probability": 0.647345086,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5673,7 +4759,7 @@
       "scheduled_close": "2026-08-25T17:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5065221760622193,
+      "ai_favorite_probability": 0.5065221761,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5734,7 +4820,7 @@
       "scheduled_close": "2026-08-25T17:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.609583831607145,
+      "ai_favorite_probability": 0.6095838316,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -5795,7 +4881,7 @@
       "scheduled_close": "2026-08-25T18:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6338131768340441,
+      "ai_favorite_probability": 0.6338131768,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5856,7 +4942,7 @@
       "scheduled_close": "2026-08-25T18:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6496967466065057,
+      "ai_favorite_probability": 0.6496967466,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -5917,7 +5003,7 @@
       "scheduled_close": "2026-08-25T19:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6944895623815522,
+      "ai_favorite_probability": 0.6944895624,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5978,7 +5064,7 @@
       "scheduled_close": "2026-08-25T20:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6802489645146796,
+      "ai_favorite_probability": 0.6802489645,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6039,7 +5125,7 @@
       "scheduled_close": "2026-08-25T20:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6918162462972516,
+      "ai_favorite_probability": 0.6918162463,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -6100,7 +5186,7 @@
       "scheduled_close": "2026-08-25T11:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4440378259711081,
+      "ai_favorite_probability": 0.444037826,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -6161,7 +5247,7 @@
       "scheduled_close": "2026-08-25T11:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.4040829118600405,
+      "ai_favorite_probability": 0.4040829119,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -6222,7 +5308,7 @@
       "scheduled_close": "2026-08-25T12:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4393117709990828,
+      "ai_favorite_probability": 0.439311771,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -6283,7 +5369,7 @@
       "scheduled_close": "2026-08-25T12:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4048933714862013,
+      "ai_favorite_probability": 0.4048933715,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -6344,7 +5430,7 @@
       "scheduled_close": "2026-08-25T13:02:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.47640548935754035,
+      "ai_favorite_probability": 0.4764054894,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -6405,7 +5491,7 @@
       "scheduled_close": "2026-08-25T13:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.2970439409729812,
+      "ai_favorite_probability": 0.297043941,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6466,7 +5552,7 @@
       "scheduled_close": "2026-08-25T13:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6447382117803928,
+      "ai_favorite_probability": 0.6447382118,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6527,7 +5613,7 @@
       "scheduled_close": "2026-08-25T14:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.47324567439582216,
+      "ai_favorite_probability": 0.4732456744,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -6588,7 +5674,7 @@
       "scheduled_close": "2026-08-25T14:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5769277464900245,
+      "ai_favorite_probability": 0.5769277465,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -6649,7 +5735,7 @@
       "scheduled_close": "2026-08-25T15:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7340918198498979,
+      "ai_favorite_probability": 0.7340918198,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -6710,7 +5796,7 @@
       "scheduled_close": "2026-08-25T15:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6814695198669553,
+      "ai_favorite_probability": 0.6814695199,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -6771,7 +5857,7 @@
       "scheduled_close": "2026-08-25T16:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7439727802785413,
+      "ai_favorite_probability": 0.7439727803,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6832,7 +5918,7 @@
       "scheduled_close": "2026-08-25T10:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7265987437687681,
+      "ai_favorite_probability": 0.7265987438,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -6893,7 +5979,7 @@
       "scheduled_close": "2026-08-25T10:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.37679954904269725,
+      "ai_favorite_probability": 0.376799549,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6954,7 +6040,7 @@
       "scheduled_close": "2026-08-25T11:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3192591652104453,
+      "ai_favorite_probability": 0.3192591652,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7015,7 +6101,7 @@
       "scheduled_close": "2026-08-25T11:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.47947231223269304,
+      "ai_favorite_probability": 0.4794723122,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -7076,7 +6162,7 @@
       "scheduled_close": "2026-08-25T12:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5588727146746088,
+      "ai_favorite_probability": 0.5588727147,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -7137,7 +6223,7 @@
       "scheduled_close": "2026-08-25T12:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5556278014166668,
+      "ai_favorite_probability": 0.5556278014,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -7198,7 +6284,7 @@
       "scheduled_close": "2026-08-25T13:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5264516923576934,
+      "ai_favorite_probability": 0.5264516924,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7259,7 +6345,7 @@
       "scheduled_close": "2026-08-25T13:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5839535904458507,
+      "ai_favorite_probability": 0.5839535904,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -7320,7 +6406,7 @@
       "scheduled_close": "2026-08-25T14:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4425702801477025,
+      "ai_favorite_probability": 0.4425702801,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7381,7 +6467,7 @@
       "scheduled_close": "2026-08-25T15:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6142328027645466,
+      "ai_favorite_probability": 0.6142328028,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7442,7 +6528,7 @@
       "scheduled_close": "2026-08-25T15:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7090625459069517,
+      "ai_favorite_probability": 0.7090625459,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7503,7 +6589,7 @@
       "scheduled_close": "2026-08-25T16:15:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7504462728373679,
+      "ai_favorite_probability": 0.7504462728,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7564,7 +6650,7 @@
       "scheduled_close": "2026-08-25T11:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.48945740227739426,
+      "ai_favorite_probability": 0.4894574023,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7625,7 +6711,7 @@
       "scheduled_close": "2026-08-25T11:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4073569380811429,
+      "ai_favorite_probability": 0.4073569381,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -7686,7 +6772,7 @@
       "scheduled_close": "2026-08-25T12:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.35719407296233896,
+      "ai_favorite_probability": 0.357194073,
       "trifecta_top1": "3-1-6",
       "trifecta_top3": [
         "3-1-6",
@@ -7747,7 +6833,7 @@
       "scheduled_close": "2026-08-25T12:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7439305960011351,
+      "ai_favorite_probability": 0.743930596,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -7808,7 +6894,7 @@
       "scheduled_close": "2026-08-25T13:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5687047598943124,
+      "ai_favorite_probability": 0.5687047599,
       "trifecta_top1": "1-6-5",
       "trifecta_top3": [
         "1-6-5",
@@ -7869,7 +6955,7 @@
       "scheduled_close": "2026-08-25T14:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.4019219313959119,
+      "ai_favorite_probability": 0.4019219314,
       "trifecta_top1": "2-1-5",
       "trifecta_top3": [
         "2-1-5",
@@ -7930,7 +7016,7 @@
       "scheduled_close": "2026-08-25T14:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.47564720372544556,
+      "ai_favorite_probability": 0.4756472037,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -7991,7 +7077,7 @@
       "scheduled_close": "2026-08-25T15:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6086346177239693,
+      "ai_favorite_probability": 0.6086346177,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -8052,7 +7138,7 @@
       "scheduled_close": "2026-08-25T15:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6733892309610992,
+      "ai_favorite_probability": 0.673389231,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -8113,7 +7199,7 @@
       "scheduled_close": "2026-08-25T15:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6180900539462314,
+      "ai_favorite_probability": 0.6180900539,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8174,7 +7260,7 @@
       "scheduled_close": "2026-08-25T16:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7204285007306864,
+      "ai_favorite_probability": 0.7204285007,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -8235,7 +7321,7 @@
       "scheduled_close": "2026-08-25T17:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7871873183469227,
+      "ai_favorite_probability": 0.7871873183,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8296,7 +7382,7 @@
       "scheduled_close": "2026-08-25T12:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7283407415668525,
+      "ai_favorite_probability": 0.7283407416,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8357,7 +7443,7 @@
       "scheduled_close": "2026-08-25T12:44:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.47858870974334144,
+      "ai_favorite_probability": 0.4785887097,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8418,7 +7504,7 @@
       "scheduled_close": "2026-08-25T13:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.44660533372612266,
+      "ai_favorite_probability": 0.4466053337,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8479,7 +7565,7 @@
       "scheduled_close": "2026-08-25T13:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4742558471284882,
+      "ai_favorite_probability": 0.4742558471,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8540,7 +7626,7 @@
       "scheduled_close": "2026-08-25T14:15:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6102241094002073,
+      "ai_favorite_probability": 0.6102241094,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -8601,7 +7687,7 @@
       "scheduled_close": "2026-08-25T14:47:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.29804519741712754,
+      "ai_favorite_probability": 0.2980451974,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8662,7 +7748,7 @@
       "scheduled_close": "2026-08-25T15:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5320417557894082,
+      "ai_favorite_probability": 0.5320417558,
       "trifecta_top1": "1-4-5",
       "trifecta_top3": [
         "1-4-5",
@@ -8723,7 +7809,7 @@
       "scheduled_close": "2026-08-25T15:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4025752912928108,
+      "ai_favorite_probability": 0.4025752913,
       "trifecta_top1": "1-4-5",
       "trifecta_top3": [
         "1-4-5",
@@ -8784,7 +7870,7 @@
       "scheduled_close": "2026-08-25T16:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.40578459824626345,
+      "ai_favorite_probability": 0.4057845982,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8845,7 +7931,7 @@
       "scheduled_close": "2026-08-25T16:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5403210362316663,
+      "ai_favorite_probability": 0.5403210362,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8906,7 +7992,7 @@
       "scheduled_close": "2026-08-25T17:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7132579216931352,
+      "ai_favorite_probability": 0.7132579217,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8967,7 +8053,7 @@
       "scheduled_close": "2026-08-25T18:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6996677218336776,
+      "ai_favorite_probability": 0.6996677218,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9028,7 +8114,7 @@
       "scheduled_close": "2026-08-25T08:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7134166779140287,
+      "ai_favorite_probability": 0.7134166779,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9073,28 +8159,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "3-4-5",
-      "trifecta_payout_yen": 8940,
-      "official_result_revision": 1,
-      "actual_combination_rank": 27,
-      "result": {
-        "actual_combination": "3-4-5",
-        "finish_lanes": [
-          3,
-          4,
-          5
-        ],
-        "trifecta_payout_yen": 8940,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:02",
@@ -9104,7 +8175,7 @@
       "scheduled_close": "2026-08-25T08:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5910505891273717,
+      "ai_favorite_probability": 0.5910505891,
       "trifecta_top1": "1-4-3",
       "trifecta_top3": [
         "1-4-3",
@@ -9149,28 +8220,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "4-2-5",
-      "trifecta_payout_yen": 5900,
-      "official_result_revision": 1,
-      "actual_combination_rank": 31,
-      "result": {
-        "actual_combination": "4-2-5",
-        "finish_lanes": [
-          4,
-          2,
-          5
-        ],
-        "trifecta_payout_yen": 5900,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:03",
@@ -9180,7 +8236,7 @@
       "scheduled_close": "2026-08-25T09:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6685455285885135,
+      "ai_favorite_probability": 0.6685455286,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -9225,28 +8281,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-3-4",
-      "trifecta_payout_yen": 1230,
-      "official_result_revision": 1,
-      "actual_combination_rank": 4,
-      "result": {
-        "actual_combination": "1-3-4",
-        "finish_lanes": [
-          1,
-          3,
-          4
-        ],
-        "trifecta_payout_yen": 1230,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:04",
@@ -9256,7 +8297,7 @@
       "scheduled_close": "2026-08-25T09:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7346204665405011,
+      "ai_favorite_probability": 0.7346204665,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -9301,28 +8342,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-2-3",
-      "trifecta_payout_yen": 1240,
-      "official_result_revision": 1,
-      "actual_combination_rank": 4,
-      "result": {
-        "actual_combination": "1-2-3",
-        "finish_lanes": [
-          1,
-          2,
-          3
-        ],
-        "trifecta_payout_yen": 1240,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:05",
@@ -9332,7 +8358,7 @@
       "scheduled_close": "2026-08-25T10:17:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7304177346843671,
+      "ai_favorite_probability": 0.7304177347,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -9377,28 +8403,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-6-5",
-      "trifecta_payout_yen": 1550,
-      "official_result_revision": 1,
-      "actual_combination_rank": 9,
-      "result": {
-        "actual_combination": "1-6-5",
-        "finish_lanes": [
-          1,
-          6,
-          5
-        ],
-        "trifecta_payout_yen": 1550,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:06",
@@ -9408,7 +8419,7 @@
       "scheduled_close": "2026-08-25T10:49:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5955064010782932,
+      "ai_favorite_probability": 0.5955064011,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -9453,28 +8464,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-3-4",
-      "trifecta_payout_yen": 3540,
-      "official_result_revision": 1,
-      "actual_combination_rank": 17,
-      "result": {
-        "actual_combination": "1-3-4",
-        "finish_lanes": [
-          1,
-          3,
-          4
-        ],
-        "trifecta_payout_yen": 3540,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:07",
@@ -9484,7 +8480,7 @@
       "scheduled_close": "2026-08-25T11:21:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5167538278528039,
+      "ai_favorite_probability": 0.5167538279,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9529,28 +8525,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-2-3",
-      "trifecta_payout_yen": 550,
-      "official_result_revision": 1,
-      "actual_combination_rank": 1,
-      "result": {
-        "actual_combination": "1-2-3",
-        "finish_lanes": [
-          1,
-          2,
-          3
-        ],
-        "trifecta_payout_yen": 550,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": true,
-        "top3_hit": true,
-        "top5_hit": true,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:08",
@@ -9560,7 +8541,7 @@
       "scheduled_close": "2026-08-25T11:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.3189748300386656,
+      "ai_favorite_probability": 0.31897483,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -9605,28 +8586,13 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "4-2-1",
-      "trifecta_payout_yen": 4270,
-      "official_result_revision": 1,
-      "actual_combination_rank": 14,
-      "result": {
-        "actual_combination": "4-2-1",
-        "finish_lanes": [
-          4,
-          2,
-          1
-        ],
-        "trifecta_payout_yen": 4270,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:09",
@@ -9636,7 +8602,7 @@
       "scheduled_close": "2026-08-25T12:26:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7230089622462709,
+      "ai_favorite_probability": 0.7230089622,
       "trifecta_top1": "1-5-6",
       "trifecta_top3": [
         "1-5-6",
@@ -9681,28 +8647,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-6-3",
-      "trifecta_payout_yen": 2400,
-      "official_result_revision": 1,
-      "actual_combination_rank": 10,
-      "result": {
-        "actual_combination": "1-6-3",
-        "finish_lanes": [
-          1,
-          6,
-          3
-        ],
-        "trifecta_payout_yen": 2400,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": true
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:10",
@@ -9712,7 +8663,7 @@
       "scheduled_close": "2026-08-25T13:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4755749688232331,
+      "ai_favorite_probability": 0.4755749688,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9757,28 +8708,13 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-6-4",
-      "trifecta_payout_yen": 11070,
-      "official_result_revision": 1,
-      "actual_combination_rank": 16,
-      "result": {
-        "actual_combination": "1-6-4",
-        "finish_lanes": [
-          1,
-          6,
-          4
-        ],
-        "trifecta_payout_yen": 11070,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:11",
@@ -9788,7 +8724,7 @@
       "scheduled_close": "2026-08-25T13:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6990401503191209,
+      "ai_favorite_probability": 0.6990401503,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -9818,149 +8754,12 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_CLOSING",
-      "market_odds_type": "CLOSING",
-      "market_odds_captured_at": "2026-08-25T07:14:51.542729+00:00",
-      "market_odds_top5": [
-        {
-          "combination": "1-3-2",
-          "market_odds": 5.8,
-          "probability": 0.13669058545511925,
-          "probability_rank": 1,
-          "fair_odds": 7.315792793413254,
-          "market_ev": -0.20719460436030834,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-2-3",
-          "market_odds": 4.3,
-          "probability": 0.13306572474781125,
-          "probability_rank": 2,
-          "fair_odds": 7.5150832560016445,
-          "market_ev": -0.4278173835844117,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-4",
-          "market_odds": 9.1,
-          "probability": 0.09696643239594709,
-          "probability_rank": 3,
-          "fair_odds": 10.312847191455473,
-          "market_ev": -0.11760546519688153,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-2-4",
-          "market_odds": 10.1,
-          "probability": 0.07951841986722462,
-          "probability_rank": 4,
-          "fair_odds": 12.575702606638107,
-          "market_ev": -0.1968639593410314,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-4-2",
-          "market_odds": 14.9,
-          "probability": 0.04710162925792731,
-          "probability_rank": 5,
-          "fair_odds": 21.230688104736796,
-          "market_ev": -0.29818572405688304,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        }
-      ],
-      "market_analysis_top10": [
-        {
-          "combination": "1-3-2",
-          "market_odds": 5.8,
-          "probability": 0.13669058545511925,
-          "probability_rank": 1,
-          "fair_odds": 7.315792793413254,
-          "market_ev": -0.20719460436030834,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-2-3",
-          "market_odds": 4.3,
-          "probability": 0.13306572474781125,
-          "probability_rank": 2,
-          "fair_odds": 7.5150832560016445,
-          "market_ev": -0.4278173835844117,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-3-4",
-          "market_odds": 9.1,
-          "probability": 0.09696643239594709,
-          "probability_rank": 3,
-          "fair_odds": 10.312847191455473,
-          "market_ev": -0.11760546519688153,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-2-4",
-          "market_odds": 10.1,
-          "probability": 0.07951841986722462,
-          "probability_rank": 4,
-          "fair_odds": 12.575702606638107,
-          "market_ev": -0.1968639593410314,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-4-2",
-          "market_odds": 14.9,
-          "probability": 0.04710162925792731,
-          "probability_rank": 5,
-          "fair_odds": 21.230688104736796,
-          "market_ev": -0.29818572405688304,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "1-4-3",
-          "market_odds": 16.0,
-          "probability": 0.04292041318970648,
-          "probability_rank": 6,
-          "fair_odds": 23.298936931945196,
-          "market_ev": -0.31327338896469636,
-          "market_evaluation": "MARKET_BELOW_AI_FAIR"
-        },
-        {
-          "combination": "3-1-2",
-          "market_odds": 58.5,
-          "probability": 0.03191164311774611,
-          "probability_rank": 7,
-          "fair_odds": 31.33652492634886,
-          "market_ev": 0.8668311223881473,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "1-3-6",
-          "market_odds": 42.3,
-          "probability": 0.030705241361207024,
-          "probability_rank": 8,
-          "fair_odds": 32.56772966661644,
-          "market_ev": 0.2988317095790569,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "3-1-4",
-          "market_odds": 55.9,
-          "probability": 0.024144905719735387,
-          "probability_rank": 9,
-          "fair_odds": 41.41660404921885,
-          "market_ev": 0.34970022973320813,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        },
-        {
-          "combination": "2-1-3",
-          "market_odds": 65.9,
-          "probability": 0.024000132031374757,
-          "probability_rank": 10,
-          "fair_odds": 41.666437446790944,
-          "market_ev": 0.5816087008675968,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
-        }
-      ],
-      "odds_join_row_count": 120,
+      "market_odds_status": "ODDS_WAITING",
+      "market_odds_type": null,
+      "market_odds_captured_at": null,
+      "market_odds_top5": [],
+      "market_analysis_top10": [],
+      "odds_join_row_count": 0,
       "decision": "PASS",
       "attention_score": 83,
       "attention_rank": 4,
@@ -9970,28 +8769,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "1-2-6",
-      "trifecta_payout_yen": 4620,
-      "official_result_revision": 1,
-      "actual_combination_rank": 11,
-      "result": {
-        "actual_combination": "1-2-6",
-        "finish_lanes": [
-          1,
-          2,
-          6
-        ],
-        "trifecta_payout_yen": 4620,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": true,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:芦屋:12",
@@ -10001,7 +8785,7 @@
       "scheduled_close": "2026-08-25T14:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7041162505523293,
+      "ai_favorite_probability": 0.7041162506,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -10046,28 +8830,13 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "CONFIRMED",
-      "official_trifecta": "3-4-6",
-      "trifecta_payout_yen": 26110,
-      "official_result_revision": 1,
-      "actual_combination_rank": 69,
-      "result": {
-        "actual_combination": "3-4-6",
-        "finish_lanes": [
-          3,
-          4,
-          6
-        ],
-        "trifecta_payout_yen": 26110,
-        "official_result_captured_at": "2026-08-25T07:13:41.450578+00:00"
-      },
-      "answer_check": {
-        "winner_hit": false,
-        "top1_hit": false,
-        "top3_hit": false,
-        "top5_hit": false,
-        "top10_hit": false
-      }
+      "result_status": "RESULT_WAITING",
+      "official_trifecta": null,
+      "trifecta_payout_yen": null,
+      "official_result_revision": null,
+      "actual_combination_rank": null,
+      "result": null,
+      "answer_check": null
     },
     {
       "race_id": "2026-08-25:若松:01",
@@ -10077,7 +8846,7 @@
       "scheduled_close": "2026-08-25T15:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3752321919227644,
+      "ai_favorite_probability": 0.3752321919,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -10138,7 +8907,7 @@
       "scheduled_close": "2026-08-25T15:47:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.35292871609465243,
+      "ai_favorite_probability": 0.3529287161,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -10199,7 +8968,7 @@
       "scheduled_close": "2026-08-25T16:12:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4464871381933262,
+      "ai_favorite_probability": 0.4464871382,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -10260,7 +9029,7 @@
       "scheduled_close": "2026-08-25T16:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4734423156476734,
+      "ai_favorite_probability": 0.4734423156,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -10321,7 +9090,7 @@
       "scheduled_close": "2026-08-25T17:11:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7359947010419613,
+      "ai_favorite_probability": 0.735994701,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -10382,7 +9151,7 @@
       "scheduled_close": "2026-08-25T17:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5752061727330512,
+      "ai_favorite_probability": 0.5752061727,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -10443,7 +9212,7 @@
       "scheduled_close": "2026-08-25T18:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.657899133551723,
+      "ai_favorite_probability": 0.6578991336,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -10504,7 +9273,7 @@
       "scheduled_close": "2026-08-25T18:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.611705008319513,
+      "ai_favorite_probability": 0.6117050083,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -10565,7 +9334,7 @@
       "scheduled_close": "2026-08-25T19:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6104346566604878,
+      "ai_favorite_probability": 0.6104346567,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -10626,7 +9395,7 @@
       "scheduled_close": "2026-08-25T19:39:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7413641384931973,
+      "ai_favorite_probability": 0.7413641385,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -10687,7 +9456,7 @@
       "scheduled_close": "2026-08-25T20:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7082163618766486,
+      "ai_favorite_probability": 0.7082163619,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -10717,9 +9486,9 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_RETRYABLE",
+      "market_odds_status": "ODDS_WAITING",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T07:14:03.164078+00:00",
+      "market_odds_captured_at": null,
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
@@ -10748,7 +9517,7 @@
       "scheduled_close": "2026-08-25T20:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6957502160925247,
+      "ai_favorite_probability": 0.6957502161,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
