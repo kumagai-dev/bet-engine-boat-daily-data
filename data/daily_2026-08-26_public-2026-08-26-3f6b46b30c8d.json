@@ -1,26 +1,26 @@
 {
   "schema_version": "phase10_5_public_daily_data_v7",
   "dataset_date": "2026-08-26",
-  "generated_at": "2026-08-26T07:21:21.688613+09:00",
+  "generated_at": "2026-08-26T08:26:51.015164+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-26-4cb599666940",
-  "manifest_sha256": "4cb599666940ff635302eb3de2dd21a95973d14177c2e0a30d366a82494a3c8c",
+  "dataset_version": "public-2026-08-26-3f6b46b30c8d",
+  "manifest_sha256": "3f6b46b30c8d4cbeb61d01c91a3eff13d9f6a6a6157da1b718547cda8af95f57",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 168,
   "trifecta_row_count": 20160,
-  "market_odds_available": false,
+  "market_odds_available": true,
   "market_observation": {
     "schema_version": "phase10_4_official_live_odds_v1",
     "max_races_per_manual_update": 5,
     "polling_policy": "MANUAL_ONLY_NO_SCHEDULE; FUTURE_CADENCE_T30_ONCE_T10_T5",
     "observed_race_count": 5,
-    "joined_120_race_count": 0,
-    "live_race_count": 0,
+    "joined_120_race_count": 1,
+    "live_race_count": 1,
     "closing_race_count": 0,
     "waiting_race_count": 163,
-    "retryable_race_count": 5,
-    "generated_at": "2026-08-25T22:21:20.623317+00:00"
+    "retryable_race_count": 4,
+    "generated_at": "2026-08-25T23:26:49.544085+00:00"
   },
   "result_summary": {
     "confirmed_race_count": 0,
@@ -123,7 +123,7 @@
     "venue_summary": [],
     "venue_best3": [],
     "denominator_policy": "OFFICIAL_RESULT_STATUS_CONFIRMED_ONLY",
-    "generated_at": "2026-08-25T22:20:36.610090+00:00"
+    "generated_at": "2026-08-25T23:26:02.571441+00:00"
   },
   "venue_best3": [],
   "monthly_forward_validation_summary": {
@@ -143,7 +143,7 @@
     "daily_summary_paths": [
       "data/phase9/predictions/year=2026/month=08/day=26/daily_forward_validation_summary.json"
     ],
-    "generated_at": "2026-08-25T22:20:36.612577+00:00"
+    "generated_at": "2026-08-25T23:26:02.573308+00:00"
   },
   "venue_compatibility_summary": {
     "schema_version": "phase10_4_recent_venue_compatibility_v1",
@@ -155,7 +155,7 @@
     "ranked_venues": [],
     "data_accumulating_venues": [],
     "source_policy": "FORWARD_LEDGER_CONFIRMED_ONLY_NO_TEST_SHADOW_NO_MARKET",
-    "generated_at": "2026-08-25T22:20:36.615622+00:00"
+    "generated_at": "2026-08-25T23:26:02.574270+00:00"
   },
   "paper_connection": {
     "market_odds_available": false,
@@ -938,12 +938,149 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_RETRYABLE",
-      "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T22:20:44.955109+00:00",
-      "market_odds_top5": [],
-      "market_analysis_top10": [],
-      "odds_join_row_count": 0,
+      "market_odds_status": "ODDS_LIVE",
+      "market_odds_type": "LIVE",
+      "market_odds_captured_at": "2026-08-25T23:26:12.019010+00:00",
+      "market_odds_top5": [
+        {
+          "combination": "1-3-5",
+          "market_odds": 3.7,
+          "probability": 0.20034345714471208,
+          "probability_rank": 1,
+          "fair_odds": 4.991428291454909,
+          "market_ev": -0.25872920856456527,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 8.4,
+          "probability": 0.12102939270196725,
+          "probability_rank": 2,
+          "fair_odds": 8.262455736372093,
+          "market_ev": 0.016646898696524914,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        },
+        {
+          "combination": "1-5-3",
+          "market_odds": 5.4,
+          "probability": 0.11968765527254903,
+          "probability_rank": 3,
+          "fair_odds": 8.355080544629526,
+          "market_ev": -0.35368666152823525,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 11.0,
+          "probability": 0.0993532898807006,
+          "probability_rank": 4,
+          "fair_odds": 10.065091968275631,
+          "market_ev": 0.0928861886877066,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-5-2",
+          "market_odds": 11.0,
+          "probability": 0.08273579642822974,
+          "probability_rank": 5,
+          "fair_odds": 12.086666753337694,
+          "market_ev": -0.08990623928947283,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        }
+      ],
+      "market_analysis_top10": [
+        {
+          "combination": "1-3-5",
+          "market_odds": 3.7,
+          "probability": 0.20034345714471208,
+          "probability_rank": 1,
+          "fair_odds": 4.991428291454909,
+          "market_ev": -0.25872920856456527,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 8.4,
+          "probability": 0.12102939270196725,
+          "probability_rank": 2,
+          "fair_odds": 8.262455736372093,
+          "market_ev": 0.016646898696524914,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        },
+        {
+          "combination": "1-5-3",
+          "market_odds": 5.4,
+          "probability": 0.11968765527254903,
+          "probability_rank": 3,
+          "fair_odds": 8.355080544629526,
+          "market_ev": -0.35368666152823525,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 11.0,
+          "probability": 0.0993532898807006,
+          "probability_rank": 4,
+          "fair_odds": 10.065091968275631,
+          "market_ev": 0.0928861886877066,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-5-2",
+          "market_odds": 11.0,
+          "probability": 0.08273579642822974,
+          "probability_rank": 5,
+          "fair_odds": 12.086666753337694,
+          "market_ev": -0.08990623928947283,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-5",
+          "market_odds": 15.4,
+          "probability": 0.07620843254418083,
+          "probability_rank": 6,
+          "fair_odds": 13.121907466345844,
+          "market_ev": 0.1736098611803849,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-1-5",
+          "market_odds": 24.8,
+          "probability": 0.04519811882581492,
+          "probability_rank": 7,
+          "fair_odds": 22.12481461571028,
+          "market_ev": 0.12091334688020994,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "5-1-3",
+          "market_odds": 29.9,
+          "probability": 0.02406182822954214,
+          "probability_rank": 8,
+          "fair_odds": 41.55960180832147,
+          "market_ev": -0.2805513359366901,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "3-1-2",
+          "market_odds": 55.7,
+          "probability": 0.01996621301592293,
+          "probability_rank": 9,
+          "fair_odds": 50.08461039669898,
+          "market_ev": 0.11211806498690713,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-5-1",
+          "market_odds": 45.4,
+          "probability": 0.017891200733865225,
+          "probability_rank": 10,
+          "fair_odds": 55.893397814667495,
+          "market_ev": -0.18773948668251883,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        }
+      ],
+      "odds_join_row_count": 120,
       "decision": "PASS",
       "attention_score": 92,
       "attention_rank": 1,
@@ -3807,7 +3944,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T22:21:20.538780+00:00",
+      "market_odds_captured_at": "2026-08-25T23:26:49.489661+00:00",
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
@@ -4051,7 +4188,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T22:20:54.446656+00:00",
+      "market_odds_captured_at": "2026-08-25T23:26:22.329173+00:00",
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
@@ -7345,7 +7482,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T22:21:03.745592+00:00",
+      "market_odds_captured_at": "2026-08-25T23:26:31.695624+00:00",
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
@@ -7467,7 +7604,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": "2026-08-25T22:21:12.201613+00:00",
+      "market_odds_captured_at": "2026-08-25T23:26:41.123825+00:00",
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
