@@ -1,11 +1,11 @@
 {
   "schema_version": "phase9_1_public_latest_v1",
-  "dataset_date": "2026-08-25",
-  "generated_at": "2026-08-25T15:00:27.722768+09:00",
+  "dataset_date": "2026-08-24",
+  "generated_at": "2026-08-25T16:06:41.890587+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-25-4588297bead0",
-  "manifest_sha256": "4588297bead08c4c6a784cdc74714be7c66c32f1919ab58e399f7410d9e4f7f0",
+  "dataset_version": "public-2026-08-24-10d5f4c1ba66",
+  "manifest_sha256": "10d5f4c1ba665a9bbca07db75b649f01fcbf9ebc73f09509284cc50b6ce5669f",
   "publication_status": "PUBLISHED",
-  "dataset_file": "data/daily_2026-08-25_public-2026-08-25-4588297bead0.json",
-  "published_at": "2026-08-25T06:00:28.217Z"
+  "dataset_file": "data/daily_2026-08-24_public-2026-08-24-10d5f4c1ba66.json",
+  "published_at": "2026-08-25T07:06:44.449Z"
 }

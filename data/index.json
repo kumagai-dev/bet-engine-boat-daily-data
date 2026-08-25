@@ -20,11 +20,11 @@
     },
     {
       "dataset_date": "2026-08-24",
-      "dataset_version": "public-2026-08-24-87591e6a8107",
-      "manifest_sha256": "87591e6a8107eefe4894e08c64ee6df3f0c55dd90944cd16cb7dc7986b667e53",
-      "dataset_file": "data/daily_2026-08-24_public-2026-08-24-87591e6a8107.json",
+      "dataset_version": "public-2026-08-24-10d5f4c1ba66",
+      "manifest_sha256": "10d5f4c1ba665a9bbca07db75b649f01fcbf9ebc73f09509284cc50b6ce5669f",
+      "dataset_file": "data/daily_2026-08-24_public-2026-08-24-10d5f4c1ba66.json",
       "publication_status": "PUBLISHED",
-      "published_at": "2026-08-24T04:25:19.875Z"
+      "published_at": "2026-08-25T07:06:44.449Z"
     },
     {
       "dataset_date": "2026-08-25",
