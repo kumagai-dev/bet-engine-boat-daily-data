@@ -1,10 +1,10 @@
 {
   "schema_version": "phase10_4_public_daily_data_v6",
   "dataset_date": "2026-08-25",
-  "generated_at": "2026-08-25T06:22:03.599292+09:00",
+  "generated_at": "2026-08-25T11:42:25.631316+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-25-ee6245ed241c",
-  "manifest_sha256": "ee6245ed241cc9770676cd179c58bcf7645842d9fcdcc580dab8090279305db4",
+  "dataset_version": "public-2026-08-25-277bdf41bc2c",
+  "manifest_sha256": "277bdf41bc2c58bd14ffe2c2e2794cf6e8e96ba9559e2aa9906270c176806604",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 156,
