@@ -1,10 +1,10 @@
 {
   "schema_version": "phase10_5_public_daily_data_v7",
   "dataset_date": "2026-08-26",
-  "generated_at": "2026-08-26T12:55:43.378165+09:00",
+  "generated_at": "2026-08-26T13:25:31.972862+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-26-52cccdd2dec8",
-  "manifest_sha256": "52cccdd2dec8647611ddd4d6980bd4e661bbbec61f84e69da555492531503b38",
+  "dataset_version": "public-2026-08-26-8364e472e626",
+  "manifest_sha256": "8364e472e6261d045db6a60438fcbc9d5f61a03a6415784f561fe352c9a88964",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 168,
@@ -20,11 +20,11 @@
     "closing_race_count": 2,
     "waiting_race_count": 163,
     "retryable_race_count": 0,
-    "generated_at": "2026-08-26T03:55:41.762119+00:00"
+    "generated_at": "2026-08-26T04:25:30.020720+00:00"
   },
   "result_summary": {
-    "confirmed_race_count": 0,
-    "result_waiting_race_count": 168,
+    "confirmed_race_count": 12,
+    "result_waiting_race_count": 156,
     "result_retryable_race_count": 0,
     "invalid_race_count": 0
   },
@@ -60,59 +60,59 @@
   },
   "forward_validation_summary": {
     "dataset_date": "2026-08-26",
-    "confirmed_races": 0,
-    "waiting_races": 168,
+    "confirmed_races": 12,
+    "waiting_races": 156,
     "retryable_races": 0,
     "invalid_races": 0,
     "total_races": 168,
-    "winner_hits": 0,
+    "winner_hits": 5,
     "trifecta_top1_hits": 0,
-    "top3_hits": 0,
-    "top5_hits": 0,
-    "top10_hits": 0,
+    "top3_hits": 2,
+    "top5_hits": 2,
+    "top10_hits": 3,
     "attention_top1": {
-      "confirmed_races": 0,
-      "winner_hits": 0,
+      "confirmed_races": 1,
+      "winner_hits": 1,
       "trifecta_top1_hits": 0,
       "top3_hits": 0,
       "top5_hits": 0,
-      "top10_hits": 0
+      "top10_hits": 1
     },
     "attention_top3": {
-      "confirmed_races": 0,
-      "winner_hits": 0,
+      "confirmed_races": 1,
+      "winner_hits": 1,
       "trifecta_top1_hits": 0,
       "top3_hits": 0,
       "top5_hits": 0,
-      "top10_hits": 0
+      "top10_hits": 1
     },
     "attention_top5": {
-      "confirmed_races": 0,
-      "winner_hits": 0,
+      "confirmed_races": 1,
+      "winner_hits": 1,
       "trifecta_top1_hits": 0,
       "top3_hits": 0,
       "top5_hits": 0,
-      "top10_hits": 0
+      "top10_hits": 1
     },
     "attention_score_band_summary": {
       "score_80_plus": {
-        "confirmed_races": 0,
-        "winner_hits": 0,
+        "confirmed_races": 2,
+        "winner_hits": 1,
         "trifecta_top1_hits": 0,
         "top3_hits": 0,
         "top5_hits": 0,
-        "top10_hits": 0
+        "top10_hits": 1
       },
       "score_60_to_79": {
-        "confirmed_races": 0,
-        "winner_hits": 0,
+        "confirmed_races": 8,
+        "winner_hits": 4,
         "trifecta_top1_hits": 0,
-        "top3_hits": 0,
-        "top5_hits": 0,
-        "top10_hits": 0
+        "top3_hits": 2,
+        "top5_hits": 2,
+        "top10_hits": 2
       },
       "score_59_or_less": {
-        "confirmed_races": 0,
+        "confirmed_races": 2,
         "winner_hits": 0,
         "trifecta_top1_hits": 0,
         "top3_hits": 0,
@@ -120,30 +120,153 @@
         "top10_hits": 0
       }
     },
-    "venue_summary": [],
-    "venue_best3": [],
+    "venue_summary": [
+      {
+        "venue": "三国",
+        "venue_code": "10",
+        "confirmed_races": 4,
+        "winner_hits": 2,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 1,
+        "top5_hits": 1,
+        "top10_hits": 2
+      },
+      {
+        "venue": "徳山",
+        "venue_code": "18",
+        "confirmed_races": 4,
+        "winner_hits": 1,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 0,
+        "top5_hits": 0,
+        "top10_hits": 0
+      },
+      {
+        "venue": "鳴門",
+        "venue_code": "14",
+        "confirmed_races": 4,
+        "winner_hits": 2,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 1,
+        "top5_hits": 1,
+        "top10_hits": 1
+      }
+    ],
+    "venue_best3": [
+      {
+        "venue": "三国",
+        "venue_code": "10",
+        "confirmed_races": 4,
+        "winner_hits": 2,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 1,
+        "top5_hits": 1,
+        "top10_hits": 2,
+        "rank": 1,
+        "top5_hit_rate": 0.25,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.0,
+        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+      },
+      {
+        "venue": "鳴門",
+        "venue_code": "14",
+        "confirmed_races": 4,
+        "winner_hits": 2,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 1,
+        "top5_hits": 1,
+        "top10_hits": 1,
+        "rank": 2,
+        "top5_hit_rate": 0.25,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.0,
+        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+      },
+      {
+        "venue": "徳山",
+        "venue_code": "18",
+        "confirmed_races": 4,
+        "winner_hits": 1,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 0,
+        "top5_hits": 0,
+        "top10_hits": 0,
+        "rank": 3,
+        "top5_hit_rate": 0.0,
+        "top3_hit_rate": 0.0,
+        "top1_hit_rate": 0.0,
+        "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+      }
+    ],
     "denominator_policy": "OFFICIAL_RESULT_STATUS_CONFIRMED_ONLY",
-    "generated_at": "2026-08-26T03:54:45.893558+00:00"
+    "generated_at": "2026-08-26T04:24:46.602166+00:00"
   },
-  "venue_best3": [],
+  "venue_best3": [
+    {
+      "venue": "三国",
+      "venue_code": "10",
+      "confirmed_races": 4,
+      "winner_hits": 2,
+      "trifecta_top1_hits": 0,
+      "top3_hits": 1,
+      "top5_hits": 1,
+      "top10_hits": 2,
+      "rank": 1,
+      "top5_hit_rate": 0.25,
+      "top3_hit_rate": 0.25,
+      "top1_hit_rate": 0.0,
+      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+    },
+    {
+      "venue": "鳴門",
+      "venue_code": "14",
+      "confirmed_races": 4,
+      "winner_hits": 2,
+      "trifecta_top1_hits": 0,
+      "top3_hits": 1,
+      "top5_hits": 1,
+      "top10_hits": 1,
+      "rank": 2,
+      "top5_hit_rate": 0.25,
+      "top3_hit_rate": 0.25,
+      "top1_hit_rate": 0.0,
+      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+    },
+    {
+      "venue": "徳山",
+      "venue_code": "18",
+      "confirmed_races": 4,
+      "winner_hits": 1,
+      "trifecta_top1_hits": 0,
+      "top3_hits": 0,
+      "top5_hits": 0,
+      "top10_hits": 0,
+      "rank": 3,
+      "top5_hit_rate": 0.0,
+      "top3_hit_rate": 0.0,
+      "top1_hit_rate": 0.0,
+      "ranking_policy": "TOP5_RATE_TOP3_RATE_TOP1_RATE_CONFIRMED_RACES_VENUE_CODE"
+    }
+  ],
   "monthly_forward_validation_summary": {
     "schema_version": "phase10_3_monthly_forward_validation_summary_v1",
     "month": "2026-08",
     "daily_summary_count": 1,
-    "confirmed_races": 0,
-    "waiting_races": 168,
+    "confirmed_races": 12,
+    "waiting_races": 156,
     "retryable_races": 0,
     "invalid_races": 0,
     "total_races": 168,
-    "winner_hits": 0,
+    "winner_hits": 5,
     "trifecta_top1_hits": 0,
-    "top3_hits": 0,
-    "top5_hits": 0,
-    "top10_hits": 0,
+    "top3_hits": 2,
+    "top5_hits": 2,
+    "top10_hits": 3,
     "daily_summary_paths": [
       "data/phase9/predictions/year=2026/month=08/day=26/daily_forward_validation_summary.json"
     ],
-    "generated_at": "2026-08-26T03:54:45.896181+00:00"
+    "generated_at": "2026-08-26T04:24:46.618359+00:00"
   },
   "venue_compatibility_summary": {
     "schema_version": "phase10_4_recent_venue_compatibility_v1",
@@ -153,9 +276,52 @@
     "minimum_confirmed_races": 60,
     "eligible_venue_count": 0,
     "ranked_venues": [],
-    "data_accumulating_venues": [],
+    "data_accumulating_venues": [
+      {
+        "venue": "三国",
+        "venue_code": "10",
+        "confirmed_races": 4,
+        "winner_hits": 2,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 1,
+        "top5_hits": 1,
+        "top10_hits": 2,
+        "top5_hit_rate": 0.25,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.0,
+        "eligible": false
+      },
+      {
+        "venue": "鳴門",
+        "venue_code": "14",
+        "confirmed_races": 4,
+        "winner_hits": 2,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 1,
+        "top5_hits": 1,
+        "top10_hits": 1,
+        "top5_hit_rate": 0.25,
+        "top3_hit_rate": 0.25,
+        "top1_hit_rate": 0.0,
+        "eligible": false
+      },
+      {
+        "venue": "徳山",
+        "venue_code": "18",
+        "confirmed_races": 4,
+        "winner_hits": 1,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 0,
+        "top5_hits": 0,
+        "top10_hits": 0,
+        "top5_hit_rate": 0.0,
+        "top3_hit_rate": 0.0,
+        "top1_hit_rate": 0.0,
+        "eligible": false
+      }
+    ],
     "source_policy": "FORWARD_LEDGER_CONFIRMED_ONLY_NO_TEST_SHADOW_NO_MARKET",
-    "generated_at": "2026-08-26T03:54:45.897461+00:00"
+    "generated_at": "2026-08-26T04:24:46.635997+00:00"
   },
   "paper_connection": {
     "market_odds_available": false,
@@ -940,7 +1106,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_CLOSING",
       "market_odds_type": "CLOSING",
-      "market_odds_captured_at": "2026-08-26T03:55:05.927906+00:00",
+      "market_odds_captured_at": "2026-08-26T04:24:56.060806+00:00",
       "market_odds_top5": [
         {
           "combination": "1-3-5",
@@ -1090,13 +1256,28 @@
         "本命艇の1着確率が高い",
         "上位3点へ確率が集中"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "1-2-5",
+      "trifecta_payout_yen": 1080,
+      "official_result_revision": 1,
+      "actual_combination_rank": 6,
+      "result": {
+        "actual_combination": "1-2-5",
+        "finish_lanes": [
+          1,
+          2,
+          5
+        ],
+        "trifecta_payout_yen": 1080,
+        "official_result_captured_at": "2026-08-26T04:23:06.081152+00:00"
+      },
+      "answer_check": {
+        "winner_hit": true,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": true
+      }
     },
     {
       "race_id": "2026-08-26:三国:02",
@@ -1151,13 +1332,28 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "1-2-4",
+      "trifecta_payout_yen": 1410,
+      "official_result_revision": 1,
+      "actual_combination_rank": 2,
+      "result": {
+        "actual_combination": "1-2-4",
+        "finish_lanes": [
+          1,
+          2,
+          4
+        ],
+        "trifecta_payout_yen": 1410,
+        "official_result_captured_at": "2026-08-26T04:23:37.753679+00:00"
+      },
+      "answer_check": {
+        "winner_hit": true,
+        "top1_hit": false,
+        "top3_hit": true,
+        "top5_hit": true,
+        "top10_hit": true
+      }
     },
     {
       "race_id": "2026-08-26:三国:03",
@@ -1212,13 +1408,28 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "3-2-4",
+      "trifecta_payout_yen": 4690,
+      "official_result_revision": 1,
+      "actual_combination_rank": 14,
+      "result": {
+        "actual_combination": "3-2-4",
+        "finish_lanes": [
+          3,
+          2,
+          4
+        ],
+        "trifecta_payout_yen": 4690,
+        "official_result_captured_at": "2026-08-26T04:24:07.314729+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:三国:04",
@@ -1273,13 +1484,28 @@
         "本命艇と2番手に明確な差",
         "本命艇の1着確率が高い"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "2-4-3",
+      "trifecta_payout_yen": 4100,
+      "official_result_revision": 1,
+      "actual_combination_rank": 33,
+      "result": {
+        "actual_combination": "2-4-3",
+        "finish_lanes": [
+          2,
+          4,
+          3
+        ],
+        "trifecta_payout_yen": 4100,
+        "official_result_captured_at": "2026-08-26T04:24:36.081020+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:三国:05",
@@ -3944,143 +4170,143 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_LIVE",
       "market_odds_type": "LIVE",
-      "market_odds_captured_at": "2026-08-26T03:55:41.683583+00:00",
+      "market_odds_captured_at": "2026-08-26T04:25:29.923892+00:00",
       "market_odds_top5": [
         {
           "combination": "1-2-3",
-          "market_odds": 3.9,
+          "market_odds": 3.8,
           "probability": 0.13546136423977098,
           "probability_rank": 1,
           "fair_odds": 7.382178716508183,
-          "market_ev": -0.47170067946489314,
+          "market_ev": -0.4852468158888703,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-3-2",
-          "market_odds": 9.4,
+          "market_odds": 9.6,
           "probability": 0.11234285221793723,
           "probability_rank": 2,
           "fair_odds": 8.90132287241622,
-          "market_ev": 0.05602281084861005,
+          "market_ev": 0.07849138129219746,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-3-4",
-          "market_odds": 17.4,
+          "market_odds": 18.5,
           "probability": 0.09343979005780284,
           "probability_rank": 3,
           "fair_odds": 10.702078840089317,
-          "market_ev": 0.6258523470057693,
+          "market_ev": 0.7286361160693526,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-2-4",
-          "market_odds": 10.2,
+          "market_odds": 9.6,
           "probability": 0.09111900793311606,
           "probability_rank": 4,
           "fair_odds": 10.97465855569925,
-          "market_ev": -0.07058611908221624,
+          "market_ev": -0.12525752384208588,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-4-2",
-          "market_odds": 23.0,
+          "market_odds": 24.7,
           "probability": 0.049516375234326164,
           "probability_rank": 5,
           "fair_odds": 20.195339324974892,
-          "market_ev": 0.1388766303895017,
+          "market_ev": 0.22305446828785613,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         }
       ],
       "market_analysis_top10": [
         {
           "combination": "1-2-3",
-          "market_odds": 3.9,
+          "market_odds": 3.8,
           "probability": 0.13546136423977098,
           "probability_rank": 1,
           "fair_odds": 7.382178716508183,
-          "market_ev": -0.47170067946489314,
+          "market_ev": -0.4852468158888703,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-3-2",
-          "market_odds": 9.4,
+          "market_odds": 9.6,
           "probability": 0.11234285221793723,
           "probability_rank": 2,
           "fair_odds": 8.90132287241622,
-          "market_ev": 0.05602281084861005,
+          "market_ev": 0.07849138129219746,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-3-4",
-          "market_odds": 17.4,
+          "market_odds": 18.5,
           "probability": 0.09343979005780284,
           "probability_rank": 3,
           "fair_odds": 10.702078840089317,
-          "market_ev": 0.6258523470057693,
+          "market_ev": 0.7286361160693526,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-2-4",
-          "market_odds": 10.2,
+          "market_odds": 9.6,
           "probability": 0.09111900793311606,
           "probability_rank": 4,
           "fair_odds": 10.97465855569925,
-          "market_ev": -0.07058611908221624,
+          "market_ev": -0.12525752384208588,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-4-2",
-          "market_odds": 23.0,
+          "market_odds": 24.7,
           "probability": 0.049516375234326164,
           "probability_rank": 5,
           "fair_odds": 20.195339324974892,
-          "market_ev": 0.1388766303895017,
+          "market_ev": 0.22305446828785613,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-4-3",
-          "market_odds": 27.8,
+          "market_odds": 29.9,
           "probability": 0.04519675856964595,
           "probability_rank": 6,
           "fair_odds": 22.125480491240314,
-          "market_ev": 0.2564698882361576,
+          "market_ev": 0.3513830812324139,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-2-6",
-          "market_odds": 14.5,
+          "market_odds": 15.4,
           "probability": 0.03481866504946871,
           "probability_rank": 7,
           "fair_odds": 28.720228032270832,
-          "market_ev": -0.49512935678270364,
+          "market_ev": -0.4637925582381818,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-3-6",
-          "market_odds": 26.0,
+          "market_odds": 27.2,
           "probability": 0.034672833747188006,
           "probability_rank": 8,
           "fair_odds": 28.841023127540037,
-          "market_ev": -0.09850632257311187,
+          "market_ev": -0.05689892207648628,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "2-1-3",
-          "market_odds": 20.7,
+          "market_odds": 19.4,
           "probability": 0.027926192345533535,
           "probability_rank": 9,
           "fair_odds": 35.808676944815865,
-          "market_ev": -0.42192781844745586,
+          "market_ev": -0.45823186849664943,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-2-5",
-          "market_odds": 34.3,
+          "market_odds": 35.8,
           "probability": 0.024071756223917315,
           "probability_rank": 10,
           "fair_odds": 41.54246124370501,
-          "market_ev": -0.17433876151963612,
+          "market_ev": -0.13823112718376018,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         }
       ],
@@ -4325,7 +4551,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_CLOSING",
       "market_odds_type": "CLOSING",
-      "market_odds_captured_at": "2026-08-26T03:55:14.571932+00:00",
+      "market_odds_captured_at": "2026-08-26T04:25:04.438819+00:00",
       "market_odds_top5": [
         {
           "combination": "1-2-5",
@@ -5024,13 +5250,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "4-1-2",
+      "trifecta_payout_yen": 8880,
+      "official_result_revision": 1,
+      "actual_combination_rank": 19,
+      "result": {
+        "actual_combination": "4-1-2",
+        "finish_lanes": [
+          4,
+          1,
+          2
+        ],
+        "trifecta_payout_yen": 8880,
+        "official_result_captured_at": "2026-08-26T04:22:56.853010+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:徳山:02",
@@ -5085,13 +5326,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "1-4-3",
+      "trifecta_payout_yen": 7990,
+      "official_result_revision": 1,
+      "actual_combination_rank": 17,
+      "result": {
+        "actual_combination": "1-4-3",
+        "finish_lanes": [
+          1,
+          4,
+          3
+        ],
+        "trifecta_payout_yen": 7990,
+        "official_result_captured_at": "2026-08-26T04:23:27.540269+00:00"
+      },
+      "answer_check": {
+        "winner_hit": true,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:徳山:03",
@@ -5146,13 +5402,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "3-1-4",
+      "trifecta_payout_yen": 4050,
+      "official_result_revision": 1,
+      "actual_combination_rank": 15,
+      "result": {
+        "actual_combination": "3-1-4",
+        "finish_lanes": [
+          3,
+          1,
+          4
+        ],
+        "trifecta_payout_yen": 4050,
+        "official_result_captured_at": "2026-08-26T04:23:57.675810+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:徳山:04",
@@ -5207,13 +5478,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "3-1-4",
+      "trifecta_payout_yen": 3270,
+      "official_result_revision": 1,
+      "actual_combination_rank": 11,
+      "result": {
+        "actual_combination": "3-1-4",
+        "finish_lanes": [
+          3,
+          1,
+          4
+        ],
+        "trifecta_payout_yen": 3270,
+        "official_result_captured_at": "2026-08-26T04:24:26.844854+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:徳山:05",
@@ -7756,143 +8042,143 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_LIVE",
       "market_odds_type": "LIVE",
-      "market_odds_captured_at": "2026-08-26T03:55:23.955955+00:00",
+      "market_odds_captured_at": "2026-08-26T04:25:13.056615+00:00",
       "market_odds_top5": [
         {
           "combination": "1-3-2",
-          "market_odds": 11.2,
+          "market_odds": 10.7,
           "probability": 0.18411690339148726,
           "probability_rank": 1,
           "fair_odds": 5.4313318417793655,
-          "market_ev": 1.0621093179846572,
+          "market_ev": 0.9700508662889136,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-3-5",
-          "market_odds": 10.1,
+          "market_odds": 9.0,
           "probability": 0.08766973286810276,
           "probability_rank": 2,
           "fair_odds": 11.406445158267775,
-          "market_ev": -0.11453569803216224,
+          "market_ev": -0.2109724041870752,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-2-3",
-          "market_odds": 32.0,
+          "market_odds": 26.3,
           "probability": 0.08417912946573398,
           "probability_rank": 3,
           "fair_odds": 11.879429097767764,
-          "market_ev": 1.6937321429034875,
+          "market_ev": 1.2139111049488038,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "3-1-2",
-          "market_odds": 9.7,
+          "market_odds": 9.8,
           "probability": 0.07393377337154208,
           "probability_rank": 4,
           "fair_odds": 13.525618325669157,
-          "market_ev": -0.28284239829604185,
+          "market_ev": -0.27544902095888757,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-3-4",
-          "market_odds": 32.2,
+          "market_odds": 26.7,
           "probability": 0.07172691018619047,
           "probability_rank": 5,
           "fair_odds": 13.941768820156556,
-          "market_ev": 1.3096065079953334,
+          "market_ev": 0.9151085019712855,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         }
       ],
       "market_analysis_top10": [
         {
           "combination": "1-3-2",
-          "market_odds": 11.2,
+          "market_odds": 10.7,
           "probability": 0.18411690339148726,
           "probability_rank": 1,
           "fair_odds": 5.4313318417793655,
-          "market_ev": 1.0621093179846572,
+          "market_ev": 0.9700508662889136,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-3-5",
-          "market_odds": 10.1,
+          "market_odds": 9.0,
           "probability": 0.08766973286810276,
           "probability_rank": 2,
           "fair_odds": 11.406445158267775,
-          "market_ev": -0.11453569803216224,
+          "market_ev": -0.2109724041870752,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-2-3",
-          "market_odds": 32.0,
+          "market_odds": 26.3,
           "probability": 0.08417912946573398,
           "probability_rank": 3,
           "fair_odds": 11.879429097767764,
-          "market_ev": 1.6937321429034875,
+          "market_ev": 1.2139111049488038,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "3-1-2",
-          "market_odds": 9.7,
+          "market_odds": 9.8,
           "probability": 0.07393377337154208,
           "probability_rank": 4,
           "fair_odds": 13.525618325669157,
-          "market_ev": -0.28284239829604185,
+          "market_ev": -0.27544902095888757,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-3-4",
-          "market_odds": 32.2,
+          "market_odds": 26.7,
           "probability": 0.07172691018619047,
           "probability_rank": 5,
           "fair_odds": 13.941768820156556,
-          "market_ev": 1.3096065079953334,
+          "market_ev": 0.9151085019712855,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "3-1-5",
-          "market_odds": 6.8,
+          "market_odds": 7.3,
           "probability": 0.06841377519467437,
           "probability_rank": 6,
           "fair_odds": 14.61693931016753,
-          "market_ev": -0.5347863286762142,
+          "market_ev": -0.5005794410788771,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "3-1-4",
-          "market_odds": 28.5,
+          "market_odds": 29.8,
           "probability": 0.04104444007979685,
           "probability_rank": 7,
           "fair_odds": 24.363835833936157,
-          "market_ev": 0.16976654227421029,
+          "market_ev": 0.22312431437794622,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-3-6",
-          "market_odds": 36.2,
+          "market_odds": 35.2,
           "probability": 0.032717943156822214,
           "probability_rank": 8,
           "fair_odds": 30.564268517945756,
-          "market_ev": 0.18438954227696436,
+          "market_ev": 0.15167159912014205,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-5-3",
-          "market_odds": 36.0,
+          "market_odds": 26.7,
           "probability": 0.02522407263462316,
           "probability_rank": 9,
           "fair_odds": 39.64466858644295,
-          "market_ev": -0.0919333851535662,
+          "market_ev": -0.32651726065556164,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-4-3",
-          "market_odds": 106.8,
+          "market_odds": 111.7,
           "probability": 0.023919631308254374,
           "probability_rank": 10,
           "fair_odds": 41.80666445535522,
-          "market_ev": 1.554616623721567,
+          "market_ev": 1.6718228171320137,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         }
       ],
@@ -8015,7 +8301,7 @@
       "market_status": "ODDS_WAITING",
       "market_odds_status": "ODDS_LIVE",
       "market_odds_type": "LIVE",
-      "market_odds_captured_at": "2026-08-26T03:55:32.335860+00:00",
+      "market_odds_captured_at": "2026-08-26T04:25:21.433935+00:00",
       "market_odds_top5": [
         {
           "combination": "1-2-3",
@@ -8028,38 +8314,38 @@
         },
         {
           "combination": "1-3-2",
-          "market_odds": 9.1,
+          "market_odds": 9.0,
           "probability": 0.10209722492644763,
           "probability_rank": 2,
           "fair_odds": 9.794585511216539,
-          "market_ev": -0.07091525316932668,
+          "market_ev": -0.08112497566197141,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-2-4",
-          "market_odds": 12.0,
+          "market_odds": 11.6,
           "probability": 0.08988750230129164,
           "probability_rank": 3,
           "fair_odds": 11.12501709801798,
-          "market_ev": 0.07865002761549977,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+          "market_ev": 0.04269502669498304,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
         },
         {
           "combination": "1-3-4",
-          "market_odds": 13.0,
+          "market_odds": 12.7,
           "probability": 0.08085025823143646,
           "probability_rank": 4,
           "fair_odds": 12.368544292554612,
-          "market_ev": 0.05105335700867397,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+          "market_ev": 0.026798279539242964,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
         },
         {
           "combination": "1-4-2",
-          "market_odds": 23.5,
+          "market_odds": 24.2,
           "probability": 0.05126333004534697,
           "probability_rank": 5,
           "fair_odds": 19.507121350006155,
-          "market_ev": 0.20468825606565377,
+          "market_ev": 0.2405725870973967,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         }
       ],
@@ -8075,83 +8361,83 @@
         },
         {
           "combination": "1-3-2",
-          "market_odds": 9.1,
+          "market_odds": 9.0,
           "probability": 0.10209722492644763,
           "probability_rank": 2,
           "fair_odds": 9.794585511216539,
-          "market_ev": -0.07091525316932668,
+          "market_ev": -0.08112497566197141,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-2-4",
-          "market_odds": 12.0,
+          "market_odds": 11.6,
           "probability": 0.08988750230129164,
           "probability_rank": 3,
           "fair_odds": 11.12501709801798,
-          "market_ev": 0.07865002761549977,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+          "market_ev": 0.04269502669498304,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
         },
         {
           "combination": "1-3-4",
-          "market_odds": 13.0,
+          "market_odds": 12.7,
           "probability": 0.08085025823143646,
           "probability_rank": 4,
           "fair_odds": 12.368544292554612,
-          "market_ev": 0.05105335700867397,
-          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+          "market_ev": 0.026798279539242964,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
         },
         {
           "combination": "1-4-2",
-          "market_odds": 23.5,
+          "market_odds": 24.2,
           "probability": 0.05126333004534697,
           "probability_rank": 5,
           "fair_odds": 19.507121350006155,
-          "market_ev": 0.20468825606565377,
+          "market_ev": 0.2405725870973967,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "1-4-3",
-          "market_odds": 23.1,
+          "market_odds": 23.7,
           "probability": 0.05126333004534697,
           "probability_rank": 6,
           "fair_odds": 19.507121350006155,
-          "market_ev": 0.18418292404751502,
+          "market_ev": 0.21494092207472315,
           "market_evaluation": "MARKET_ABOVE_AI_FAIR"
         },
         {
           "combination": "2-1-3",
-          "market_odds": 16.0,
+          "market_odds": 16.6,
           "probability": 0.034052367015722444,
           "probability_rank": 7,
           "fair_odds": 29.366534183608625,
-          "market_ev": -0.4551621277484409,
+          "market_ev": -0.43473070753900733,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-3-5",
-          "market_odds": 26.6,
+          "market_odds": 25.5,
           "probability": 0.030001218542353953,
           "probability_rank": 8,
           "fair_odds": 33.33197945237654,
-          "market_ev": -0.20196758677338478,
+          "market_ev": -0.2349689271699742,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "1-2-5",
-          "market_odds": 22.4,
+          "market_odds": 21.7,
           "probability": 0.027116398709759747,
           "probability_rank": 9,
           "fair_odds": 36.87805341348958,
-          "market_ev": -0.39259266890138167,
+          "market_ev": -0.41157414799821346,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         },
         {
           "combination": "2-1-4",
-          "market_odds": 25.4,
+          "market_odds": 27.3,
           "probability": 0.021620130877055957,
           "probability_rank": 10,
           "fair_odds": 46.25318901567035,
-          "market_ev": -0.45084867572277876,
+          "market_ev": -0.40977042705637234,
           "market_evaluation": "MARKET_BELOW_AI_FAIR"
         }
       ],
@@ -10422,13 +10708,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "1-6-3",
+      "trifecta_payout_yen": 9440,
+      "official_result_revision": 1,
+      "actual_combination_rank": 23,
+      "result": {
+        "actual_combination": "1-6-3",
+        "finish_lanes": [
+          1,
+          6,
+          3
+        ],
+        "trifecta_payout_yen": 9440,
+        "official_result_captured_at": "2026-08-26T04:22:46.450078+00:00"
+      },
+      "answer_check": {
+        "winner_hit": true,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:鳴門:02",
@@ -10483,13 +10784,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "5-1-2",
+      "trifecta_payout_yen": 6170,
+      "official_result_revision": 1,
+      "actual_combination_rank": 15,
+      "result": {
+        "actual_combination": "5-1-2",
+        "finish_lanes": [
+          5,
+          1,
+          2
+        ],
+        "trifecta_payout_yen": 6170,
+        "official_result_captured_at": "2026-08-26T04:23:16.313735+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:鳴門:03",
@@ -10544,13 +10860,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "1-5-4",
+      "trifecta_payout_yen": 620,
+      "official_result_revision": 1,
+      "actual_combination_rank": 3,
+      "result": {
+        "actual_combination": "1-5-4",
+        "finish_lanes": [
+          1,
+          5,
+          4
+        ],
+        "trifecta_payout_yen": 620,
+        "official_result_captured_at": "2026-08-26T04:23:47.159041+00:00"
+      },
+      "answer_check": {
+        "winner_hit": true,
+        "top1_hit": false,
+        "top3_hit": true,
+        "top5_hit": true,
+        "top10_hit": true
+      }
     },
     {
       "race_id": "2026-08-26:鳴門:04",
@@ -10605,13 +10936,28 @@
         "本命艇の1着確率が高い",
         "本命艇と2番手に明確な差"
       ],
-      "result_status": "RESULT_WAITING",
-      "official_trifecta": null,
-      "trifecta_payout_yen": null,
-      "official_result_revision": null,
-      "actual_combination_rank": null,
-      "result": null,
-      "answer_check": null
+      "result_status": "CONFIRMED",
+      "official_trifecta": "2-3-5",
+      "trifecta_payout_yen": 29420,
+      "official_result_revision": 1,
+      "actual_combination_rank": 69,
+      "result": {
+        "actual_combination": "2-3-5",
+        "finish_lanes": [
+          2,
+          3,
+          5
+        ],
+        "trifecta_payout_yen": 29420,
+        "official_result_captured_at": "2026-08-26T04:24:16.589498+00:00"
+      },
+      "answer_check": {
+        "winner_hit": false,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "top10_hit": false
+      }
     },
     {
       "race_id": "2026-08-26:鳴門:05",
