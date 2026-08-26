@@ -1,19 +1,31 @@
 {
   "schema_version": "phase10_5_public_daily_data_v7",
   "dataset_date": "2026-08-26",
-  "generated_at": "2026-08-26T11:06:46.124978+09:00",
+  "generated_at": "2026-08-26T11:11:08.438483+09:00",
   "timezone": "Asia/Tokyo",
-  "dataset_version": "public-2026-08-26-c4e87fb14c3b",
-  "manifest_sha256": "c4e87fb14c3bfa306a4a4eaa2402b4e70710f72ed352d7bf38cc59b1601b40e7",
+  "dataset_version": "public-2026-08-26-966d6bbb9d82",
+  "manifest_sha256": "966d6bbb9d82a1df9e32197292a72bfa41d9a0a63d198f1fb1b957328e34a52c",
   "rule_version": "decision_rule_v0.3_provisional",
   "publication_status": "VALIDATED_FOR_PUBLICATION",
   "race_count": 168,
   "trifecta_row_count": 20160,
-  "market_odds_available": false,
-  "market_observation": {},
+  "market_odds_available": true,
+  "market_observation": {
+    "schema_version": "phase10_4_official_live_odds_v1",
+    "max_races_per_manual_update": 5,
+    "polling_policy": "MANUAL_ONLY_NO_SCHEDULE; FUTURE_CADENCE_T30_ONCE_T10_T5",
+    "observed_race_count": 5,
+    "joined_120_race_count": 4,
+    "live_race_count": 3,
+    "closing_race_count": 1,
+    "waiting_race_count": 163,
+    "retryable_race_count": 1,
+    "generated_at": "2026-08-26T02:11:07.264588+00:00"
+  },
   "result_summary": {
     "confirmed_race_count": 0,
     "result_waiting_race_count": 168,
+    "result_retryable_race_count": 0,
     "invalid_race_count": 0
   },
   "attention_summary": {
@@ -46,12 +58,114 @@
       }
     ]
   },
-  "forward_validation_summary": {},
+  "forward_validation_summary": {
+    "dataset_date": "2026-08-26",
+    "confirmed_races": 0,
+    "waiting_races": 168,
+    "retryable_races": 0,
+    "invalid_races": 0,
+    "total_races": 168,
+    "winner_hits": 0,
+    "trifecta_top1_hits": 0,
+    "top3_hits": 0,
+    "top5_hits": 0,
+    "top10_hits": 0,
+    "attention_top1": {
+      "confirmed_races": 0,
+      "winner_hits": 0,
+      "trifecta_top1_hits": 0,
+      "top3_hits": 0,
+      "top5_hits": 0,
+      "top10_hits": 0
+    },
+    "attention_top3": {
+      "confirmed_races": 0,
+      "winner_hits": 0,
+      "trifecta_top1_hits": 0,
+      "top3_hits": 0,
+      "top5_hits": 0,
+      "top10_hits": 0
+    },
+    "attention_top5": {
+      "confirmed_races": 0,
+      "winner_hits": 0,
+      "trifecta_top1_hits": 0,
+      "top3_hits": 0,
+      "top5_hits": 0,
+      "top10_hits": 0
+    },
+    "attention_score_band_summary": {
+      "score_80_plus": {
+        "confirmed_races": 0,
+        "winner_hits": 0,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 0,
+        "top5_hits": 0,
+        "top10_hits": 0
+      },
+      "score_60_to_79": {
+        "confirmed_races": 0,
+        "winner_hits": 0,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 0,
+        "top5_hits": 0,
+        "top10_hits": 0
+      },
+      "score_59_or_less": {
+        "confirmed_races": 0,
+        "winner_hits": 0,
+        "trifecta_top1_hits": 0,
+        "top3_hits": 0,
+        "top5_hits": 0,
+        "top10_hits": 0
+      }
+    },
+    "venue_summary": [],
+    "venue_best3": [],
+    "denominator_policy": "OFFICIAL_RESULT_STATUS_CONFIRMED_ONLY",
+    "generated_at": "2026-08-26T02:10:08.714618+00:00"
+  },
   "venue_best3": [],
-  "monthly_forward_validation_summary": {},
-  "venue_compatibility_summary": {},
+  "monthly_forward_validation_summary": {
+    "schema_version": "phase10_3_monthly_forward_validation_summary_v1",
+    "month": "2026-08",
+    "daily_summary_count": 1,
+    "confirmed_races": 0,
+    "waiting_races": 168,
+    "retryable_races": 0,
+    "invalid_races": 0,
+    "total_races": 168,
+    "winner_hits": 0,
+    "trifecta_top1_hits": 0,
+    "top3_hits": 0,
+    "top5_hits": 0,
+    "top10_hits": 0,
+    "daily_summary_paths": [
+      "data/phase9/predictions/year=2026/month=08/day=26/daily_forward_validation_summary.json"
+    ],
+    "generated_at": "2026-08-26T02:10:08.716787+00:00"
+  },
+  "venue_compatibility_summary": {
+    "schema_version": "phase10_4_recent_venue_compatibility_v1",
+    "window_days": 30,
+    "window_start": "2026-07-28",
+    "window_end": "2026-08-26",
+    "minimum_confirmed_races": 60,
+    "eligible_venue_count": 0,
+    "ranked_venues": [],
+    "data_accumulating_venues": [],
+    "source_policy": "FORWARD_LEDGER_CONFIRMED_ONLY_NO_TEST_SHADOW_NO_MARKET",
+    "generated_at": "2026-08-26T02:10:08.717742+00:00"
+  },
   "paper_connection": {
-    "paper_entries_created": 0
+    "market_odds_available": false,
+    "eligible_decision_statuses": [
+      "STRONG_BET",
+      "BET"
+    ],
+    "eligible_race_count": 0,
+    "paper_entries_created": 0,
+    "policy": "NO_MARKET_ODDS_OR_NO_BET_STRONG_MEANS_ZERO_PAPER_ENTRIES"
   },
   "races": [
     {
@@ -62,7 +176,7 @@
       "scheduled_close": "2026-08-26T10:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6063925311,
+      "ai_favorite_probability": 0.6063925310879432,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -123,7 +237,7 @@
       "scheduled_close": "2026-08-26T11:02:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3537013539,
+      "ai_favorite_probability": 0.3537013539328869,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -184,7 +298,7 @@
       "scheduled_close": "2026-08-26T11:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4247073077,
+      "ai_favorite_probability": 0.42470730765220716,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -245,7 +359,7 @@
       "scheduled_close": "2026-08-26T11:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3095461139,
+      "ai_favorite_probability": 0.30954611393833464,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -306,7 +420,7 @@
       "scheduled_close": "2026-08-26T12:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5641218183,
+      "ai_favorite_probability": 0.564121818343803,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -367,7 +481,7 @@
       "scheduled_close": "2026-08-26T12:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4510323903,
+      "ai_favorite_probability": 0.4510323903438015,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -428,7 +542,7 @@
       "scheduled_close": "2026-08-26T13:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5822026739,
+      "ai_favorite_probability": 0.5822026739253401,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -489,7 +603,7 @@
       "scheduled_close": "2026-08-26T13:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3579460396,
+      "ai_favorite_probability": 0.3579460396168009,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -550,7 +664,7 @@
       "scheduled_close": "2026-08-26T14:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.663909363,
+      "ai_favorite_probability": 0.6639093629559145,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -611,7 +725,7 @@
       "scheduled_close": "2026-08-26T15:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7128140629,
+      "ai_favorite_probability": 0.7128140628989775,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -672,7 +786,7 @@
       "scheduled_close": "2026-08-26T15:36:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7791593679,
+      "ai_favorite_probability": 0.7791593679016875,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -733,7 +847,7 @@
       "scheduled_close": "2026-08-26T16:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7859564385,
+      "ai_favorite_probability": 0.785956438467562,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -794,7 +908,7 @@
       "scheduled_close": "2026-08-26T08:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7724496267,
+      "ai_favorite_probability": 0.7724496266973387,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -824,12 +938,149 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_WAITING",
-      "market_odds_type": null,
-      "market_odds_captured_at": null,
-      "market_odds_top5": [],
-      "market_analysis_top10": [],
-      "odds_join_row_count": 0,
+      "market_odds_status": "ODDS_CLOSING",
+      "market_odds_type": "CLOSING",
+      "market_odds_captured_at": "2026-08-26T02:10:18.212277+00:00",
+      "market_odds_top5": [
+        {
+          "combination": "1-3-5",
+          "market_odds": 3.2,
+          "probability": 0.20034345714471208,
+          "probability_rank": 1,
+          "fair_odds": 4.991428291454909,
+          "market_ev": -0.3589009371369213,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 7.0,
+          "probability": 0.12102939270196725,
+          "probability_rank": 2,
+          "fair_odds": 8.262455736372093,
+          "market_ev": -0.15279425108622924,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-5-3",
+          "market_odds": 5.7,
+          "probability": 0.11968765527254903,
+          "probability_rank": 3,
+          "fair_odds": 8.355080544629526,
+          "market_ev": -0.31778036494647055,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 8.8,
+          "probability": 0.0993532898807006,
+          "probability_rank": 4,
+          "fair_odds": 10.065091968275631,
+          "market_ev": -0.12569104904983475,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-5-2",
+          "market_odds": 10.1,
+          "probability": 0.08273579642822974,
+          "probability_rank": 5,
+          "fair_odds": 12.086666753337694,
+          "market_ev": -0.1643684560748796,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        }
+      ],
+      "market_analysis_top10": [
+        {
+          "combination": "1-3-5",
+          "market_odds": 3.2,
+          "probability": 0.20034345714471208,
+          "probability_rank": 1,
+          "fair_odds": 4.991428291454909,
+          "market_ev": -0.3589009371369213,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 7.0,
+          "probability": 0.12102939270196725,
+          "probability_rank": 2,
+          "fair_odds": 8.262455736372093,
+          "market_ev": -0.15279425108622924,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-5-3",
+          "market_odds": 5.7,
+          "probability": 0.11968765527254903,
+          "probability_rank": 3,
+          "fair_odds": 8.355080544629526,
+          "market_ev": -0.31778036494647055,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 8.8,
+          "probability": 0.0993532898807006,
+          "probability_rank": 4,
+          "fair_odds": 10.065091968275631,
+          "market_ev": -0.12569104904983475,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-5-2",
+          "market_odds": 10.1,
+          "probability": 0.08273579642822974,
+          "probability_rank": 5,
+          "fair_odds": 12.086666753337694,
+          "market_ev": -0.1643684560748796,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-5",
+          "market_odds": 10.8,
+          "probability": 0.07620843254418083,
+          "probability_rank": 6,
+          "fair_odds": 13.121907466345844,
+          "market_ev": -0.17694892852284694,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "3-1-5",
+          "market_odds": 37.8,
+          "probability": 0.04519811882581492,
+          "probability_rank": 7,
+          "fair_odds": 22.12481461571028,
+          "market_ev": 0.7084888916158039,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "5-1-3",
+          "market_odds": 48.2,
+          "probability": 0.02406182822954214,
+          "probability_rank": 8,
+          "fair_odds": 41.55960180832147,
+          "market_ev": 0.1597801206639311,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-1-2",
+          "market_odds": 87.9,
+          "probability": 0.01996621301592293,
+          "probability_rank": 9,
+          "fair_odds": 50.08461039669898,
+          "market_ev": 0.7550301240996256,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-5-1",
+          "market_odds": 78.9,
+          "probability": 0.017891200733865225,
+          "probability_rank": 10,
+          "fair_odds": 55.893397814667495,
+          "market_ev": 0.41161573790196626,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        }
+      ],
+      "odds_join_row_count": 120,
       "decision": "PASS",
       "attention_score": 92,
       "attention_rank": 1,
@@ -855,7 +1106,7 @@
       "scheduled_close": "2026-08-26T09:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5420246728,
+      "ai_favorite_probability": 0.5420246727959595,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -916,7 +1167,7 @@
       "scheduled_close": "2026-08-26T09:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5693686599,
+      "ai_favorite_probability": 0.5693686598980457,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -977,7 +1228,7 @@
       "scheduled_close": "2026-08-26T10:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5798833158,
+      "ai_favorite_probability": 0.5798833158358955,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1038,7 +1289,7 @@
       "scheduled_close": "2026-08-26T10:34:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5002253879,
+      "ai_favorite_probability": 0.5002253878744037,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1099,7 +1350,7 @@
       "scheduled_close": "2026-08-26T11:04:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.3203191979,
+      "ai_favorite_probability": 0.32031919786424634,
       "trifecta_top1": "2-3-6",
       "trifecta_top3": [
         "2-3-6",
@@ -1160,7 +1411,7 @@
       "scheduled_close": "2026-08-26T11:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5154427549,
+      "ai_favorite_probability": 0.5154427548664849,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -1221,7 +1472,7 @@
       "scheduled_close": "2026-08-26T12:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.3577399248,
+      "ai_favorite_probability": 0.3577399247697943,
       "trifecta_top1": "2-3-4",
       "trifecta_top3": [
         "2-3-4",
@@ -1282,7 +1533,7 @@
       "scheduled_close": "2026-08-26T12:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.458879177,
+      "ai_favorite_probability": 0.4588791770063494,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -1343,7 +1594,7 @@
       "scheduled_close": "2026-08-26T13:13:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.351432694,
+      "ai_favorite_probability": 0.3514326940067793,
       "trifecta_top1": "2-4-5",
       "trifecta_top3": [
         "2-4-5",
@@ -1404,7 +1655,7 @@
       "scheduled_close": "2026-08-26T13:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4011935227,
+      "ai_favorite_probability": 0.4011935226974933,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1465,7 +1716,7 @@
       "scheduled_close": "2026-08-26T14:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6720270111,
+      "ai_favorite_probability": 0.6720270111066394,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -1526,7 +1777,7 @@
       "scheduled_close": "2026-08-26T15:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.294248842,
+      "ai_favorite_probability": 0.2942488419907448,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1587,7 +1838,7 @@
       "scheduled_close": "2026-08-26T15:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3766337773,
+      "ai_favorite_probability": 0.37663377728405234,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -1648,7 +1899,7 @@
       "scheduled_close": "2026-08-26T16:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4376729835,
+      "ai_favorite_probability": 0.43767298352467016,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -1709,7 +1960,7 @@
       "scheduled_close": "2026-08-26T16:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4086852196,
+      "ai_favorite_probability": 0.40868521962230747,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -1770,7 +2021,7 @@
       "scheduled_close": "2026-08-26T17:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5269607756,
+      "ai_favorite_probability": 0.5269607755789233,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -1831,7 +2082,7 @@
       "scheduled_close": "2026-08-26T17:26:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4776202032,
+      "ai_favorite_probability": 0.4776202032203809,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -1892,7 +2143,7 @@
       "scheduled_close": "2026-08-26T17:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4040593353,
+      "ai_favorite_probability": 0.4040593353289615,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -1953,7 +2204,7 @@
       "scheduled_close": "2026-08-26T18:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5909399592,
+      "ai_favorite_probability": 0.5909399592133533,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2014,7 +2265,7 @@
       "scheduled_close": "2026-08-26T18:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5886255743,
+      "ai_favorite_probability": 0.5886255742849673,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2075,7 +2326,7 @@
       "scheduled_close": "2026-08-26T19:19:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.740362623,
+      "ai_favorite_probability": 0.7403626230111117,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -2136,7 +2387,7 @@
       "scheduled_close": "2026-08-26T19:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7682865883,
+      "ai_favorite_probability": 0.7682865882827066,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2197,7 +2448,7 @@
       "scheduled_close": "2026-08-26T20:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7181273576,
+      "ai_favorite_probability": 0.7181273575511654,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -2258,7 +2509,7 @@
       "scheduled_close": "2026-08-26T10:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6595144901,
+      "ai_favorite_probability": 0.659514490059126,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -2319,7 +2570,7 @@
       "scheduled_close": "2026-08-26T11:13:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5314773515,
+      "ai_favorite_probability": 0.531477351539727,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -2380,7 +2631,7 @@
       "scheduled_close": "2026-08-26T11:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4219133371,
+      "ai_favorite_probability": 0.4219133370916916,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -2441,7 +2692,7 @@
       "scheduled_close": "2026-08-26T12:15:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5848539795,
+      "ai_favorite_probability": 0.5848539795435984,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -2502,7 +2753,7 @@
       "scheduled_close": "2026-08-26T12:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5869409514,
+      "ai_favorite_probability": 0.5869409514046756,
       "trifecta_top1": "1-5-4",
       "trifecta_top3": [
         "1-5-4",
@@ -2563,7 +2814,7 @@
       "scheduled_close": "2026-08-26T13:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.378079875,
+      "ai_favorite_probability": 0.3780798749599189,
       "trifecta_top1": "3-2-5",
       "trifecta_top3": [
         "3-2-5",
@@ -2624,7 +2875,7 @@
       "scheduled_close": "2026-08-26T14:04:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3786487983,
+      "ai_favorite_probability": 0.3786487982588527,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2685,7 +2936,7 @@
       "scheduled_close": "2026-08-26T14:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7358538461,
+      "ai_favorite_probability": 0.7358538461146813,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -2746,7 +2997,7 @@
       "scheduled_close": "2026-08-26T15:05:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.435098676,
+      "ai_favorite_probability": 0.4350986760283584,
       "trifecta_top1": "2-1-3",
       "trifecta_top3": [
         "2-1-3",
@@ -2807,7 +3058,7 @@
       "scheduled_close": "2026-08-26T15:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4455573375,
+      "ai_favorite_probability": 0.4455573375465139,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -2868,7 +3119,7 @@
       "scheduled_close": "2026-08-26T16:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6846405239,
+      "ai_favorite_probability": 0.6846405238981981,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -2929,7 +3180,7 @@
       "scheduled_close": "2026-08-26T16:47:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7371559849,
+      "ai_favorite_probability": 0.737155984862272,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -2990,7 +3241,7 @@
       "scheduled_close": "2026-08-26T10:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.4804189229,
+      "ai_favorite_probability": 0.4804189229199493,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -3051,7 +3302,7 @@
       "scheduled_close": "2026-08-26T10:59:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4060130866,
+      "ai_favorite_probability": 0.40601308663059515,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3112,7 +3363,7 @@
       "scheduled_close": "2026-08-26T11:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4436427026,
+      "ai_favorite_probability": 0.4436427026151761,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -3173,7 +3424,7 @@
       "scheduled_close": "2026-08-26T11:49:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4462360275,
+      "ai_favorite_probability": 0.44623602747110147,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3234,7 +3485,7 @@
       "scheduled_close": "2026-08-26T12:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7011726174,
+      "ai_favorite_probability": 0.7011726173529756,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3295,7 +3546,7 @@
       "scheduled_close": "2026-08-26T12:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.564015945,
+      "ai_favorite_probability": 0.5640159450305928,
       "trifecta_top1": "1-4-3",
       "trifecta_top3": [
         "1-4-3",
@@ -3356,7 +3607,7 @@
       "scheduled_close": "2026-08-26T13:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5689928312,
+      "ai_favorite_probability": 0.56899283118009,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -3417,7 +3668,7 @@
       "scheduled_close": "2026-08-26T14:11:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.517404885,
+      "ai_favorite_probability": 0.5174048850351612,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -3478,7 +3729,7 @@
       "scheduled_close": "2026-08-26T14:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6412203432,
+      "ai_favorite_probability": 0.6412203432129976,
       "trifecta_top1": "1-6-2",
       "trifecta_top3": [
         "1-6-2",
@@ -3539,7 +3790,7 @@
       "scheduled_close": "2026-08-26T15:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6424592568,
+      "ai_favorite_probability": 0.6424592568141352,
       "trifecta_top1": "1-4-6",
       "trifecta_top3": [
         "1-4-6",
@@ -3600,7 +3851,7 @@
       "scheduled_close": "2026-08-26T15:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7119729826,
+      "ai_favorite_probability": 0.7119729825824559,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -3661,7 +3912,7 @@
       "scheduled_close": "2026-08-26T16:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7319000967,
+      "ai_favorite_probability": 0.731900096678859,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3691,12 +3942,149 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_WAITING",
-      "market_odds_type": null,
-      "market_odds_captured_at": null,
-      "market_odds_top5": [],
-      "market_analysis_top10": [],
-      "odds_join_row_count": 0,
+      "market_odds_status": "ODDS_LIVE",
+      "market_odds_type": "LIVE",
+      "market_odds_captured_at": "2026-08-26T02:11:07.202080+00:00",
+      "market_odds_top5": [
+        {
+          "combination": "1-2-3",
+          "market_odds": 3.5,
+          "probability": 0.13546136423977098,
+          "probability_rank": 1,
+          "fair_odds": 7.382178716508183,
+          "market_ev": -0.5258852251608015,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 9.4,
+          "probability": 0.11234285221793723,
+          "probability_rank": 2,
+          "fair_odds": 8.90132287241622,
+          "market_ev": 0.05602281084861005,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-3-4",
+          "market_odds": 14.6,
+          "probability": 0.09343979005780284,
+          "probability_rank": 3,
+          "fair_odds": 10.702078840089317,
+          "market_ev": 0.3642209348439214,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-2-4",
+          "market_odds": 10.9,
+          "probability": 0.09111900793311606,
+          "probability_rank": 4,
+          "fair_odds": 10.97465855569925,
+          "market_ev": -0.00680281352903489,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        },
+        {
+          "combination": "1-4-2",
+          "market_odds": 19.5,
+          "probability": 0.049516375234326164,
+          "probability_rank": 5,
+          "fair_odds": 20.195339324974892,
+          "market_ev": -0.03443068293063978,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        }
+      ],
+      "market_analysis_top10": [
+        {
+          "combination": "1-2-3",
+          "market_odds": 3.5,
+          "probability": 0.13546136423977098,
+          "probability_rank": 1,
+          "fair_odds": 7.382178716508183,
+          "market_ev": -0.5258852251608015,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 9.4,
+          "probability": 0.11234285221793723,
+          "probability_rank": 2,
+          "fair_odds": 8.90132287241622,
+          "market_ev": 0.05602281084861005,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-3-4",
+          "market_odds": 14.6,
+          "probability": 0.09343979005780284,
+          "probability_rank": 3,
+          "fair_odds": 10.702078840089317,
+          "market_ev": 0.3642209348439214,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-2-4",
+          "market_odds": 10.9,
+          "probability": 0.09111900793311606,
+          "probability_rank": 4,
+          "fair_odds": 10.97465855569925,
+          "market_ev": -0.00680281352903489,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        },
+        {
+          "combination": "1-4-2",
+          "market_odds": 19.5,
+          "probability": 0.049516375234326164,
+          "probability_rank": 5,
+          "fair_odds": 20.195339324974892,
+          "market_ev": -0.03443068293063978,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        },
+        {
+          "combination": "1-4-3",
+          "market_odds": 20.8,
+          "probability": 0.04519675856964595,
+          "probability_rank": 6,
+          "fair_odds": 22.125480491240314,
+          "market_ev": -0.05990742175136421,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-6",
+          "market_odds": 16.0,
+          "probability": 0.03481866504946871,
+          "probability_rank": 7,
+          "fair_odds": 28.720228032270832,
+          "market_ev": -0.4429013592085006,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-6",
+          "market_odds": 24.4,
+          "probability": 0.034672833747188006,
+          "probability_rank": 8,
+          "fair_odds": 28.841023127540037,
+          "market_ev": -0.15398285656861266,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "2-1-3",
+          "market_odds": 29.7,
+          "probability": 0.027926192345533535,
+          "probability_rank": 9,
+          "fair_odds": 35.808676944815865,
+          "market_ev": -0.17059208733765407,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-5",
+          "market_odds": 39.7,
+          "probability": 0.024071756223917315,
+          "probability_rank": 10,
+          "fair_odds": 41.54246124370501,
+          "market_ev": -0.044351277910482545,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        }
+      ],
+      "odds_join_row_count": 120,
       "decision": "PASS",
       "attention_score": 81,
       "attention_rank": 5,
@@ -3722,7 +4110,7 @@
       "scheduled_close": "2026-08-26T10:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7086835923,
+      "ai_favorite_probability": 0.7086835923192497,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -3783,7 +4171,7 @@
       "scheduled_close": "2026-08-26T11:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5867313048,
+      "ai_favorite_probability": 0.5867313047515685,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -3844,7 +4232,7 @@
       "scheduled_close": "2026-08-26T11:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4376695488,
+      "ai_favorite_probability": 0.43766954878590064,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -3905,7 +4293,7 @@
       "scheduled_close": "2026-08-26T12:05:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6996551171,
+      "ai_favorite_probability": 0.6996551171387363,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -3935,12 +4323,149 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_WAITING",
-      "market_odds_type": null,
-      "market_odds_captured_at": null,
-      "market_odds_top5": [],
-      "market_analysis_top10": [],
-      "odds_join_row_count": 0,
+      "market_odds_status": "ODDS_LIVE",
+      "market_odds_type": "LIVE",
+      "market_odds_captured_at": "2026-08-26T02:10:27.814193+00:00",
+      "market_odds_top5": [
+        {
+          "combination": "1-2-5",
+          "market_odds": 7.5,
+          "probability": 0.1551395915507164,
+          "probability_rank": 1,
+          "fair_odds": 6.44580786892875,
+          "market_ev": 0.163546936630373,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 21.6,
+          "probability": 0.10815372465769346,
+          "probability_rank": 2,
+          "fair_odds": 9.246098580192221,
+          "market_ev": 1.336120452606179,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-5-2",
+          "market_odds": 13.5,
+          "probability": 0.08871104269410314,
+          "probability_rank": 3,
+          "fair_odds": 11.272553783954933,
+          "market_ev": 0.1975990763703923,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-2-6",
+          "market_odds": 15.5,
+          "probability": 0.06069258178064627,
+          "probability_rank": 4,
+          "fair_odds": 16.476478189940526,
+          "market_ev": -0.05926498239998279,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-4",
+          "market_odds": 37.3,
+          "probability": 0.05009538944744059,
+          "probability_rank": 5,
+          "fair_odds": 19.961916875587654,
+          "market_ev": 0.8685580263895338,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        }
+      ],
+      "market_analysis_top10": [
+        {
+          "combination": "1-2-5",
+          "market_odds": 7.5,
+          "probability": 0.1551395915507164,
+          "probability_rank": 1,
+          "fair_odds": 6.44580786892875,
+          "market_ev": 0.163546936630373,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 21.6,
+          "probability": 0.10815372465769346,
+          "probability_rank": 2,
+          "fair_odds": 9.246098580192221,
+          "market_ev": 1.336120452606179,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-5-2",
+          "market_odds": 13.5,
+          "probability": 0.08871104269410314,
+          "probability_rank": 3,
+          "fair_odds": 11.272553783954933,
+          "market_ev": 0.1975990763703923,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-2-6",
+          "market_odds": 15.5,
+          "probability": 0.06069258178064627,
+          "probability_rank": 4,
+          "fair_odds": 16.476478189940526,
+          "market_ev": -0.05926498239998279,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-4",
+          "market_odds": 37.3,
+          "probability": 0.05009538944744059,
+          "probability_rank": 5,
+          "fair_odds": 19.961916875587654,
+          "market_ev": 0.8685580263895338,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "2-1-5",
+          "market_odds": 52.1,
+          "probability": 0.046595323675152595,
+          "probability_rank": 6,
+          "fair_odds": 21.46138112424487,
+          "market_ev": 1.4276163634754502,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-3-2",
+          "market_odds": 43.9,
+          "probability": 0.037571771220250155,
+          "probability_rank": 7,
+          "fair_odds": 26.615726848166993,
+          "market_ev": 0.6494007565689817,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-5-3",
+          "market_odds": 29.1,
+          "probability": 0.0339731517857152,
+          "probability_rank": 8,
+          "fair_odds": 29.43500815901553,
+          "market_ev": -0.01138128303568764,
+          "market_evaluation": "MARKET_NEAR_AI_FAIR"
+        },
+        {
+          "combination": "1-5-6",
+          "market_odds": 17.2,
+          "probability": 0.02617240606297308,
+          "probability_rank": 9,
+          "fair_odds": 38.20817992789479,
+          "market_ev": -0.549834615716863,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "2-1-3",
+          "market_odds": 128.4,
+          "probability": 0.02495635553498959,
+          "probability_rank": 10,
+          "fair_odds": 40.0699532669331,
+          "market_ev": 2.2043960506926634,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        }
+      ],
+      "odds_join_row_count": 120,
       "decision": "PASS",
       "attention_score": 82,
       "attention_rank": 2,
@@ -3966,7 +4491,7 @@
       "scheduled_close": "2026-08-26T12:31:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.379963951,
+      "ai_favorite_probability": 0.3799639510441942,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4027,7 +4552,7 @@
       "scheduled_close": "2026-08-26T13:10:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6044468119,
+      "ai_favorite_probability": 0.6044468119073304,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -4088,7 +4613,7 @@
       "scheduled_close": "2026-08-26T13:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6296894191,
+      "ai_favorite_probability": 0.6296894190566507,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -4149,7 +4674,7 @@
       "scheduled_close": "2026-08-26T14:07:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4232583049,
+      "ai_favorite_probability": 0.42325830494137373,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -4210,7 +4735,7 @@
       "scheduled_close": "2026-08-26T14:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6391285646,
+      "ai_favorite_probability": 0.6391285645513181,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -4271,7 +4796,7 @@
       "scheduled_close": "2026-08-26T15:12:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6782401979,
+      "ai_favorite_probability": 0.6782401979253583,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4332,7 +4857,7 @@
       "scheduled_close": "2026-08-26T15:48:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.698171854,
+      "ai_favorite_probability": 0.6981718540394041,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -4393,7 +4918,7 @@
       "scheduled_close": "2026-08-26T16:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7007493052,
+      "ai_favorite_probability": 0.7007493052192544,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4454,7 +4979,7 @@
       "scheduled_close": "2026-08-26T08:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6853737739,
+      "ai_favorite_probability": 0.6853737739344539,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4515,7 +5040,7 @@
       "scheduled_close": "2026-08-26T09:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7126862491,
+      "ai_favorite_probability": 0.7126862490702688,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -4576,7 +5101,7 @@
       "scheduled_close": "2026-08-26T09:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7444767583,
+      "ai_favorite_probability": 0.7444767582990338,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -4637,7 +5162,7 @@
       "scheduled_close": "2026-08-26T09:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.670524296,
+      "ai_favorite_probability": 0.6705242960027004,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4698,7 +5223,7 @@
       "scheduled_close": "2026-08-26T10:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6373570169,
+      "ai_favorite_probability": 0.6373570168699272,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -4759,7 +5284,7 @@
       "scheduled_close": "2026-08-26T10:55:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6794039665,
+      "ai_favorite_probability": 0.6794039665153697,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -4820,7 +5345,7 @@
       "scheduled_close": "2026-08-26T11:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6966746925,
+      "ai_favorite_probability": 0.6966746925123869,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -4881,7 +5406,7 @@
       "scheduled_close": "2026-08-26T12:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6870830897,
+      "ai_favorite_probability": 0.6870830897269543,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -4942,7 +5467,7 @@
       "scheduled_close": "2026-08-26T12:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7470178845,
+      "ai_favorite_probability": 0.7470178845023817,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5003,7 +5528,7 @@
       "scheduled_close": "2026-08-26T13:05:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5286825724,
+      "ai_favorite_probability": 0.5286825724468542,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5064,7 +5589,7 @@
       "scheduled_close": "2026-08-26T13:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6817118785,
+      "ai_favorite_probability": 0.6817118784907042,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5125,7 +5650,7 @@
       "scheduled_close": "2026-08-26T14:19:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7481905766,
+      "ai_favorite_probability": 0.7481905765773065,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -5186,7 +5711,7 @@
       "scheduled_close": "2026-08-26T14:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.590824035,
+      "ai_favorite_probability": 0.5908240349710021,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5247,7 +5772,7 @@
       "scheduled_close": "2026-08-26T15:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5240819265,
+      "ai_favorite_probability": 0.5240819264791329,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5308,7 +5833,7 @@
       "scheduled_close": "2026-08-26T15:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5570987745,
+      "ai_favorite_probability": 0.5570987744578015,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5369,7 +5894,7 @@
       "scheduled_close": "2026-08-26T16:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6018410411,
+      "ai_favorite_probability": 0.6018410411222984,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5430,7 +5955,7 @@
       "scheduled_close": "2026-08-26T16:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5837581852,
+      "ai_favorite_probability": 0.5837581851742428,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5491,7 +6016,7 @@
       "scheduled_close": "2026-08-26T17:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5818237459,
+      "ai_favorite_probability": 0.5818237459074971,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -5552,7 +6077,7 @@
       "scheduled_close": "2026-08-26T17:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4376836289,
+      "ai_favorite_probability": 0.4376836288637359,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -5613,7 +6138,7 @@
       "scheduled_close": "2026-08-26T18:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4951081392,
+      "ai_favorite_probability": 0.49510813924778807,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5674,7 +6199,7 @@
       "scheduled_close": "2026-08-26T18:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5697926635,
+      "ai_favorite_probability": 0.5697926634843822,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5735,7 +6260,7 @@
       "scheduled_close": "2026-08-26T19:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6965469868,
+      "ai_favorite_probability": 0.6965469868425168,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5796,7 +6321,7 @@
       "scheduled_close": "2026-08-26T20:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6550533488,
+      "ai_favorite_probability": 0.6550533488406215,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5857,7 +6382,7 @@
       "scheduled_close": "2026-08-26T20:40:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7820193018,
+      "ai_favorite_probability": 0.782019301796136,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -5918,7 +6443,7 @@
       "scheduled_close": "2026-08-26T11:14:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3987633994,
+      "ai_favorite_probability": 0.39876339943018746,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -5979,7 +6504,7 @@
       "scheduled_close": "2026-08-26T11:41:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4363385885,
+      "ai_favorite_probability": 0.4363385885415926,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -6040,7 +6565,7 @@
       "scheduled_close": "2026-08-26T12:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5327813326,
+      "ai_favorite_probability": 0.532781332646905,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -6101,7 +6626,7 @@
       "scheduled_close": "2026-08-26T12:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.4466524711,
+      "ai_favorite_probability": 0.44665247109445666,
       "trifecta_top1": "3-1-5",
       "trifecta_top3": [
         "3-1-5",
@@ -6162,7 +6687,7 @@
       "scheduled_close": "2026-08-26T13:02:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3624117026,
+      "ai_favorite_probability": 0.3624117025592779,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -6223,7 +6748,7 @@
       "scheduled_close": "2026-08-26T13:29:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3726672871,
+      "ai_favorite_probability": 0.3726672871049448,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -6284,7 +6809,7 @@
       "scheduled_close": "2026-08-26T13:56:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6940540101,
+      "ai_favorite_probability": 0.6940540101316693,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -6345,7 +6870,7 @@
       "scheduled_close": "2026-08-26T14:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6728587494,
+      "ai_favorite_probability": 0.672858749350707,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -6406,7 +6931,7 @@
       "scheduled_close": "2026-08-26T14:52:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
-      "ai_favorite_probability": 0.3724264252,
+      "ai_favorite_probability": 0.3724264252317727,
       "trifecta_top1": "4-5-2",
       "trifecta_top3": [
         "4-5-2",
@@ -6467,7 +6992,7 @@
       "scheduled_close": "2026-08-26T15:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3744781358,
+      "ai_favorite_probability": 0.37447813581901546,
       "trifecta_top1": "2-1-5",
       "trifecta_top3": [
         "2-1-5",
@@ -6528,7 +7053,7 @@
       "scheduled_close": "2026-08-26T15:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3722923315,
+      "ai_favorite_probability": 0.37229233152081875,
       "trifecta_top1": "1-4-2",
       "trifecta_top3": [
         "1-4-2",
@@ -6589,7 +7114,7 @@
       "scheduled_close": "2026-08-26T16:25:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.682152841,
+      "ai_favorite_probability": 0.682152840980852,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6650,7 +7175,7 @@
       "scheduled_close": "2026-08-26T10:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5515465035,
+      "ai_favorite_probability": 0.5515465035152926,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -6711,7 +7236,7 @@
       "scheduled_close": "2026-08-26T10:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4259529868,
+      "ai_favorite_probability": 0.4259529867958903,
       "trifecta_top1": "1-4-6",
       "trifecta_top3": [
         "1-4-6",
@@ -6772,7 +7297,7 @@
       "scheduled_close": "2026-08-26T11:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4970932697,
+      "ai_favorite_probability": 0.49709326967280487,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -6833,7 +7358,7 @@
       "scheduled_close": "2026-08-26T11:54:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.3945840727,
+      "ai_favorite_probability": 0.394584072697051,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -6894,7 +7419,7 @@
       "scheduled_close": "2026-08-26T12:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.322826651,
+      "ai_favorite_probability": 0.3228266509566172,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -6955,7 +7480,7 @@
       "scheduled_close": "2026-08-26T12:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4118991139,
+      "ai_favorite_probability": 0.41189911385570765,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -7016,7 +7541,7 @@
       "scheduled_close": "2026-08-26T13:23:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3844872354,
+      "ai_favorite_probability": 0.3844872354243795,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7077,7 +7602,7 @@
       "scheduled_close": "2026-08-26T13:53:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.4765330852,
+      "ai_favorite_probability": 0.47653308520678783,
       "trifecta_top1": "2-1-3",
       "trifecta_top3": [
         "2-1-3",
@@ -7138,7 +7663,7 @@
       "scheduled_close": "2026-08-26T14:28:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6611346067,
+      "ai_favorite_probability": 0.6611346067381099,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -7199,7 +7724,7 @@
       "scheduled_close": "2026-08-26T15:03:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6082323122,
+      "ai_favorite_probability": 0.608232312208381,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -7229,12 +7754,149 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_WAITING",
-      "market_odds_type": null,
-      "market_odds_captured_at": null,
-      "market_odds_top5": [],
-      "market_analysis_top10": [],
-      "odds_join_row_count": 0,
+      "market_odds_status": "ODDS_LIVE",
+      "market_odds_type": "LIVE",
+      "market_odds_captured_at": "2026-08-26T02:10:37.250763+00:00",
+      "market_odds_top5": [
+        {
+          "combination": "1-3-2",
+          "market_odds": 15.2,
+          "probability": 0.18411690339148726,
+          "probability_rank": 1,
+          "fair_odds": 5.4313318417793655,
+          "market_ev": 1.7985769315506062,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-3-5",
+          "market_odds": 10.5,
+          "probability": 0.08766973286810276,
+          "probability_rank": 2,
+          "fair_odds": 11.406445158267775,
+          "market_ev": -0.07946780488492111,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 40.8,
+          "probability": 0.08417912946573398,
+          "probability_rank": 3,
+          "fair_odds": 11.879429097767764,
+          "market_ev": 2.4345084822019465,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-1-2",
+          "market_odds": 12.0,
+          "probability": 0.07393377337154208,
+          "probability_rank": 4,
+          "fair_odds": 13.525618325669157,
+          "market_ev": -0.112794719541495,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-4",
+          "market_odds": 37.5,
+          "probability": 0.07172691018619047,
+          "probability_rank": 5,
+          "fair_odds": 13.941768820156556,
+          "market_ev": 1.6897591319821426,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        }
+      ],
+      "market_analysis_top10": [
+        {
+          "combination": "1-3-2",
+          "market_odds": 15.2,
+          "probability": 0.18411690339148726,
+          "probability_rank": 1,
+          "fair_odds": 5.4313318417793655,
+          "market_ev": 1.7985769315506062,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-3-5",
+          "market_odds": 10.5,
+          "probability": 0.08766973286810276,
+          "probability_rank": 2,
+          "fair_odds": 11.406445158267775,
+          "market_ev": -0.07946780488492111,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-2-3",
+          "market_odds": 40.8,
+          "probability": 0.08417912946573398,
+          "probability_rank": 3,
+          "fair_odds": 11.879429097767764,
+          "market_ev": 2.4345084822019465,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-1-2",
+          "market_odds": 12.0,
+          "probability": 0.07393377337154208,
+          "probability_rank": 4,
+          "fair_odds": 13.525618325669157,
+          "market_ev": -0.112794719541495,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-3-4",
+          "market_odds": 37.5,
+          "probability": 0.07172691018619047,
+          "probability_rank": 5,
+          "fair_odds": 13.941768820156556,
+          "market_ev": 1.6897591319821426,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "3-1-5",
+          "market_odds": 6.5,
+          "probability": 0.06841377519467437,
+          "probability_rank": 6,
+          "fair_odds": 14.61693931016753,
+          "market_ev": -0.5553104612346166,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "3-1-4",
+          "market_odds": 33.6,
+          "probability": 0.04104444007979685,
+          "probability_rank": 7,
+          "fair_odds": 24.363835833936157,
+          "market_ev": 0.3790931866811742,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-3-6",
+          "market_odds": 38.0,
+          "probability": 0.032717943156822214,
+          "probability_rank": 8,
+          "fair_odds": 30.564268517945756,
+          "market_ev": 0.24328183995924424,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        },
+        {
+          "combination": "1-5-3",
+          "market_odds": 31.7,
+          "probability": 0.02522407263462316,
+          "probability_rank": 9,
+          "fair_odds": 39.64466858644295,
+          "market_ev": -0.20039689748244582,
+          "market_evaluation": "MARKET_BELOW_AI_FAIR"
+        },
+        {
+          "combination": "1-4-3",
+          "market_odds": 99.0,
+          "probability": 0.023919631308254374,
+          "probability_rank": 10,
+          "fair_odds": 41.80666445535522,
+          "market_ev": 1.3680434995171828,
+          "market_evaluation": "MARKET_ABOVE_AI_FAIR"
+        }
+      ],
+      "odds_join_row_count": 120,
       "decision": "PASS",
       "attention_score": 82,
       "attention_rank": 3,
@@ -7260,7 +7922,7 @@
       "scheduled_close": "2026-08-26T15:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7734470071,
+      "ai_favorite_probability": 0.7734470070613367,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7321,7 +7983,7 @@
       "scheduled_close": "2026-08-26T16:15:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6959306946,
+      "ai_favorite_probability": 0.6959306945768942,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7351,9 +8013,9 @@
       "prediction_status": "PREDICTION_READY",
       "decision_status": "PASS",
       "market_status": "ODDS_WAITING",
-      "market_odds_status": "ODDS_WAITING",
+      "market_odds_status": "ODDS_RETRYABLE",
       "market_odds_type": null,
-      "market_odds_captured_at": null,
+      "market_odds_captured_at": "2026-08-26T02:10:57.899450+00:00",
       "market_odds_top5": [],
       "market_analysis_top10": [],
       "odds_join_row_count": 0,
@@ -7382,7 +8044,7 @@
       "scheduled_close": "2026-08-26T11:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 4,
-      "ai_favorite_probability": 0.3784873953,
+      "ai_favorite_probability": 0.3784873953354436,
       "trifecta_top1": "1-4-2",
       "trifecta_top3": [
         "1-4-2",
@@ -7443,7 +8105,7 @@
       "scheduled_close": "2026-08-26T11:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6136630082,
+      "ai_favorite_probability": 0.6136630082253441,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7504,7 +8166,7 @@
       "scheduled_close": "2026-08-26T12:26:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4886561775,
+      "ai_favorite_probability": 0.48865617745577644,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -7565,7 +8227,7 @@
       "scheduled_close": "2026-08-26T13:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6559629481,
+      "ai_favorite_probability": 0.6559629480867634,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -7626,7 +8288,7 @@
       "scheduled_close": "2026-08-26T13:27:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5822639011,
+      "ai_favorite_probability": 0.5822639010808713,
       "trifecta_top1": "1-5-2",
       "trifecta_top3": [
         "1-5-2",
@@ -7687,7 +8349,7 @@
       "scheduled_close": "2026-08-26T14:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4392447068,
+      "ai_favorite_probability": 0.43924470678433647,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -7748,7 +8410,7 @@
       "scheduled_close": "2026-08-26T14:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 3,
-      "ai_favorite_probability": 0.402489423,
+      "ai_favorite_probability": 0.4024894230247252,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -7809,7 +8471,7 @@
       "scheduled_close": "2026-08-26T15:01:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6046836086,
+      "ai_favorite_probability": 0.6046836085872969,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -7870,7 +8532,7 @@
       "scheduled_close": "2026-08-26T15:30:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7859055498,
+      "ai_favorite_probability": 0.7859055498391092,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7931,7 +8593,7 @@
       "scheduled_close": "2026-08-26T15:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4983572367,
+      "ai_favorite_probability": 0.4983572366722768,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -7992,7 +8654,7 @@
       "scheduled_close": "2026-08-26T16:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3921406382,
+      "ai_favorite_probability": 0.3921406381783987,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -8053,7 +8715,7 @@
       "scheduled_close": "2026-08-26T17:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6869332337,
+      "ai_favorite_probability": 0.6869332336997347,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8114,7 +8776,7 @@
       "scheduled_close": "2026-08-26T12:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5838117454,
+      "ai_favorite_probability": 0.5838117454438893,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8175,7 +8837,7 @@
       "scheduled_close": "2026-08-26T12:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.496410469,
+      "ai_favorite_probability": 0.49641046902952235,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8236,7 +8898,7 @@
       "scheduled_close": "2026-08-26T13:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4434017351,
+      "ai_favorite_probability": 0.4434017350843211,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -8297,7 +8959,7 @@
       "scheduled_close": "2026-08-26T13:45:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6778535946,
+      "ai_favorite_probability": 0.6778535945768466,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -8358,7 +9020,7 @@
       "scheduled_close": "2026-08-26T14:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4982168121,
+      "ai_favorite_probability": 0.4982168120542415,
       "trifecta_top1": "1-4-6",
       "trifecta_top3": [
         "1-4-6",
@@ -8419,7 +9081,7 @@
       "scheduled_close": "2026-08-26T14:47:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.646027384,
+      "ai_favorite_probability": 0.6460273839879782,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -8480,7 +9142,7 @@
       "scheduled_close": "2026-08-26T15:16:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7048150633,
+      "ai_favorite_probability": 0.7048150633414102,
       "trifecta_top1": "1-3-6",
       "trifecta_top3": [
         "1-3-6",
@@ -8541,7 +9203,7 @@
       "scheduled_close": "2026-08-26T15:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7286111206,
+      "ai_favorite_probability": 0.7286111206157893,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -8602,7 +9264,7 @@
       "scheduled_close": "2026-08-26T16:18:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4469093917,
+      "ai_favorite_probability": 0.44690939173104977,
       "trifecta_top1": "1-6-2",
       "trifecta_top3": [
         "1-6-2",
@@ -8663,7 +9325,7 @@
       "scheduled_close": "2026-08-26T16:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6098339362,
+      "ai_favorite_probability": 0.6098339361535488,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8724,7 +9386,7 @@
       "scheduled_close": "2026-08-26T17:21:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.77215452,
+      "ai_favorite_probability": 0.772154519988988,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8785,7 +9447,7 @@
       "scheduled_close": "2026-08-26T18:00:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6798376525,
+      "ai_favorite_probability": 0.67983765250239,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8846,7 +9508,7 @@
       "scheduled_close": "2026-08-26T15:20:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5262423536,
+      "ai_favorite_probability": 0.5262423536333675,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -8907,7 +9569,7 @@
       "scheduled_close": "2026-08-26T15:46:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5146303459,
+      "ai_favorite_probability": 0.5146303459027098,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -8968,7 +9630,7 @@
       "scheduled_close": "2026-08-26T16:12:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4942551209,
+      "ai_favorite_probability": 0.49425512090896206,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -9029,7 +9691,7 @@
       "scheduled_close": "2026-08-26T16:42:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6069051334,
+      "ai_favorite_probability": 0.6069051333935714,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -9090,7 +9752,7 @@
       "scheduled_close": "2026-08-26T17:11:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6748288179,
+      "ai_favorite_probability": 0.6748288178967562,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9151,7 +9813,7 @@
       "scheduled_close": "2026-08-26T17:38:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7334653217,
+      "ai_favorite_probability": 0.7334653217393753,
       "trifecta_top1": "1-2-6",
       "trifecta_top3": [
         "1-2-6",
@@ -9212,7 +9874,7 @@
       "scheduled_close": "2026-08-26T18:06:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7237558751,
+      "ai_favorite_probability": 0.7237558750893107,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -9273,7 +9935,7 @@
       "scheduled_close": "2026-08-26T18:37:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6491381072,
+      "ai_favorite_probability": 0.6491381071562987,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9334,7 +9996,7 @@
       "scheduled_close": "2026-08-26T19:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6445545299,
+      "ai_favorite_probability": 0.6445545298838447,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -9395,7 +10057,7 @@
       "scheduled_close": "2026-08-26T19:39:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5557623402,
+      "ai_favorite_probability": 0.5557623402421351,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -9456,7 +10118,7 @@
       "scheduled_close": "2026-08-26T20:08:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5637162112,
+      "ai_favorite_probability": 0.5637162112107886,
       "trifecta_top1": "1-2-4",
       "trifecta_top3": [
         "1-2-4",
@@ -9517,7 +10179,7 @@
       "scheduled_close": "2026-08-26T20:35:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.7778163201,
+      "ai_favorite_probability": 0.7778163201439567,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9578,7 +10240,7 @@
       "scheduled_close": "2026-08-26T08:32:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6955585929,
+      "ai_favorite_probability": 0.6955585928638612,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9639,7 +10301,7 @@
       "scheduled_close": "2026-08-26T08:58:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3483513763,
+      "ai_favorite_probability": 0.3483513763188918,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9700,7 +10362,7 @@
       "scheduled_close": "2026-08-26T09:24:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6297843365,
+      "ai_favorite_probability": 0.6297843364708176,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -9761,7 +10423,7 @@
       "scheduled_close": "2026-08-26T09:50:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4282065833,
+      "ai_favorite_probability": 0.4282065833022239,
       "trifecta_top1": "1-4-5",
       "trifecta_top3": [
         "1-4-5",
@@ -9822,7 +10484,7 @@
       "scheduled_close": "2026-08-26T10:21:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.4777563833,
+      "ai_favorite_probability": 0.47775638331865666,
       "trifecta_top1": "1-3-5",
       "trifecta_top3": [
         "1-3-5",
@@ -9883,7 +10545,7 @@
       "scheduled_close": "2026-08-26T10:49:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.3609291716,
+      "ai_favorite_probability": 0.3609291716210765,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
@@ -9944,7 +10606,7 @@
       "scheduled_close": "2026-08-26T11:17:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.4390496107,
+      "ai_favorite_probability": 0.43904961072611876,
       "trifecta_top1": "2-1-4",
       "trifecta_top3": [
         "2-1-4",
@@ -10005,7 +10667,7 @@
       "scheduled_close": "2026-08-26T11:51:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3964414368,
+      "ai_favorite_probability": 0.3964414367744987,
       "trifecta_top1": "1-3-2",
       "trifecta_top3": [
         "1-3-2",
@@ -10066,7 +10728,7 @@
       "scheduled_close": "2026-08-26T12:22:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 2,
-      "ai_favorite_probability": 0.4149283313,
+      "ai_favorite_probability": 0.4149283312509936,
       "trifecta_top1": "2-1-4",
       "trifecta_top3": [
         "2-1-4",
@@ -10127,7 +10789,7 @@
       "scheduled_close": "2026-08-26T12:57:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.3833863167,
+      "ai_favorite_probability": 0.38338631669450357,
       "trifecta_top1": "1-2-5",
       "trifecta_top3": [
         "1-2-5",
@@ -10188,7 +10850,7 @@
       "scheduled_close": "2026-08-26T13:33:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.5623180176,
+      "ai_favorite_probability": 0.5623180176262984,
       "trifecta_top1": "1-3-4",
       "trifecta_top3": [
         "1-3-4",
@@ -10249,7 +10911,7 @@
       "scheduled_close": "2026-08-26T14:13:00+09:00",
       "scheduled_time_basis": "OFFICIAL_PHONE_BETTING_CLOSING_TIME",
       "ai_favorite_lane": 1,
-      "ai_favorite_probability": 0.6423162938,
+      "ai_favorite_probability": 0.6423162938478107,
       "trifecta_top1": "1-2-3",
       "trifecta_top3": [
         "1-2-3",
